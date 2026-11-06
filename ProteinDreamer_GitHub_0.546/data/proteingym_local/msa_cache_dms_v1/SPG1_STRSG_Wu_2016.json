@@ -1,0 +1,19 @@
+{
+  "protein": "SPG1_STRSG_Wu_2016",
+  "base_id": "SPG1_STRSG",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/SPG1_STRSG_full_b0.1.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/SPG1_STRSG_b01_theta_0.2.npy",
+  "msa_query_header": "SPG1_STRSG/1-448",
+  "msa_start1": 1,
+  "msa_end1": 448,
+  "msa_aln_len": 448,
+  "msa_n_sequences": 3084,
+  "neff": 601.3001703267191,
+  "log_neff": 6.39909426132624,
+  "full_len": 448,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

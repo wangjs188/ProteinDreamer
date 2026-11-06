@@ -1,0 +1,19 @@
+{
+  "protein": "HSP82_YEAST_Cote-Hammarlof_2020_growth-H2O2",
+  "base_id": "HSP82_YEAST",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/HSP82_YEAST_full_11-26-2021_b01.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/HSP82_YEAST_theta_0.2.npy",
+  "msa_query_header": "HSP82_YEAST/1-709",
+  "msa_start1": 1,
+  "msa_end1": 709,
+  "msa_aln_len": 709,
+  "msa_n_sequences": 38368,
+  "neff": 3864.1582724816026,
+  "log_neff": 8.25949915528329,
+  "full_len": 709,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

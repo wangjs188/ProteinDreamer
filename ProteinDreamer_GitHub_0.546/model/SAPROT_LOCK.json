@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "models": {
+    "SaProt_650M_AF2": {
+      "repo_id": "westlake-repl/SaProt_650M_AF2",
+      "revision": "d9b9ad00ef61c0990e611b2b43f2231c7de24b38",
+      "sha256": {
+        "config.json": "927bf8961c93e0667cecb6f928aa7077e1a7f55c8483ae58173f155261f1c3b3",
+        "vocab.txt": "d4289b3ff55d50b1aa33a3141ec344fc2a69cb3dca43aeefe9fccfee371ffd28",
+        "tokenizer_config.json": "bfd8a81f4215e59174634eec71eea99aa1841d8692bdf5c60e9ecaa12904fde8",
+        "special_tokens_map.json": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1",
+        "pytorch_model.bin": "513c39088804b74309d961174d5fc7aeabfb9b79d2814cdc7e465d4fe4b9f216"
+      }
+    },
+    "SaProt_1.3B_AFDB_OMG_NCBI": {
+      "repo_id": "westlake-repl/SaProt_1.3B_AFDB_OMG_NCBI",
+      "revision": "3e000715b428e69a8ea166716727c8596bc3ddcf",
+      "sha256": {
+        "config.json": "c4ac7c41a4cdaeaa97d8d875737928145e8764bdc548ac04398163b1ea2de565",
+        "vocab.txt": "a0e94d28fa0ed9e77e11f05f6c093f5c017878f81beccee9af9fdfee861cc3d7",
+        "tokenizer_config.json": "fac07b1a114706503e83ee3888669b233ade3fe7b12cc02fe6c655c32987b0a2",
+        "special_tokens_map.json": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1",
+        "model.safetensors": "8f692f39394273fe12a9759ea201da69a37362189f000e46158caa0e99e54673"
+      }
+    }
+  }
+}

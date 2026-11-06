@@ -1,0 +1,19 @@
+{
+  "protein": "Q2N0S5_9HIV1_Haddox_2018",
+  "base_id": "Q2N0S5_9HIV1",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/Q2N0S5_9HIV1_full_theta0.99_04-29-2022_b09.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/Q2N0S5_9HIV1_theta_0.01.npy",
+  "msa_query_header": "Q2N0S5_9HIV1/1-860",
+  "msa_start1": 1,
+  "msa_end1": 860,
+  "msa_aln_len": 860,
+  "msa_n_sequences": 71292,
+  "neff": 36862.01521174131,
+  "log_neff": 10.514936901779034,
+  "full_len": 860,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

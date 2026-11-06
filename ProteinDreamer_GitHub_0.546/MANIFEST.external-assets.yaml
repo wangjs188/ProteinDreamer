@@ -1,0 +1,118 @@
+version: 1
+project: ProteinDreamer
+release: best_0546
+profile: github_with_wmz_checkpoints
+included_model_assets:
+  checkpoint_manifest: model/CHECKPOINTS.sha256
+  checkpoint_count: 10
+  families:
+  - model/world_model_zeroshot/wmz_saprot650m_retrain_v2_sd3407_e60_rs1024_pp16384_cache512
+  - model/world_model_zeroshot/wmz_saprot1p3b_retrain_v2_sd3407_e60_rs1024_pp16384_cache512
+included_example_assets:
+  local_path: data/example_0546
+  provenance: data/example_0546/PROVENANCE.json
+  contents: One assay with AF2 structure, mutation data, MSA/SiteRM caches and original
+    reference scores
+  comparison_report: artifacts/reviewer_example_0546/comparison.json
+  note: The example requires only external SaProt weights and Foldseek; benchmark
+    cache coverage is recorded below.
+included_benchmark_cache_assets:
+  provenance: data/proteingym_local/CACHE_PROVENANCE.json
+  checksum_manifest: data/proteingym_local/CACHES.sha256
+  source_project: protein_dreamerV2
+  npz_files_per_directory: 215
+  exact_reference_id_matches_per_directory: 214
+  canonical_coverage_complete: false
+  legacy_cache_id: PSAE_SYNP2_Tsuboyama_2023_1PSE
+  msa_lite_cache:
+    local_path: data/proteingym_local/msa_cache_dms_v1
+    generated_by: script/msa/build_msa_cache.py
+  siterm_teacher_cache:
+    local_path: data/proteingym_local/teacher_siterm_dms_s4096_e100_q64_reg05_v2t1
+    generated_by: script/teacher/build_siterm_cache.py
+    parameters:
+      max_sequences: 4096
+      num_epochs: 100
+      quantization_grid_num_steps: 64
+      regularization_strength: 0.5
+      teacher_mode: transition
+      evolutionary_time: 1.0
+  historical_no_cache_ids:
+  - F7YBW8_MESOW_Ding_2023
+  - PSAE_PICP2_Tsuboyama_2023_1PSE
+  - Q6WV12_9MAXI_Somermeyer_2022
+  historical_runtime_inputs_specified: true
+required_external_assets:
+  saprot_650m:
+    local_path: model/SaProt_650M_AF2
+    source:
+      type: huggingface
+      repo: westlake-repl/SaProt_650M_AF2
+      revision: d9b9ad00ef61c0990e611b2b43f2231c7de24b38
+    expected_files:
+    - config.json
+    - vocab.txt
+    - tokenizer_config.json
+    - special_tokens_map.json
+    - pytorch_model.bin
+    checksum_lock: model/SAPROT_LOCK.json
+  saprot_1p3b:
+    local_path: model/SaProt_1.3B_AFDB_OMG_NCBI
+    source:
+      type: huggingface
+      repo: westlake-repl/SaProt_1.3B_AFDB_OMG_NCBI
+      revision: 3e000715b428e69a8ea166716727c8596bc3ddcf
+    expected_files:
+    - config.json
+    - vocab.txt
+    - tokenizer_config.json
+    - special_tokens_map.json
+    - model.safetensors
+    checksum_lock: model/SAPROT_LOCK.json
+  proteingym_data:
+    local_path: data/ProteinGym_v1_SaProt_AF2_v2
+    source:
+      type: http
+      urls:
+      - https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_ProteinGym_substitutions.zip
+      - https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/ProteinGym_AF2_structures.zip
+    provision_script: script/setup/download_proteingym_dataset.sh
+    postprocess_script: script/setup/prepare_proteingym_saprot_dataset.sh
+optional_cache_build_inputs:
+  proteingym_msa_files:
+    local_path: data/proteingym_downloads/raw/DMS_msa_files
+    contents: ProteinGym DMS alignment files (*.a2m)
+    source_url: https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_msa_files.zip
+    note: Locate the actual extracted folder if the archive nests directories.
+  proteingym_msa_weights:
+    local_path: data/proteingym_downloads/raw/DMS_msa_weights
+    contents: ProteinGym MSA sequence weights (*.npy)
+    source_url: https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_msa_weights.zip
+optional_build_dependency:
+  cherryml:
+    local_path: external/CherryML
+    source:
+      type: git
+      url: https://github.com/songlab-cal/CherryML.git
+    tested_version: v0.2.0
+    purpose: rebuilding the SiteRM teacher cache
+tools:
+  foldseek:
+    required: true
+    expected_cmd: foldseek
+    purpose: SaProt 3Di tokenization for model inference; not required for CPU metric
+      reproduction
+included_metric_assets:
+  local_path: data/metric_0546
+  provenance: data/metric_0546/PROVENANCE.json
+  assays: 217
+  variants: 2465767
+  scope: CPU re-evaluation of archived predictions against experimental measurements;
+    no new model inference
+  verification_report: artifacts/metric_reproduction_0546/comparison.json
+included_evaluator_assets:
+  local_path: external/ProteinGym-main
+  snapshot: external/ProteinGym-main/SNAPSHOT.json
+  license: external/ProteinGym-main/LICENSE
+  historical_git_revision: null
+  pin: SHA-256 of the unchanged historical evaluator source files

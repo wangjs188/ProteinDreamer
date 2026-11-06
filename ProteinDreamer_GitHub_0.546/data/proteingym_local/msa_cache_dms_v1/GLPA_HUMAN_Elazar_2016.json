@@ -1,0 +1,19 @@
+{
+  "protein": "GLPA_HUMAN_Elazar_2016",
+  "base_id": "GLPA_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/GLPA_HUMAN_2023-10-12_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/GLPA_HUMAN_theta0.2_2023-10-12_b03.npy",
+  "msa_query_header": "GLPA_HUMAN/1-150",
+  "msa_start1": 1,
+  "msa_end1": 150,
+  "msa_aln_len": 150,
+  "msa_n_sequences": 273,
+  "neff": 77.00601185189782,
+  "log_neff": 4.3438834949344445,
+  "full_len": 150,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

@@ -1,0 +1,19 @@
+{
+  "protein": "YAIA_ECOLI_Tsuboyama_2023_2KVT",
+  "base_id": "YAIA_ECOLI",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/YAIA_ECOLI_2023-08-07_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/YAIA_ECOLI_theta0.2_2023-08-07_b03.npy",
+  "msa_query_header": "YAIA_ECO57/1-52",
+  "msa_start1": 1,
+  "msa_end1": 52,
+  "msa_aln_len": 52,
+  "msa_n_sequences": 5860,
+  "neff": 844.7716079760722,
+  "log_neff": 6.7390663044162045,
+  "full_len": 52,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

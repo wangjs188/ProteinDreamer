@@ -1,0 +1,19 @@
+{
+  "protein": "A0A1I9GEU1_NEIME_Kennouche_2019",
+  "base_id": "A0A1I9GEU1_NEIME",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/A0A1I9GEU1_NEIME_full_11-26-2021_b08.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/A0A1I9GEU1_NEIME_theta_0.2.npy",
+  "msa_query_header": "A0A1I9GEU1_NEIME/1-161",
+  "msa_start1": 1,
+  "msa_end1": 161,
+  "msa_aln_len": 161,
+  "msa_n_sequences": 5541,
+  "neff": 2265.8900786612826,
+  "log_neff": 7.725722931440163,
+  "full_len": 161,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

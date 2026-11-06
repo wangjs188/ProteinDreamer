@@ -1,0 +1,19 @@
+{
+  "protein": "RL40A_YEAST_Mavor_2016",
+  "base_id": "RL40A_YEAST",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/RL40A_YEAST_full_11-26-2021_b01.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/RL40A_YEAST_theta_0.2.npy",
+  "msa_query_header": "RL401_YEAST/1-128",
+  "msa_start1": 1,
+  "msa_end1": 128,
+  "msa_aln_len": 128,
+  "msa_n_sequences": 16115,
+  "neff": 3906.854703472454,
+  "log_neff": 8.270487905595303,
+  "full_len": 128,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

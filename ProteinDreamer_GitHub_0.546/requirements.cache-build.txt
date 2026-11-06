@@ -1,0 +1,5 @@
+# Optional SiteRM cache construction; keep the core runtime pins.
+-r requirements.runtime.txt
+cherryml==0.2.0
+biotite==1.0.1
+biotraj==1.2.2

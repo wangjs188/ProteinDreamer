@@ -1,0 +1,19 @@
+{
+  "protein": "Q8WTC7_9CNID_Somermeyer_2022",
+  "base_id": "Q8WTC7_9CNID",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/Q8WTC7_9CNID_full_b0.5.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/Q8WTC7_9CNID_theta_0.2.npy",
+  "msa_query_header": "Q8WTC7_9CNID/1-238",
+  "msa_start1": 1,
+  "msa_end1": 238,
+  "msa_aln_len": 238,
+  "msa_n_sequences": 630,
+  "neff": 121.8993613109584,
+  "log_neff": 4.8031957971048245,
+  "full_len": 238,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

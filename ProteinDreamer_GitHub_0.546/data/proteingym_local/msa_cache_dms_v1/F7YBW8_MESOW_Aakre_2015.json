@@ -1,0 +1,19 @@
+{
+  "protein": "F7YBW8_MESOW_Aakre_2015",
+  "base_id": "F7YBW8_MESOW",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/F7YBW8_MESOW_full_01-07-2022_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/F7YBW8_MESOW_theta_0.2.npy",
+  "msa_query_header": "F7YBW8_MESOW/1-93",
+  "msa_start1": 1,
+  "msa_end1": 93,
+  "msa_aln_len": 93,
+  "msa_n_sequences": 38542,
+  "neff": 16389.24456679511,
+  "log_neff": 9.704380579571628,
+  "full_len": 93,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

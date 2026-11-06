@@ -1,0 +1,19 @@
+{
+  "protein": "EPHB2_HUMAN_Tsuboyama_2023_1F0M",
+  "base_id": "EPHB2_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/EPHB2_HUMAN_2023-08-07_b04.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/EPHB2_HUMAN_theta0.2_2023-08-07_b04.npy",
+  "msa_query_header": "EPHB2_HUMAN/1-66",
+  "msa_start1": 1,
+  "msa_end1": 66,
+  "msa_aln_len": 66,
+  "msa_n_sequences": 212092,
+  "neff": 8337.703471231242,
+  "log_neff": 9.028543094272873,
+  "full_len": 66,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

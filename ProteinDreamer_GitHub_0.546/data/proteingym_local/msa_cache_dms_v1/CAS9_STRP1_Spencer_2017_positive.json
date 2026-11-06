@@ -1,0 +1,19 @@
+{
+  "protein": "CAS9_STRP1_Spencer_2017_positive",
+  "base_id": "CAS9_STRP1",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/CAS9_STRP1_2023-08-07_b01.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/CAS9_STRP1_theta0.2_2023-08-07_b01.npy",
+  "msa_query_header": "CAS9_STRP1/1-1368",
+  "msa_start1": 1,
+  "msa_end1": 1368,
+  "msa_aln_len": 1368,
+  "msa_n_sequences": 5336,
+  "neff": 1559.4742675374143,
+  "log_neff": 7.352104035461204,
+  "full_len": 1368,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

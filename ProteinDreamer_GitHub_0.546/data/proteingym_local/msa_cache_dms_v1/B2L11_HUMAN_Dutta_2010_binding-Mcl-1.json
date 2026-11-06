@@ -1,0 +1,19 @@
+{
+  "protein": "B2L11_HUMAN_Dutta_2010_binding-Mcl-1",
+  "base_id": "B2L11_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/B2L11_HUMAN_2023-08-07_b04.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/B2L11_HUMAN_theta0.2_2023-08-07_b04.npy",
+  "msa_query_header": "B2L11_HUMAN/1-198",
+  "msa_start1": 1,
+  "msa_end1": 198,
+  "msa_aln_len": 198,
+  "msa_n_sequences": 657,
+  "neff": 88.74645832046214,
+  "log_neff": 4.485783521423616,
+  "full_len": 198,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

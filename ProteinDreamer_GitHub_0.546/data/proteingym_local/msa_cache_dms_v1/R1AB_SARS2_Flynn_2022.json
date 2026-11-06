@@ -1,0 +1,19 @@
+{
+  "protein": "R1AB_SARS2_Flynn_2022",
+  "base_id": "R1AB_SARS2",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/R1AB_SARS2_02-19-2022_b07.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/R1AB_SARS2_theta_0.01.npy",
+  "msa_query_header": "R1AB_SARS2/1-306",
+  "msa_start1": 1,
+  "msa_end1": 306,
+  "msa_aln_len": 306,
+  "msa_n_sequences": 167922,
+  "neff": 347.9531260389465,
+  "log_neff": 5.852067775440605,
+  "full_len": 306,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

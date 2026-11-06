@@ -1,0 +1,19 @@
+{
+  "protein": "CUE1_YEAST_Tsuboyama_2023_2MYX",
+  "base_id": "CUE1_YEAST",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/CUE1_YEAST_2023-08-07_b08.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/CUE1_YEAST_theta0.2_2023-08-07_b08.npy",
+  "msa_query_header": "CUE1_YEAST/1-52",
+  "msa_start1": 1,
+  "msa_end1": 52,
+  "msa_aln_len": 52,
+  "msa_n_sequences": 3210,
+  "neff": 397.2279514671851,
+  "log_neff": 5.984510300987081,
+  "full_len": 52,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

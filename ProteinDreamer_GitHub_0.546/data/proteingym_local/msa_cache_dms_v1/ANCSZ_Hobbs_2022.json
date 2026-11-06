@@ -1,0 +1,19 @@
+{
+  "protein": "ANCSZ_Hobbs_2022",
+  "base_id": "ANCSZ_Hobbs",
+  "dataset_root": "data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "data/proteingym_data/DMS_msa_files/DMS_msa_files/ANCSZ_b0.4.a2m",
+  "weights_path": "data/proteingym_data/DMS_msa_weights/DMS_msa_weights/ANCSZ_theta_0.2.npy",
+  "msa_query_header": "ANCZ/1-627",
+  "msa_start1": 1,
+  "msa_end1": 627,
+  "msa_aln_len": 627,
+  "msa_n_sequences": 7321,
+  "neff": 1119.8690078058419,
+  "log_neff": 7.020967000141817,
+  "full_len": 627,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

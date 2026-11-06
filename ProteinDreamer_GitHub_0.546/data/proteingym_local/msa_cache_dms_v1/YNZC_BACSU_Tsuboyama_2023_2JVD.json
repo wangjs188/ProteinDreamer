@@ -1,0 +1,19 @@
+{
+  "protein": "YNZC_BACSU_Tsuboyama_2023_2JVD",
+  "base_id": "YNZC_BACSU",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/YNZC_BACSU_2023-08-07_b07.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/YNZC_BACSU_theta0.2_2023-08-07_b07.npy",
+  "msa_query_header": "YNZC_BACSU/1-39",
+  "msa_start1": 1,
+  "msa_end1": 39,
+  "msa_aln_len": 39,
+  "msa_n_sequences": 7113,
+  "neff": 1598.7129255960162,
+  "log_neff": 7.376954163011044,
+  "full_len": 39,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

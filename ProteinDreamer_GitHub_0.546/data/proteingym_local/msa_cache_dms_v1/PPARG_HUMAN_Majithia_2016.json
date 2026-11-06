@@ -1,0 +1,19 @@
+{
+  "protein": "PPARG_HUMAN_Majithia_2016",
+  "base_id": "PPARG_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/PPARG_HUMAN_2023-10-12_b04.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/PPARG_HUMAN_theta0.2_2023-10-12_b04.npy",
+  "msa_query_header": "PPARG_HUMAN/1-505",
+  "msa_start1": 1,
+  "msa_end1": 505,
+  "msa_aln_len": 505,
+  "msa_n_sequences": 39639,
+  "neff": 3152.4855704270067,
+  "log_neff": 8.055946490647633,
+  "full_len": 505,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

@@ -1,0 +1,19 @@
+{
+  "protein": "LGK_LIPST_Klesmith_2015",
+  "base_id": "LGK_LIPST",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/LGK_LIPST_full_11-26-2021_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/LGK_LIPST_theta_0.2.npy",
+  "msa_query_header": "B3VI55_LIPST/1-439",
+  "msa_start1": 1,
+  "msa_end1": 439,
+  "msa_aln_len": 439,
+  "msa_n_sequences": 30755,
+  "neff": 8264.47783645767,
+  "log_neff": 9.019721830578469,
+  "full_len": 439,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

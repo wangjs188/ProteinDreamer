@@ -1,0 +1,19 @@
+{
+  "protein": "TRPC_THEMA_Chan_2017",
+  "base_id": "TRPC_THEMA",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/TRPC_THEMA_full_11-26-2021_b07.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/TRPC_THEMA_theta_0.2.npy",
+  "msa_query_header": "TRPC_THEMA/1-252",
+  "msa_start1": 1,
+  "msa_end1": 252,
+  "msa_aln_len": 252,
+  "msa_n_sequences": 52564,
+  "neff": 10460.877318598146,
+  "log_neff": 9.255397607773622,
+  "full_len": 252,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

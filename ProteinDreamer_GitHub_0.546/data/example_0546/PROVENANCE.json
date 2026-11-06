@@ -1,0 +1,50 @@
+{
+  "assay": "A0A1I9GEU1_NEIME_Kennouche_2019",
+  "held_out_fold": 3,
+  "source_project": "protein_dreamerV2",
+  "copied_inputs": {
+    "dataset/DATASET/A0A1I9GEU1_NEIME_Kennouche_2019/A0A1I9GEU1_NEIME_Kennouche_2019.pdb": {
+      "source_relative_path": "data/ProteinGym_v1_SaProt_AF2_v2/DATASET/A0A1I9GEU1_NEIME_Kennouche_2019/A0A1I9GEU1_NEIME_Kennouche_2019.pdb",
+      "sha256": "db33685ff6ee1f4902e29b9b450fad68eef6117f981488751b1e89342d8662cf"
+    },
+    "dataset/DATASET/A0A1I9GEU1_NEIME_Kennouche_2019/A0A1I9GEU1_NEIME_Kennouche_2019.csv": {
+      "source_relative_path": "data/ProteinGym_v1_SaProt_AF2_v2/DATASET/A0A1I9GEU1_NEIME_Kennouche_2019/A0A1I9GEU1_NEIME_Kennouche_2019.csv",
+      "sha256": "45792071e6411a7a44362ed7e797c1f03ec5e5bb3dc8d45f4a7945faefc04fb0"
+    },
+    "msa_cache/A0A1I9GEU1_NEIME_Kennouche_2019.npz": {
+      "source_relative_path": "data/proteingym_local/msa_cache_dms_v1/A0A1I9GEU1_NEIME_Kennouche_2019.npz",
+      "sha256": "a97a087d7c9b9264500aa9d4957cd2fb6b18248861d57d59d6a97ca14ce879cd"
+    },
+    "teacher_cache/A0A1I9GEU1_NEIME_Kennouche_2019.npz": {
+      "source_relative_path": "data/proteingym_local/teacher_siterm_dms_s4096_e100_q64_reg05_v2t1/A0A1I9GEU1_NEIME_Kennouche_2019.npz",
+      "sha256": "651b7c58933cc691463a051df4a4ac6356bdce16f2cdb6364e10e3ddac654e23"
+    }
+  },
+  "expected_score_sources": {
+    "wmz650": {
+      "relative_path": "data/proteingym_local/zero_shot_substitutions_scores/ProteinDreamer_WMZ_SiteRM_bundle_wmz_saprot650m_retrain_v2_sd3407_e60_rs1024_pp16384_cache512/A0A1I9GEU1_NEIME_Kennouche_2019.csv",
+      "column": "ProteinDreamer_WMZ_student",
+      "sha256": "7e9263dc36035ff1c01310f81eb8ea0247b08cfec17a1bb615614766acd63cb9"
+    },
+    "wmz13": {
+      "relative_path": "data/proteingym_local/zero_shot_substitutions_scores/ProteinDreamer_WMZ_SiteRM_bundle_wmz_saprot1p3b_retrain_v2_sd3407_e60_rs1024_pp16384_cache512/A0A1I9GEU1_NEIME_Kennouche_2019.csv",
+      "column": "ProteinDreamer_WMZ_student",
+      "sha256": "7a77b700083dee7593be9d88df5aaf0c150972d66a500d835fc42000fb5389e2"
+    },
+    "teacher": {
+      "relative_path": "data/proteingym_local/zero_shot_substitutions_scores/ProteinDreamer_WMZ_SiteRM_bundle_wmz_saprot650m_retrain_v2_sd3407_e60_rs1024_pp16384_cache512/A0A1I9GEU1_NEIME_Kennouche_2019.csv",
+      "column": "ProteinDreamer_SiteRM_teacher",
+      "sha256": "7e9263dc36035ff1c01310f81eb8ea0247b08cfec17a1bb615614766acd63cb9"
+    },
+    "saprot_pll": {
+      "relative_path": "data/proteingym_local/zero_shot_substitutions_scores/ProteinDreamer_SaProt_650M1p3B_AF2only/A0A1I9GEU1_NEIME_Kennouche_2019.csv",
+      "column": "SaProt_ensemble",
+      "sha256": "f33a4d6eb62d28ce05eeb23554dfa98771a115f64705dfbb3251ed1725383765"
+    },
+    "final_b130": {
+      "relative_path": "data/proteingym_local/zero_shot_substitutions_scores/ProteinDreamer_WMZ_SiteRM_SaProt_add_beta_sweep_plmens2_AF2only_sd3407_e60_rs1024_pp16384_cache512/A0A1I9GEU1_NEIME_Kennouche_2019.csv",
+      "column": "ProteinDreamer_WMZ_SiteRM_SaProt_add_neffgate_wmz_saprot_plmens2_AF2only_b130",
+      "sha256": "274c16d5012e1ce219d1988bbeaa5c991eea999fceb090ead383fb5ccda788a7"
+    }
+  }
+}

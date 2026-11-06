@@ -1,0 +1,16 @@
+# Linux x86_64. Core versions match the audited protein_dreamer1 runtime.
+# Run conda env create from the repository root; see README.md.
+name: proteindreamer0546
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.10.13
+  - pip>=24
+  - foldseek=10.941cd33
+  - git
+  - curl
+  - unzip
+  - pip:
+      - -r requirements.runtime.txt

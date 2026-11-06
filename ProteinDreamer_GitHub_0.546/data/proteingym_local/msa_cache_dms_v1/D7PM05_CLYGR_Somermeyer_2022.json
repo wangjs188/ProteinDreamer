@@ -1,0 +1,19 @@
+{
+  "protein": "D7PM05_CLYGR_Somermeyer_2022",
+  "base_id": "D7PM05_CLYGR",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/D7PM05_CLYGR_full_b0.2.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/D7PM05_CLYGR_theta_0.2.npy",
+  "msa_query_header": "D7PM05_CLYGR/1-235",
+  "msa_start1": 1,
+  "msa_end1": 235,
+  "msa_aln_len": 235,
+  "msa_n_sequences": 670,
+  "neff": 141.61997315233975,
+  "log_neff": 4.953147224718878,
+  "full_len": 235,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

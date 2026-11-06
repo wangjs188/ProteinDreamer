@@ -1,0 +1,19 @@
+{
+  "protein": "VG08_BPP22_Tsuboyama_2023_2GP8",
+  "base_id": "VG08_BPP22",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/VG08_BPP22_2023-08-07_b05.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/VG08_BPP22_theta0.01_2023-08-07_b05.npy",
+  "msa_query_header": "VG08_BPP22/1-40",
+  "msa_start1": 1,
+  "msa_end1": 40,
+  "msa_aln_len": 40,
+  "msa_n_sequences": 102318,
+  "neff": 47114.87273571718,
+  "log_neff": 10.760343999495898,
+  "full_len": 40,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

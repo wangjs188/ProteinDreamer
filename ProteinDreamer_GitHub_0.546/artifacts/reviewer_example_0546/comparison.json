@@ -1,0 +1,52 @@
+{
+  "assay": "A0A1I9GEU1_NEIME_Kennouche_2019",
+  "recipe": "complete b130, held-out fold 3",
+  "torch": "2.5.1+cu121",
+  "cuda_runtime": "12.1",
+  "device": "NVIDIA A40",
+  "atol": 1e-05,
+  "metrics": {
+    "wmz650": {
+      "n_variants": 922,
+      "max_abs_difference": 0.0,
+      "mean_abs_difference": 0.0,
+      "exact_equal_count": 922,
+      "within_atol_count": 922,
+      "spearman_vs_frozen": 1.0
+    },
+    "wmz13": {
+      "n_variants": 922,
+      "max_abs_difference": 0.0,
+      "mean_abs_difference": 0.0,
+      "exact_equal_count": 922,
+      "within_atol_count": 922,
+      "spearman_vs_frozen": 1.0
+    },
+    "teacher": {
+      "n_variants": 922,
+      "max_abs_difference": 0.0,
+      "mean_abs_difference": 0.0,
+      "exact_equal_count": 922,
+      "within_atol_count": 922,
+      "spearman_vs_frozen": 1.0
+    },
+    "saprot_pll": {
+      "n_variants": 922,
+      "max_abs_difference": 0.0,
+      "mean_abs_difference": 0.0,
+      "exact_equal_count": 922,
+      "within_atol_count": 922,
+      "spearman_vs_frozen": 1.0
+    },
+    "final_b130": {
+      "n_variants": 922,
+      "max_abs_difference": 0.0,
+      "mean_abs_difference": 0.0,
+      "exact_equal_count": 922,
+      "within_atol_count": 922,
+      "spearman_vs_frozen": 1.0
+    }
+  },
+  "pass_within_tolerance": true,
+  "exact_numeric_equality": true
+}

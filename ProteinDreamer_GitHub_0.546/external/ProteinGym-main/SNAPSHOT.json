@@ -1,0 +1,14 @@
+{
+  "upstream": "https://github.com/OATML-Markslab/ProteinGym",
+  "source_project_relative_path": "model_example/ProteinGym-main",
+  "retrieved_date": "2026-10-28",
+  "constants_retrieved_date": "2026-11-06",
+  "historical_git_revision": null,
+  "version_policy": "Historical evaluator files are distributed unchanged and pinned by SHA-256. The source working copy has no Git metadata; no historical commit is claimed.",
+  "sha256": {
+    "LICENSE": "9b0d23df61da60c379c15bef09ba5f5b14ab16bae6df025509dde9e50299393c",
+    "proteingym/merge.py": "41383fc3432f5faf1dc963c1fa4b5880dec27e4bebb264a2d2fc2f6f929d1674",
+    "proteingym/performance_DMS_benchmarks.py": "0002bc1b031c02dc2d67fde53da092c8fd301415645e8e83b425b4183570eba2",
+    "proteingym/constants.json": "e7b53a99952067b8c378d9072d38d71572b624fa357251bb8d3f53bf9b073e7a"
+  }
+}

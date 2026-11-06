@@ -1,0 +1,19 @@
+{
+  "protein": "SUMO1_HUMAN_Weile_2017",
+  "base_id": "SUMO1_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/SUMO1_HUMAN_full_11-26-2021_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/SUMO1_HUMAN_theta_0.2.npy",
+  "msa_query_header": "SUMO1_HUMAN/1-101",
+  "msa_start1": 1,
+  "msa_end1": 101,
+  "msa_aln_len": 101,
+  "msa_n_sequences": 85072,
+  "neff": 14230.742365314862,
+  "log_neff": 9.563159858755107,
+  "full_len": 101,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

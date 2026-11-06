@@ -1,0 +1,19 @@
+{
+  "protein": "SCIN_STAAR_Tsuboyama_2023_2QFF",
+  "base_id": "SCIN_STAAR",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/SCIN_STAAR_2023-08-07_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/SCIN_STAAR_theta0.2_2023-08-07_b02.npy",
+  "msa_query_header": "SCIN_STAAN/1-70",
+  "msa_start1": 1,
+  "msa_end1": 70,
+  "msa_aln_len": 70,
+  "msa_n_sequences": 37908,
+  "neff": 11456.53377029626,
+  "log_neff": 9.346315481193413,
+  "full_len": 70,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

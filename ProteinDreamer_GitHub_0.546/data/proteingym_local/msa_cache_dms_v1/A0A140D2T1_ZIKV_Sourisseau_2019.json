@@ -1,0 +1,19 @@
+{
+  "protein": "A0A140D2T1_ZIKV_Sourisseau_2019",
+  "base_id": "A0A140D2T1_ZIKV",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/A0A140D2T1_ZIKV_theta0.99_281-804_11-26-2021_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/A0A140D2T1_ZIKV_theta_0.01.npy",
+  "msa_query_header": "A0A140D2T1_ZIKV/281-804",
+  "msa_start1": 281,
+  "msa_end1": 804,
+  "msa_aln_len": 524,
+  "msa_n_sequences": 15820,
+  "neff": 854.1062806293936,
+  "log_neff": 6.750055636442678,
+  "full_len": 3423,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

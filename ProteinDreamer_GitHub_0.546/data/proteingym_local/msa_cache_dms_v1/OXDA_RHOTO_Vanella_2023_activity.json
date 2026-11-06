@@ -1,0 +1,19 @@
+{
+  "protein": "OXDA_RHOTO_Vanella_2023_activity",
+  "base_id": "OXDA_RHOTO",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/OXDA_RHOTO_2023-08-07_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/OXDA_RHOTO_theta0.2_2023-08-07_b02.npy",
+  "msa_query_header": "OXDA_RHOTO/1-364",
+  "msa_start1": 1,
+  "msa_end1": 364,
+  "msa_aln_len": 364,
+  "msa_n_sequences": 517043,
+  "neff": 98744.87765225099,
+  "log_neff": 11.500294809542138,
+  "full_len": 364,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

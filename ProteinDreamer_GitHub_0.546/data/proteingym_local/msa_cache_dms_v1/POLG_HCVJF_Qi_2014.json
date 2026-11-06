@@ -1,0 +1,19 @@
+{
+  "protein": "POLG_HCVJF_Qi_2014",
+  "base_id": "POLG_HCVJF",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/POLG_HCVJF_theta0.99_1984-2089_11-26-2021_b08.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/POLG_HCVJF_theta_0.01.npy",
+  "msa_query_header": "POLG_HCVJF/1984-2089",
+  "msa_start1": 1984,
+  "msa_end1": 2089,
+  "msa_aln_len": 106,
+  "msa_n_sequences": 13815,
+  "neff": 4448.751994206628,
+  "log_neff": 8.400378885088788,
+  "full_len": 3033,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

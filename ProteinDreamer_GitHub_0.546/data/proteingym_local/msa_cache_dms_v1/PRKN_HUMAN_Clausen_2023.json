@@ -1,0 +1,19 @@
+{
+  "protein": "PRKN_HUMAN_Clausen_2023",
+  "base_id": "PRKN_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/PRKN_HUMAN_2023-08-07_b05.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/PRKN_HUMAN_theta0.2_2023-08-07_b05.npy",
+  "msa_query_header": "PRKN_HUMAN/1-465",
+  "msa_start1": 1,
+  "msa_end1": 465,
+  "msa_aln_len": 465,
+  "msa_n_sequences": 1439,
+  "neff": 170.15386096551325,
+  "log_neff": 5.136703092288132,
+  "full_len": 465,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

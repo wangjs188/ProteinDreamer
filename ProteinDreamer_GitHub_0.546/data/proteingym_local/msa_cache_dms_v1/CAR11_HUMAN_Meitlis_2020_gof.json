@@ -1,0 +1,19 @@
+{
+  "protein": "CAR11_HUMAN_Meitlis_2020_gof",
+  "base_id": "CAR11_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/CAR11_HUMAN_2023-10-12_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/CAR11_HUMAN_theta0.2_2023-10-12_b02.npy",
+  "msa_query_header": "CAR11_HUMAN/1-1154",
+  "msa_start1": 1,
+  "msa_end1": 1154,
+  "msa_aln_len": 1154,
+  "msa_n_sequences": 1328,
+  "neff": 42.12083553389474,
+  "log_neff": 3.7405425242934913,
+  "full_len": 1154,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

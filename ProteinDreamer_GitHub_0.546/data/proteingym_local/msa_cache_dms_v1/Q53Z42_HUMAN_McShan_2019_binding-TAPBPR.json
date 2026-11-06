@@ -1,0 +1,19 @@
+{
+  "protein": "Q53Z42_HUMAN_McShan_2019_binding-TAPBPR",
+  "base_id": "Q53Z42_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/Q53Z42_HUMAN_2023-08-07_b01.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/Q53Z42_HUMAN_theta0.2_2023-08-07_b01.npy",
+  "msa_query_header": "Q53Z42_HUMAN/1-365",
+  "msa_start1": 1,
+  "msa_end1": 365,
+  "msa_aln_len": 365,
+  "msa_n_sequences": 40905,
+  "neff": 4831.976874158229,
+  "log_neff": 8.48301095362808,
+  "full_len": 365,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

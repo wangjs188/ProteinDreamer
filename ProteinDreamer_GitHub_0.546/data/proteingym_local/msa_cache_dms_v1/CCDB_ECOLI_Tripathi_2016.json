@@ -1,0 +1,19 @@
+{
+  "protein": "CCDB_ECOLI_Tripathi_2016",
+  "base_id": "CCDB_ECOLI",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/CCDB_ECOLI_full_11-26-2021_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/CCDB_ECOLI_theta_0.2.npy",
+  "msa_query_header": "CCDB_ECOLI/1-101",
+  "msa_start1": 1,
+  "msa_end1": 101,
+  "msa_aln_len": 101,
+  "msa_n_sequences": 43506,
+  "neff": 17050.589152758097,
+  "log_neff": 9.743940036529224,
+  "full_len": 101,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

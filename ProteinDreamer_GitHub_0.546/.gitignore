@@ -1,0 +1,61 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.out
+*.err
+slurm-*.out
+slurm-*.err
+logs*/
+
+# Runtime outputs
+result/
+wandb/
+
+# Include reviewer examples, frozen metadata and the archived benchmark caches.
+# Download full ProteinGym data separately.
+data/*
+!data/metric_0546/
+!data/metric_0546/**
+!data/example_0546/
+!data/example_0546/**
+!data/proteingym_local/
+data/proteingym_local/*
+!data/proteingym_local/.gitkeep
+!data/proteingym_local/folds/
+!data/proteingym_local/reference/
+!data/proteingym_local/CACHES.sha256
+!data/proteingym_local/CACHE_PROVENANCE.json
+!data/proteingym_local/msa_cache_dms_v1/
+data/proteingym_local/msa_cache_dms_v1/*
+!data/proteingym_local/msa_cache_dms_v1/*.npz
+!data/proteingym_local/msa_cache_dms_v1/*.json
+!data/proteingym_local/teacher_siterm_dms_s4096_e100_q64_reg05_v2t1/
+data/proteingym_local/teacher_siterm_dms_s4096_e100_q64_reg05_v2t1/*
+!data/proteingym_local/teacher_siterm_dms_s4096_e100_q64_reg05_v2t1/*.npz
+!data/proteingym_local/teacher_siterm_dms_s4096_e100_q64_reg05_v2t1/*.json
+
+# External model assets.  The two ProteinDreamer WMZ checkpoint families below
+# are part of this release; SaProt itself is intentionally downloaded locally.
+model/*
+!model/.gitkeep
+!model/SAPROT_LOCK.json
+!model/CHECKPOINTS.sha256
+!model/CHECKPOINT_PROVENANCE.csv
+!model/world_model_zeroshot/
+model/world_model_zeroshot/*
+!model/world_model_zeroshot/wmz_saprot650m_retrain_v2_sd3407_e60_rs1024_pp16384_cache512/
+!model/world_model_zeroshot/wmz_saprot650m_retrain_v2_sd3407_e60_rs1024_pp16384_cache512/**
+!model/world_model_zeroshot/wmz_saprot1p3b_retrain_v2_sd3407_e60_rs1024_pp16384_cache512/
+!model/world_model_zeroshot/wmz_saprot1p3b_retrain_v2_sd3407_e60_rs1024_pp16384_cache512/**
+external/*
+!external/.gitkeep
+!external/ProteinGym-main/
+!external/ProteinGym-main/**
+
+# Editors
+.idea/
+.vscode/
+.DS_Store

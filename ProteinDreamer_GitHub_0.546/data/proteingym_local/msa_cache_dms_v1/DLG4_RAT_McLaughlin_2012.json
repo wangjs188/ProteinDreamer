@@ -1,0 +1,19 @@
+{
+  "protein": "DLG4_RAT_McLaughlin_2012",
+  "base_id": "DLG4_RAT",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/DLG4_RAT_full_11-26-2021_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/DLG4_RAT_theta_0.2.npy",
+  "msa_query_header": "DLG4_RAT/1-724",
+  "msa_start1": 1,
+  "msa_end1": 724,
+  "msa_aln_len": 724,
+  "msa_n_sequences": 24581,
+  "neff": 257.405021118973,
+  "log_neff": 5.550650802077333,
+  "full_len": 724,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

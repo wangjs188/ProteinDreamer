@@ -1,0 +1,19 @@
+{
+  "protein": "POLG_CXB3N_Mattenberger_2021",
+  "base_id": "POLG_CXB3N",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/POLG_CXB3N_1-861_theta0.99_04-29-2022_b07.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/POLG_CXB3N_theta_0.01.npy",
+  "msa_query_header": "POLG_CXB3N/1-861",
+  "msa_start1": 1,
+  "msa_end1": 861,
+  "msa_aln_len": 861,
+  "msa_n_sequences": 7693,
+  "neff": 1541.428779260793,
+  "log_neff": 7.340465044034258,
+  "full_len": 2185,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

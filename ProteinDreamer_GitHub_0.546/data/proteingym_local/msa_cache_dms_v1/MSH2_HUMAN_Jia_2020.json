@@ -1,0 +1,19 @@
+{
+  "protein": "MSH2_HUMAN_Jia_2020",
+  "base_id": "MSH2_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/MSH2_HUMAN_full_11-26-2021_b05.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/MSH2_HUMAN_theta_0.2.npy",
+  "msa_query_header": "MSH2_HUMAN/1-934",
+  "msa_start1": 1,
+  "msa_end1": 934,
+  "msa_aln_len": 934,
+  "msa_n_sequences": 60436,
+  "neff": 10941.266714293859,
+  "log_neff": 9.300296856686643,
+  "full_len": 934,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

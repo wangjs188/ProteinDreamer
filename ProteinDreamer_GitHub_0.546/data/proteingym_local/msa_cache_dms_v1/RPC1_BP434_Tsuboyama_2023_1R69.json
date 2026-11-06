@@ -1,0 +1,19 @@
+{
+  "protein": "RPC1_BP434_Tsuboyama_2023_1R69",
+  "base_id": "RPC1_BP434",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/RPC1_BP434_2023-08-07_b05.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/RPC1_BP434_theta0.01_2023-08-07_b05.npy",
+  "msa_query_header": "RPC1_BP434/1-61",
+  "msa_start1": 1,
+  "msa_end1": 61,
+  "msa_aln_len": 61,
+  "msa_n_sequences": 819704,
+  "neff": 554578.2517027488,
+  "log_neff": 13.225963197011136,
+  "full_len": 61,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

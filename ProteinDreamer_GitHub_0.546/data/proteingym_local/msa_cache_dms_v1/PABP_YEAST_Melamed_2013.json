@@ -1,0 +1,19 @@
+{
+  "protein": "PABP_YEAST_Melamed_2013",
+  "base_id": "PABP_YEAST",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/PABP_YEAST_full_11-26-2021_b07.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/PABP_YEAST_theta_0.2.npy",
+  "msa_query_header": "PABP_YEAST/1-577",
+  "msa_start1": 1,
+  "msa_end1": 577,
+  "msa_aln_len": 577,
+  "msa_n_sequences": 7729,
+  "neff": 818.1456313877961,
+  "log_neff": 6.707040354250304,
+  "full_len": 577,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

@@ -1,0 +1,19 @@
+{
+  "protein": "SBI_STAAM_Tsuboyama_2023_2JVG",
+  "base_id": "SBI_STAAM",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/SBI_STAAM_2023-08-07_b04.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/SBI_STAAM_theta0.2_2023-08-07_b04.npy",
+  "msa_query_header": "SBI_STAAR/1-56",
+  "msa_start1": 1,
+  "msa_end1": 56,
+  "msa_aln_len": 56,
+  "msa_n_sequences": 14472,
+  "neff": 1513.550917625064,
+  "log_neff": 7.322213770205143,
+  "full_len": 56,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

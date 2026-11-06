@@ -1,0 +1,19 @@
+{
+  "protein": "PHOT_CHLRE_Chen_2023",
+  "base_id": "PHOT_CHLRE",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/PHOT_CHLRE_2023-08-07_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/PHOT_CHLRE_theta0.2_2023-08-07_b02.npy",
+  "msa_query_header": "PHOT_CHLRE/1-118",
+  "msa_start1": 1,
+  "msa_end1": 118,
+  "msa_aln_len": 118,
+  "msa_n_sequences": 1625547,
+  "neff": 615446.4976200372,
+  "log_neff": 13.33010329575947,
+  "full_len": 118,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

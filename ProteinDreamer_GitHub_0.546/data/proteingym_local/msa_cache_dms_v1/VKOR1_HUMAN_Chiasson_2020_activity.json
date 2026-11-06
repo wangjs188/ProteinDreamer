@@ -1,0 +1,19 @@
+{
+  "protein": "VKOR1_HUMAN_Chiasson_2020_activity",
+  "base_id": "VKOR1_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/VKOR1_HUMAN_full_11-26-2021_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/VKOR1_HUMAN_theta_0.2.npy",
+  "msa_query_header": "VKOR1_HUMAN/1-163",
+  "msa_start1": 1,
+  "msa_end1": 163,
+  "msa_aln_len": 163,
+  "msa_n_sequences": 14425,
+  "neff": 4735.725146193858,
+  "log_neff": 8.462890139872114,
+  "full_len": 163,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

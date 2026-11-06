@@ -1,0 +1,19 @@
+{
+  "protein": "SPIKE_SARS2_Starr_2020_binding",
+  "base_id": "SPIKE_SARS2",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/SPIKE_SARS2_theta0.99_full_11-26-2021_b01.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/SPIKE_SARS2_theta_0.01.npy",
+  "msa_query_header": "SPIKE_SARS2/1-1273",
+  "msa_start1": 1,
+  "msa_end1": 1273,
+  "msa_aln_len": 1273,
+  "msa_n_sequences": 13406,
+  "neff": 1347.0137049159798,
+  "log_neff": 7.20564535076542,
+  "full_len": 1273,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

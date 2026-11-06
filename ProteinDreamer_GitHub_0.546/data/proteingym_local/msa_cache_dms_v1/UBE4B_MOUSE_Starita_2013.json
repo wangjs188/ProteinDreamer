@@ -1,0 +1,19 @@
+{
+  "protein": "UBE4B_MOUSE_Starita_2013",
+  "base_id": "UBE4B_MOUSE",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/UBE4B_MOUSE_full_11-26-2021_b05.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/UBE4B_MOUSE_theta_0.2.npy",
+  "msa_query_header": "UBE4B_MOUSE/1-1173",
+  "msa_start1": 1,
+  "msa_end1": 1173,
+  "msa_aln_len": 1173,
+  "msa_n_sequences": 4667,
+  "neff": 753.7265854251374,
+  "log_neff": 6.625029683459576,
+  "full_len": 1173,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

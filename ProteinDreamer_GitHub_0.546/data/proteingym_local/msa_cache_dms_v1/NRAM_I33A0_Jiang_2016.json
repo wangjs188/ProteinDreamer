@@ -1,0 +1,19 @@
+{
+  "protein": "NRAM_I33A0_Jiang_2016",
+  "base_id": "NRAM_I33A0",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/NRAM_I33A0_full_11-26-2021_b01.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/NRAM_I33A0_theta_0.01.npy",
+  "msa_query_header": "NRAM_I33A0/1-453",
+  "msa_start1": 1,
+  "msa_end1": 453,
+  "msa_aln_len": 453,
+  "msa_n_sequences": 43966,
+  "neff": 7217.565296031777,
+  "log_neff": 8.884272958401851,
+  "full_len": 453,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

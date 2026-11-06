@@ -1,0 +1,19 @@
+{
+  "protein": "HIS7_YEAST_Pokusaeva_2019",
+  "base_id": "HIS7_YEAST",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/HIS7_YEAST_full_11-26-2021_b09.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/HIS7_YEAST_theta_0.2.npy",
+  "msa_query_header": "HIS7_YEAST/1-220",
+  "msa_start1": 1,
+  "msa_end1": 220,
+  "msa_aln_len": 220,
+  "msa_n_sequences": 39854,
+  "neff": 5274.273059305755,
+  "log_neff": 8.570596140187261,
+  "full_len": 220,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

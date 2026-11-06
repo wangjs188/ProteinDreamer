@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "platform": "Linux x86_64",
+  "scope": "CPU metric reproduction and release regression checks; no full GPU inference rerun.",
+  "checks": [
+    {
+      "command": "python -B script/setup/check_runtime.py",
+      "returncode": 0,
+      "elapsed_seconds": 74.22,
+      "output": "Python: 3.10.13 | System: Linux x86_64\ntorch: 2.5.1+cu121\ntorch-geometric: 2.6.1\ntorch-scatter: 2.1.2+pt25cu121\nnumpy: 2.1.2\npandas: 2.2.3\nscipy: 1.15.2\nscikit-learn: 1.6.1\nPyYAML: 6.0.2\ntqdm: 4.67.0\nbiopython: 1.85\ntransformers: 4.46.3\nhuggingface-hub: 0.31.4\ntokenizers: 0.20.3\nsafetensors: 0.5.3\nPyTorch CUDA runtime: 12.1 | GPU visible: False\n[PASS] Runtime versions and imports (not a benchmark reproduction).\n"
+    },
+    {
+      "command": "python -B script/release/verify_release.py",
+      "returncode": 0,
+      "elapsed_seconds": 6.62,
+      "output": "[ok] 10 loadable, sanitized WMZ checkpoints; synthetic forward passes finite\n[ok] frozen CV5 split: 217 unique assays, valid sizes 44/44/43/43/43\n[ok] checkpoint SHA-256 manifest\n[ok] release scope: only SaProt-backed 0.546 training/inference entry points\n[ok] syntax: python=31 json=6 yaml=2\n[ok] result evidence: displayed=0.546 assays=217 bootstrap=20000\n[PASS] ProteinDreamer GitHub 0.546 release checks passed\n"
+    },
+    {
+      "command": "python -B script/release/test_reviewer_workflow.py",
+      "returncode": 0,
+      "elapsed_seconds": 36.96,
+      "output": "test_b130_float32_ensemble (__main__.ReviewerWorkflowTests) ... <environment>/lib/python3.10/site-packages/accelerate/utils/other.py:220: DeprecationWarning: numpy.core is deprecated and has been renamed to numpy._core. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core.multiarray.\n  np.core.multiarray._reconstruct,\n\nEnsemble -> SaProt_ensemble:   0%|          | 0/1 [00:00<?, ?it/s]\nEnsemble -> SaProt_ensemble: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 1/1 [00:00<00:00, 57.21it/s]\nok\ntest_complete_fusion_matches_frozen_exactly (__main__.ReviewerWorkflowTests) ... ok\ntest_environment_versions (__main__.ReviewerWorkflowTests) ... ok\ntest_frozen_reference_folds (__main__.ReviewerWorkflowTests) ... ok\ntest_historical_cache_policy (__main__.ReviewerWorkflowTests) ... ok\ntest_historical_fallback_loader_values (__main__.ReviewerWorkflowTests) ... ok\ntest_metric_rejects_corrupted_input (__main__.ReviewerWorkflowTests) ... ok\ntest_pinned_evaluator (__main__.ReviewerWorkflowTests) ... ok\ntest_raw_converter_and_no_overwrite (__main__.ReviewerWorkflowTests) ... ok\ntest_saprot_only_release_scope (__main__.ReviewerWorkflowTests) ... ok\ntest_score_coverage_rejects_missing_and_nonfinite (__main__.ReviewerWorkflowTests) ... ok\ntest_training_launcher_is_saprot_cv5_only (__main__.ReviewerWorkflowTests) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 34.530s\n\nOK\n"
+    },
+    {
+      "command": "python -B script/proteingym/reproduce_metric_0546.py --out result/metric_pinned_runtime",
+      "returncode": 0,
+      "elapsed_seconds": 6.32,
+      "output": "Assays: 217; variants: 2465767\nOfficial average Spearman: 0.5455137705176768 (displayed: 0.546)\nFrozen assay matches: 217/217\nPASS\n"
+    }
+  ],
+  "all_passed": true,
+  "log_processing": {
+    "source_sha256": "c6a8c02ae896e77dd962bc016093313b2542cbbd3a8879dfca8bbdd95be18efa",
+    "change": "Machine-specific environment path replaced with <environment>; no test results or numerical values changed."
+  }
+}

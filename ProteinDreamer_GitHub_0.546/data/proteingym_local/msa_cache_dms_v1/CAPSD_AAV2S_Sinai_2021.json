@@ -1,0 +1,19 @@
+{
+  "protein": "CAPSD_AAV2S_Sinai_2021",
+  "base_id": "CAPSD_AAV2S",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/CAPSD_AAV2S_uniprot_t099_msc70_mcc70_b0.8.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/CAPSD_AAV2S_theta_0.01.npy",
+  "msa_query_header": "CAPSD_AAV2S/1-735",
+  "msa_start1": 1,
+  "msa_end1": 735,
+  "msa_aln_len": 735,
+  "msa_n_sequences": 575,
+  "neff": 193.63075472090122,
+  "log_neff": 5.265953019307128,
+  "full_len": 735,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

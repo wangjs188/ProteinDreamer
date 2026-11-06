@@ -1,0 +1,17 @@
+# Preserve published cache checksums across Windows and Linux checkouts.
+data/proteingym_local/msa_cache_dms_v1/*.npz -text
+data/proteingym_local/teacher_siterm_dms_s4096_e100_q64_reg05_v2t1/*.npz -text
+data/proteingym_local/msa_cache_dms_v1/*.json text eol=lf
+data/proteingym_local/teacher_siterm_dms_s4096_e100_q64_reg05_v2t1/*.json text eol=lf
+data/proteingym_local/CACHES.sha256 text eol=lf
+data/proteingym_local/CACHE_PROVENANCE.json text eol=lf
+
+# Preserve the exact distributed evaluator and frozen input bytes.
+external/ProteinGym-main/** -text
+data/example_0546/** -text
+data/proteingym_local/reference/** -text
+data/proteingym_local/folds/** -text
+*.sh text eol=lf
+*.py text eol=lf
+*.pt -text
+data/metric_0546/** -text

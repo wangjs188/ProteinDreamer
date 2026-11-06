@@ -1,0 +1,21 @@
+{
+  "model_list_zero_shot_substitutions_DMS": {
+    "ProteinDreamer_SaProt_650M1p3B_AF2only": {
+      "input_score_name": "SaProt_ensemble",
+      "location": "ProteinDreamer_SaProt_650M1p3B_AF2only",
+      "directionality": 1,
+      "key": "mutant",
+      "model_type": "SaProt zero-shot ensemble (650M_AF2 + 1.3B; AF2-only WT structures; no ESMFold; no 650M_PDB)"
+    },
+    "ProteinDreamer_final_lite_b130": {
+      "input_score_name": "ProteinDreamer_WMZ_SiteRM_SaProt_add_neffgate_wmz_saprot_plmens2_AF2only_b130",
+      "location": "ProteinDreamer_WMZ_SiteRM_SaProt_add_beta_sweep_plmens2_AF2only_sd3407_e60_rs1024_pp16384_cache512",
+      "directionality": 1,
+      "key": "mutant",
+      "model_type": "Final (plm-ens2 fusion + SaProt add; AF2-only baseline; beta=0.13)"
+    }
+  },
+  "model_list_zero_shot_indels_DMS": {},
+  "model_list_zero_shot_substitutions_clinical": {},
+  "model_list_zero_shot_indels_clinical": {}
+}

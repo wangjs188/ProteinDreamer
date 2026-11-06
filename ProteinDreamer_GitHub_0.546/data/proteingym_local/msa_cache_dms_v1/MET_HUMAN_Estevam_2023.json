@@ -1,0 +1,19 @@
+{
+  "protein": "MET_HUMAN_Estevam_2023",
+  "base_id": "MET_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/MET_HUMAN_2023-08-07_b09.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/MET_HUMAN_theta0.2_2023-08-07_b09.npy",
+  "msa_query_header": "MET_HUMAN/1-287",
+  "msa_start1": 1,
+  "msa_end1": 287,
+  "msa_aln_len": 287,
+  "msa_n_sequences": 184827,
+  "neff": 5102.244881634397,
+  "log_neff": 8.537435894736207,
+  "full_len": 287,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

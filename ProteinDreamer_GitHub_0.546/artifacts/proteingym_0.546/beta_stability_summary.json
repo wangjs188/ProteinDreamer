@@ -1,0 +1,91 @@
+{
+  "wmz_dir": "data/proteingym_local/zero_shot_substitutions_scores/ProteinDreamer_WMZ_SiteRM_fusion_neffgate_wmz_saprot_plmens2_sd3407_e60_rs1024_pp16384_cache512",
+  "wmz_col": "ProteinDreamer_WMZ_SiteRM_fusion_raw_neffgate_la350_ma300_ha250_gneg050",
+  "baseline_dir": "data/proteingym_local/zero_shot_substitutions_scores/ProteinDreamer_SaProt_650M1p3B_AF2only",
+  "baseline_col": "SaProt_ensemble",
+  "betas": [
+    0.08,
+    0.09,
+    0.1,
+    0.11,
+    0.12,
+    0.13,
+    0.14,
+    0.15,
+    0.16,
+    0.17,
+    0.18
+  ],
+  "fixed_beta": 0.13,
+  "metric": "official_avg",
+  "pick_beta_counts": {
+    "0.11": 1,
+    "0.12": 2,
+    "0.13": 2
+  },
+  "fold_picks": [
+    {
+      "fold": 0,
+      "pick_beta": 0.11,
+      "pick_train_mean": 0.5514913135957535,
+      "pick_valid_mean": 0.540156511361541,
+      "fixed_beta": 0.13,
+      "fixed_valid_mean": 0.5405743504339435,
+      "oracle_valid_beta": 0.13,
+      "oracle_valid_mean": 0.5405743504339435,
+      "n_train_assays": 173,
+      "n_valid_assays": 44
+    },
+    {
+      "fold": 1,
+      "pick_beta": 0.12,
+      "pick_train_mean": 0.5536867516551405,
+      "pick_valid_mean": 0.5115816160738045,
+      "fixed_beta": 0.13,
+      "fixed_valid_mean": 0.5117029408347695,
+      "oracle_valid_beta": 0.15,
+      "oracle_valid_mean": 0.5117627012609951,
+      "n_train_assays": 173,
+      "n_valid_assays": 44
+    },
+    {
+      "fold": 2,
+      "pick_beta": 0.13,
+      "pick_train_mean": 0.5359396697488144,
+      "pick_valid_mean": 0.6072618405887269,
+      "fixed_beta": 0.13,
+      "fixed_valid_mean": 0.6072618405887269,
+      "oracle_valid_beta": 0.08,
+      "oracle_valid_mean": 0.6086057602131957,
+      "n_train_assays": 174,
+      "n_valid_assays": 43
+    },
+    {
+      "fold": 3,
+      "pick_beta": 0.13,
+      "pick_train_mean": 0.5449484472704273,
+      "pick_valid_mean": 0.5578295207116621,
+      "fixed_beta": 0.13,
+      "fixed_valid_mean": 0.5578295207116621,
+      "oracle_valid_beta": 0.08,
+      "oracle_valid_mean": 0.5593292549754306,
+      "n_train_assays": 174,
+      "n_valid_assays": 43
+    },
+    {
+      "fold": 4,
+      "pick_beta": 0.12,
+      "pick_train_mean": 0.5439659643448429,
+      "pick_valid_mean": 0.549198180513885,
+      "fixed_beta": 0.13,
+      "fixed_valid_mean": 0.5491933790074633,
+      "oracle_valid_beta": 0.12,
+      "oracle_valid_mean": 0.549198180513885,
+      "n_train_assays": 174,
+      "n_valid_assays": 43
+    }
+  ],
+  "mean_pick_valid": 0.5532055338499239,
+  "mean_fixed_valid": 0.5533124063153132,
+  "mean_oracle_valid": 0.5538940494794901
+}

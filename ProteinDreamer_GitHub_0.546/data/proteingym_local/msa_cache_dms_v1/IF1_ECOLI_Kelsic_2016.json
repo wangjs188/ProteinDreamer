@@ -1,0 +1,19 @@
+{
+  "protein": "IF1_ECOLI_Kelsic_2016",
+  "base_id": "IF1_ECOLI",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/IF1_ECOLI_full_11-26-2021_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/IF1_ECOLI_theta_0.2.npy",
+  "msa_query_header": "IF1_ECOLI/1-72",
+  "msa_start1": 1,
+  "msa_end1": 72,
+  "msa_aln_len": 72,
+  "msa_n_sequences": 360756,
+  "neff": 38609.43685272982,
+  "log_neff": 10.561252003623288,
+  "full_len": 72,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

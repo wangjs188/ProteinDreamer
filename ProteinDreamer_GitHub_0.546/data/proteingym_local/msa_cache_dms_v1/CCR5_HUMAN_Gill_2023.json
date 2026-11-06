@@ -1,0 +1,19 @@
+{
+  "protein": "CCR5_HUMAN_Gill_2023",
+  "base_id": "CCR5_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/CCR5_HUMAN_2023-08-07_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/CCR5_HUMAN_theta0.2_2023-08-07_b03.npy",
+  "msa_query_header": "CCR5_HUMAN/1-352",
+  "msa_start1": 1,
+  "msa_end1": 352,
+  "msa_aln_len": 352,
+  "msa_n_sequences": 611225,
+  "neff": 64326.01086786887,
+  "log_neff": 11.071719352034298,
+  "full_len": 352,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

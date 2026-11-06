@@ -1,0 +1,19 @@
+{
+  "protein": "PAI1_HUMAN_Huttinger_2021",
+  "base_id": "PAI1_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/PAI1_HUMAN_2023-10-12_b05.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/PAI1_HUMAN_theta0.2_2023-10-12_b05.npy",
+  "msa_query_header": "PAI1_HUMAN/1-402",
+  "msa_start1": 1,
+  "msa_end1": 402,
+  "msa_aln_len": 402,
+  "msa_n_sequences": 51792,
+  "neff": 12194.684227045149,
+  "log_neff": 9.40875541667436,
+  "full_len": 402,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

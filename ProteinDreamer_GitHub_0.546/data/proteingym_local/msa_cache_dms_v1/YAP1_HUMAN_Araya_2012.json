@@ -1,0 +1,19 @@
+{
+  "protein": "YAP1_HUMAN_Araya_2012",
+  "base_id": "YAP1_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/YAP1_HUMAN_full_11-26-2021_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/YAP1_HUMAN_theta_0.2.npy",
+  "msa_query_header": "YAP1_HUMAN/1-504",
+  "msa_start1": 1,
+  "msa_end1": 504,
+  "msa_aln_len": 504,
+  "msa_n_sequences": 1589,
+  "neff": 131.54628287072416,
+  "log_neff": 4.879358750764197,
+  "full_len": 504,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

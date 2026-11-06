@@ -1,0 +1,19 @@
+{
+  "protein": "KCNH2_HUMAN_Kozek_2020",
+  "base_id": "KCNH2_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/KCNH2_HUMAN_535-565_11-26-2021_b05.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/KCNH2_HUMAN_theta_0.2.npy",
+  "msa_query_header": "KCNH2_HUMAN/535-565",
+  "msa_start1": 535,
+  "msa_end1": 565,
+  "msa_aln_len": 31,
+  "msa_n_sequences": 13900,
+  "neff": 194.8909550185541,
+  "log_neff": 5.272440197168553,
+  "full_len": 1159,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

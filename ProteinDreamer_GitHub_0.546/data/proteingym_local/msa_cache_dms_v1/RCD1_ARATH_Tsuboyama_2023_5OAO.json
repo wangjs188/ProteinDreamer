@@ -1,0 +1,19 @@
+{
+  "protein": "RCD1_ARATH_Tsuboyama_2023_5OAO",
+  "base_id": "RCD1_ARATH",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/RCD1_ARATH_2023-08-07_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/RCD1_ARATH_theta0.2_2023-08-07_b02.npy",
+  "msa_query_header": "RCD1_ARATH/1-57",
+  "msa_start1": 1,
+  "msa_end1": 57,
+  "msa_aln_len": 57,
+  "msa_n_sequences": 6516,
+  "neff": 1608.8677384772302,
+  "log_neff": 7.383285942549197,
+  "full_len": 57,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

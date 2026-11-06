@@ -1,0 +1,19 @@
+{
+  "protein": "SCN5A_HUMAN_Glazer_2019",
+  "base_id": "SCN5A_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/SCN5A_HUMAN_1611-1642_11-26-2021_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/SCN5A_HUMAN_theta_0.2.npy",
+  "msa_query_header": "SCN5A_HUMAN/1611-1642",
+  "msa_start1": 1611,
+  "msa_end1": 1642,
+  "msa_aln_len": 32,
+  "msa_n_sequences": 49959,
+  "neff": 850.4390534134409,
+  "log_neff": 6.745752749566228,
+  "full_len": 2016,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

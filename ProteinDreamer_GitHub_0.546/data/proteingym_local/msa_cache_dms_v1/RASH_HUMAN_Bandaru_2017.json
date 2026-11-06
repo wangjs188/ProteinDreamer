@@ -1,0 +1,19 @@
+{
+  "protein": "RASH_HUMAN_Bandaru_2017",
+  "base_id": "RASH_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/RASH_HUMAN_full_11-26-2021_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/RASH_HUMAN_theta_0.2.npy",
+  "msa_query_header": "RASH_HUMAN/1-189",
+  "msa_start1": 1,
+  "msa_end1": 189,
+  "msa_aln_len": 189,
+  "msa_n_sequences": 203361,
+  "neff": 23770.52132317402,
+  "log_neff": 10.076201492094555,
+  "full_len": 189,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

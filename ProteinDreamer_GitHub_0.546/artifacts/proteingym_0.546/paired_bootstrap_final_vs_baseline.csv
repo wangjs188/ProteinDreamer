@@ -1,0 +1,2 @@
+model_a,model_b,official_avg_a,official_avg_b,delta_a_minus_b,bootstrap_delta_mean,ci95_lo,ci95_hi,p_one_sided(a>b),p_two_sided,bootstrap_n,categories
+ProteinDreamer_final_lite_b130,ProteinDreamer_SaProt_650M1p3B_AF2only,0.5455137705176768,0.4576627193813131,0.08785105113636371,0.08782901854813761,0.07090356991792927,0.10656746433080805,0.0,0.0,20000,Activity|Binding|Expression|OrganismalFitness|Stability

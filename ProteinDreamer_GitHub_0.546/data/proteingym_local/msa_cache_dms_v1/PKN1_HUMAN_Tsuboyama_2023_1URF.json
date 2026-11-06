@@ -1,0 +1,19 @@
+{
+  "protein": "PKN1_HUMAN_Tsuboyama_2023_1URF",
+  "base_id": "PKN1_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/PKN1_HUMAN_2023-08-07_b01.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/PKN1_HUMAN_theta0.2_2023-08-07_b01.npy",
+  "msa_query_header": "PKN1_MOUSE/1-71",
+  "msa_start1": 1,
+  "msa_end1": 71,
+  "msa_aln_len": 71,
+  "msa_n_sequences": 187634,
+  "neff": 54841.63272922893,
+  "log_neff": 10.91220490583041,
+  "full_len": 71,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

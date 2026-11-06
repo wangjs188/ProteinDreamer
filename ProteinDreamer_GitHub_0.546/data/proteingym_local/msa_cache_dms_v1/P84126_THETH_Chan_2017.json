@@ -1,0 +1,19 @@
+{
+  "protein": "P84126_THETH_Chan_2017",
+  "base_id": "P84126_THETH",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/P84126_THETH_full_11-26-2021_b04.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/P84126_THETH_theta_0.2.npy",
+  "msa_query_header": "P84126_THETH/1-254",
+  "msa_start1": 1,
+  "msa_end1": 254,
+  "msa_aln_len": 254,
+  "msa_n_sequences": 53017,
+  "neff": 10591.433731314057,
+  "log_neff": 9.267800814825828,
+  "full_len": 254,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

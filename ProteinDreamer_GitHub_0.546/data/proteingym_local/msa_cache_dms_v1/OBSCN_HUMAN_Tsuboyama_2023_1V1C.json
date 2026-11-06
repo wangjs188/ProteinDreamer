@@ -1,0 +1,19 @@
+{
+  "protein": "OBSCN_HUMAN_Tsuboyama_2023_1V1C",
+  "base_id": "OBSCN_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/OBSCN_HUMAN_2023-08-07_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/OBSCN_HUMAN_theta0.2_2023-08-07_b02.npy",
+  "msa_query_header": "OBSCN_MOUSE/1-65",
+  "msa_start1": 1,
+  "msa_end1": 65,
+  "msa_aln_len": 65,
+  "msa_n_sequences": 718204,
+  "neff": 24605.311042654834,
+  "log_neff": 10.110717594661542,
+  "full_len": 65,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

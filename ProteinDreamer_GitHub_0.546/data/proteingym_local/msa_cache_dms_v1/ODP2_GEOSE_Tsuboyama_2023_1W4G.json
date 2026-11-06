@@ -1,0 +1,19 @@
+{
+  "protein": "ODP2_GEOSE_Tsuboyama_2023_1W4G",
+  "base_id": "ODP2_GEOSE",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/ODP2_GEOSE_2023-08-07_b07.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/ODP2_GEOSE_theta0.2_2023-08-07_b07.npy",
+  "msa_query_header": "ODP2_GEOSE/1-44",
+  "msa_start1": 1,
+  "msa_end1": 44,
+  "msa_aln_len": 44,
+  "msa_n_sequences": 163539,
+  "neff": 17505.898910864187,
+  "log_neff": 9.77029318373408,
+  "full_len": 44,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

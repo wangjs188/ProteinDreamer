@@ -1,0 +1,19 @@
+{
+  "protein": "ENV_HV1BR_Haddox_2016",
+  "base_id": "ENV_HV1BR",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/ENV_HV1BR_theta0.99_full_11-26-2021_b09.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/ENV_HV1BR_theta_0.01.npy",
+  "msa_query_header": "ENV_HV1BR/1-861",
+  "msa_start1": 1,
+  "msa_end1": 861,
+  "msa_aln_len": 861,
+  "msa_n_sequences": 71133,
+  "neff": 37355.23761965948,
+  "log_neff": 10.528228411510524,
+  "full_len": 861,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

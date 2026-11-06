@@ -1,0 +1,19 @@
+{
+  "protein": "TRPC_SACS2_Chan_2017",
+  "base_id": "TRPC_SACS2",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/TRPC_SACS2_full_11-26-2021_b07.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/TRPC_SACS2_theta_0.2.npy",
+  "msa_query_header": "TRPC_SACS2/1-248",
+  "msa_start1": 1,
+  "msa_end1": 248,
+  "msa_aln_len": 248,
+  "msa_n_sequences": 52515,
+  "neff": 10409.936820360504,
+  "log_neff": 9.250516092461924,
+  "full_len": 248,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

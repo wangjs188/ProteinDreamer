@@ -1,0 +1,19 @@
+{
+  "protein": "OPSD_HUMAN_Wan_2019",
+  "base_id": "OPSD_HUMAN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/OPSD_HUMAN_2023-10-12_b04.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/OPSD_HUMAN_theta0.2_2023-10-12_b04.npy",
+  "msa_query_header": "OPSD_HUMAN/1-348",
+  "msa_start1": 1,
+  "msa_end1": 348,
+  "msa_aln_len": 348,
+  "msa_n_sequences": 336237,
+  "neff": 37303.33776706047,
+  "log_neff": 10.526838086000282,
+  "full_len": 348,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

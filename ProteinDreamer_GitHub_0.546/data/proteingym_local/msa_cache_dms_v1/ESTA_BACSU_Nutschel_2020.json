@@ -1,0 +1,19 @@
+{
+  "protein": "ESTA_BACSU_Nutschel_2020",
+  "base_id": "ESTA_BACSU",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/ESTA_BACSU_full_11-26-2021_b03.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/ESTA_BACSU_theta_0.2.npy",
+  "msa_query_header": "ESTA_BACSU/1-212",
+  "msa_start1": 1,
+  "msa_end1": 212,
+  "msa_aln_len": 212,
+  "msa_n_sequences": 233637,
+  "neff": 66416.10170759923,
+  "log_neff": 11.103694801663744,
+  "full_len": 212,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

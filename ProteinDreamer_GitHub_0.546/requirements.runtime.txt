@@ -1,0 +1,17 @@
+# Audited 2026-09-11: Linux x86_64, Python 3.10.
+--extra-index-url https://download.pytorch.org/whl/cu121
+--find-links https://data.pyg.org/whl/torch-2.5.1+cu121.html
+torch==2.5.1+cu121
+torch-geometric==2.6.1
+torch-scatter==2.1.2+pt25cu121
+numpy==2.1.2
+pandas==2.2.3
+scipy==1.15.2
+scikit-learn==1.6.1
+PyYAML==6.0.2
+tqdm==4.67.0
+biopython==1.85
+transformers==4.46.3
+huggingface-hub==0.31.4
+tokenizers==0.20.3
+safetensors==0.5.3

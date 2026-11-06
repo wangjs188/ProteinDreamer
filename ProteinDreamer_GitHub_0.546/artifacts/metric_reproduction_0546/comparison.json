@@ -1,0 +1,26 @@
+{
+  "scope": "Metric re-evaluation of archived predictions; model inference was not rerun by this command.",
+  "assays": 217,
+  "variants": 2465767,
+  "assays_matching_frozen_spearman": 217,
+  "official_average": 0.5455137705176768,
+  "displayed_average": "0.546",
+  "expected_average": 0.5455137705176768,
+  "absolute_difference": 0.0,
+  "aggregation": "Round assay Spearman to 3 decimals; mean within UniProt x selection type; mean within selection type; equal mean over selection types.",
+  "category_means": {
+    "Activity": 0.5320625,
+    "Binding": 0.45962499999999995,
+    "Expression": 0.5276111111111111,
+    "OrganismalFitness": 0.50354296875,
+    "Stability": 0.7047272727272728
+  },
+  "input_manifest_sha256": "d370532560d59df3ed6f52e26b5a1190285c77ad80482f04e362e0f19cb08b3a",
+  "runtime": {
+    "python": "3.10.13",
+    "numpy": "2.1.2",
+    "pandas": "2.2.3",
+    "scipy": "1.15.2"
+  },
+  "pass": true
+}

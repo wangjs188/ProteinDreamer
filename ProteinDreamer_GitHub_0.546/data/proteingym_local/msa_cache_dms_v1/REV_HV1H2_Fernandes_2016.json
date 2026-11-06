@@ -1,0 +1,19 @@
+{
+  "protein": "REV_HV1H2_Fernandes_2016",
+  "base_id": "REV_HV1H2",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/REV_HV1H2_full_theta0.99_04-29-2022_b09.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/REV_HV1H2_theta_0.01.npy",
+  "msa_query_header": "REV_HV1H2/1-116",
+  "msa_start1": 1,
+  "msa_end1": 116,
+  "msa_aln_len": 116,
+  "msa_n_sequences": 14751,
+  "neff": 12158.664881620334,
+  "log_neff": 9.405797353573586,
+  "full_len": 116,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

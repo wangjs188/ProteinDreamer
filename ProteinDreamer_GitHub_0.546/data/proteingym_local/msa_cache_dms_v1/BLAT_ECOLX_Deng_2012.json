@@ -1,0 +1,19 @@
+{
+  "protein": "BLAT_ECOLX_Deng_2012",
+  "base_id": "BLAT_ECOLX",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/BLAT_ECOLX_full_11-26-2021_b02.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/BLAT_ECOLX_theta_0.2.npy",
+  "msa_query_header": "BLAT_ECOLX/1-286",
+  "msa_start1": 1,
+  "msa_end1": 286,
+  "msa_aln_len": 286,
+  "msa_n_sequences": 208923,
+  "neff": 50901.43620338932,
+  "log_neff": 10.83764641831735,
+  "full_len": 286,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}

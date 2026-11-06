@@ -1,0 +1,19 @@
+{
+  "protein": "A0A247D711_LISMN_Stadelmann_2021",
+  "base_id": "A0A247D711_LISMN",
+  "dataset_root": "protein_dreamer/data/ProteinGym_v1_ProtSSN_AF2",
+  "msa_path": "protein_dreamer/data/proteingym_data/DMS_msa_files/DMS_msa_files/A0A247D711_LISMN_full_b0.3.a2m",
+  "weights_path": "protein_dreamer/data/proteingym_data/DMS_msa_weights/DMS_msa_weights/A0A247D711_LISMN_b03_theta_0.2.npy",
+  "msa_query_header": "A0A247D711_LISMN/1-87",
+  "msa_start1": 1,
+  "msa_end1": 87,
+  "msa_aln_len": 87,
+  "msa_n_sequences": 57,
+  "neff": 8.936227394896125,
+  "log_neff": 2.1901135096185844,
+  "full_len": 87,
+  "pseudocount": 0.001,
+  "max_sequences": 0,
+  "reliable_cov_thresh": 0.5,
+  "reliable_neff_thresh": 50.0
+}
