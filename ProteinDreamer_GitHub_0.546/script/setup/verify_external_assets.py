@@ -6,11 +6,16 @@ import hashlib
 import json
 import os
 import shutil
+import sys
 from pathlib import Path
 
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from script.setup.verify_benchmark_inputs import check_dataset
 REF_HASHES = {
     "a8f498011532a74aa9fe556a50555a75e928c5837d19c06a87592ae04049b308",
     "80ac07373c3256d4fbd2112f8705f37ea761549d593549a740e5524e11e9f68b",
@@ -138,11 +143,7 @@ def main():
             ids = set((folds / "proteins.txt").read_text().splitlines())
             if ids != {r["DMS_id"] for r in rows}:
                 problems.append("Reference and frozen assay IDs differ.")
-        for row in rows:
-            assay = row["DMS_id"]
-            for path in (dataset / "DATASET" / assay / f"{assay}.pdb",
-                         dataset / "DATASET" / assay / f"{assay}.csv", flat / f"{assay}.csv"):
-                require(path)
+        problems.extend(check_dataset(rows, dataset, flat))
         check_caches(rows, msa, teacher, problems)
     foldseek = os.environ.get("FOLDSEEK_BIN", "foldseek")
     if not shutil.which(foldseek):

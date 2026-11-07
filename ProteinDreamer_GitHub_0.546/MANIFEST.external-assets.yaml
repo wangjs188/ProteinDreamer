@@ -42,6 +42,13 @@ included_benchmark_cache_assets:
   - PSAE_PICP2_Tsuboyama_2023_1PSE
   - Q6WV12_9MAXI_Somermeyer_2022
   historical_runtime_inputs_specified: true
+included_benchmark_structure_assets:
+  local_path: data/structures_0546
+  provenance: data/structures_0546/PROVENANCE.json
+  archive: data/structures_0546/structures.zip
+  assays: 217
+  source_project: protein_dreamerV2
+  source_dataset: data/ProteinGym_v1_SaProt_AF2_v2/DATASET
 required_external_assets:
   saprot_650m:
     local_path: model/SaProt_650M_AF2
@@ -75,7 +82,6 @@ required_external_assets:
       type: http
       urls:
       - https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_ProteinGym_substitutions.zip
-      - https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/ProteinGym_AF2_structures.zip
     provision_script: script/setup/download_proteingym_dataset.sh
     postprocess_script: script/setup/prepare_proteingym_saprot_dataset.sh
 optional_cache_build_inputs:

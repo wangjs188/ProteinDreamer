@@ -1,0 +1,2187 @@
+{
+  "version": 1,
+  "source_project": "protein_dreamerV2",
+  "source_dataset": "data/ProteinGym_v1_SaProt_AF2_v2/DATASET",
+  "structure_archive": "structures.zip",
+  "legacy_archive": {
+    "file": "ProteinGym_v1_AlphaFold2_PDB.zip",
+    "sha256": "b2f0b3c78abaf9ca71e527d0d2769f8911dd8d366fa56903a319e151b3d8a223"
+  },
+  "dms_archive": {
+    "url": "https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3/DMS_ProteinGym_substitutions.zip",
+    "sha256": "3a83766254ac9ac9984ec25cb73c6e010ea4418f5e35f143933e6b6e6473b921"
+  },
+  "assays": [
+    {
+      "DMS_id": "A0A140D2T1_ZIKV_Sourisseau_2019",
+      "file": "A0A140D2T1_ZIKV_Sourisseau_2019.pdb",
+      "sha256": "f087274067ee8c0cd1dafe4fcea9e18911c76bf44115c3e7f10f40a521595636",
+      "sequence_sha256": "0c9ce63d8defdc8dbafd62943efde4f7af9e48815678019fda84f3b1dafcc0bf",
+      "length": 3423,
+      "dms_sha256": "091475fae3881f44d1034aa9b7cdc83672132d26f458403f9caf6b3513ca64f2",
+      "variants": 9576,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "A0A192B1T2_9HIV1_Haddox_2018",
+      "file": "A0A192B1T2_9HIV1_Haddox_2018.pdb",
+      "sha256": "f658a971e93899aa7cee3b71643bb239acf2c2420cc46ae4adc74a9d9bd4678e",
+      "sequence_sha256": "589a3d75f09a5e1beeec23d1ed9eb52c3071477a0bb2299faba979098821ec0f",
+      "length": 852,
+      "dms_sha256": "a1b450607b04ff0b02ffef4c9474b2da840942cc9834102c308d65b1c95e80d3",
+      "variants": 12577,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "A0A1I9GEU1_NEIME_Kennouche_2019",
+      "file": "A0A1I9GEU1_NEIME_Kennouche_2019.pdb",
+      "sha256": "db33685ff6ee1f4902e29b9b450fad68eef6117f981488751b1e89342d8662cf",
+      "sequence_sha256": "1ee1a17e8cd3d6efc8c92229e6a027c48fb9e79636117d0b3c0f8db703c723af",
+      "length": 161,
+      "dms_sha256": "45792071e6411a7a44362ed7e797c1f03ec5e5bb3dc8d45f4a7945faefc04fb0",
+      "variants": 922,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "A0A247D711_LISMN_Stadelmann_2021",
+      "file": "A0A247D711_LISMN_Stadelmann_2021.pdb",
+      "sha256": "d8f5f5f7ad2d36bd3215d43c445e61d15c7fe981091f72c23da191fb4c8f3304",
+      "sequence_sha256": "86740b51441fbb7aa34956797b166824f67ed01a306a214c4f2d6618e92a451e",
+      "length": 87,
+      "dms_sha256": "1da11aa181d80da71d56aa141957ce2461c99d703dd4f09561bf084fb11b8838",
+      "variants": 1653,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "A0A2Z5U3Z0_9INFA_Doud_2016",
+      "file": "A0A2Z5U3Z0_9INFA_Doud_2016.pdb",
+      "sha256": "86cfcb480fb4e611611470cfcc2f97b468d4407854bc5661d3ca5242e9eeb5bc",
+      "sequence_sha256": "dd59e044f454224e885ae3cc5402958f0aa4956a721eb7cbf25a916b83bf2c7e",
+      "length": 565,
+      "dms_sha256": "f0debe381868716eb9c99d0148940c8fc19b72ef9b0e8d42de4dbb7b4a8b4258",
+      "variants": 10715,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "A0A2Z5U3Z0_9INFA_Wu_2014",
+      "file": "A0A2Z5U3Z0_9INFA_Wu_2014.pdb",
+      "sha256": "0a3c00a7bccb9b6d173b725baa87a5ffc5b70e6653ebfaa905431b11e23a900c",
+      "sequence_sha256": "dd59e044f454224e885ae3cc5402958f0aa4956a721eb7cbf25a916b83bf2c7e",
+      "length": 565,
+      "dms_sha256": "845e95c2a5cd00bf344489f0bc273a435ad35b011019ace0a1a7c716f83f4977",
+      "variants": 2350,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "A4_HUMAN_Seuma_2022",
+      "file": "A4_HUMAN_Seuma_2022.pdb",
+      "sha256": "a1293f57d160a0ebb9ff628cf4df387743936b45850b5005b24483938c9aa4e9",
+      "sequence_sha256": "0f79dd8c1ea278edbe797ca3ccb235de12e8d482492499a37a977a0692d3e49b",
+      "length": 770,
+      "dms_sha256": "40cfab98f3e3f8531421d54e625e01e22ef449faa22cd3004926f663ad7da932",
+      "variants": 14811,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "A4D664_9INFA_Soh_2019",
+      "file": "A4D664_9INFA_Soh_2019.pdb",
+      "sha256": "ce5c23a334074eac674f0d961be712d1ebee41bbacf8c8162d732ada30cba543",
+      "sequence_sha256": "40136fefba3e4d7f0518beb563d53d887d9d6f789a95f79b1aed68d23875b234",
+      "length": 759,
+      "dms_sha256": "f87133865c37de8a600eff6dde26b336f7c36a50877ebe08cb413fc78c376d25",
+      "variants": 14421,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "A4GRB6_PSEAI_Chen_2020",
+      "file": "A4GRB6_PSEAI_Chen_2020.pdb",
+      "sha256": "769858674e5cf903cc22af86e909b3053a5c54286ca67f70e8d2075b7f8d21fc",
+      "sequence_sha256": "0b0b51df4e62cf50009b178f94925d0a9b67a07a5aab4aab4b2858a07e9e4524",
+      "length": 266,
+      "dms_sha256": "5a76e81080f9702aeb2f2ce8c31a99c405904f5adc123186f336c379b24d5cf6",
+      "variants": 5004,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "AACC1_PSEAI_Dandage_2018",
+      "file": "AACC1_PSEAI_Dandage_2018.pdb",
+      "sha256": "5e1b1bcef5ab85e57ecd2bb0e8a94b914f181a42e0daf97279124547be831996",
+      "sequence_sha256": "ef675d9e8b4dd73f98b0e909e98d30847c9180371e1a038a0ec3ab16c3a26200",
+      "length": 177,
+      "dms_sha256": "1843360c41bfa7fbdbb81b5e4f52dc0bd4e7df9592a50693240ddefb9fe7c158",
+      "variants": 1801,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ACE2_HUMAN_Chan_2020",
+      "file": "ACE2_HUMAN_Chan_2020.pdb",
+      "sha256": "30dc3c6804c9ba9ed44e76cd2a1dc60121721f77f48eee7b6d5c74730f3cf23e",
+      "sequence_sha256": "87630d0ccd9e8de7f77cb47c03fd56d745d66fbdceb8a2149b3518b04d71e1ea",
+      "length": 805,
+      "dms_sha256": "419c9c9182a722d5b2d653d5a40d1ef8b74b970fbe7fe614c2d1231e58c6c30f",
+      "variants": 2223,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ADRB2_HUMAN_Jones_2020",
+      "file": "ADRB2_HUMAN_Jones_2020.pdb",
+      "sha256": "8b0c075f387108df6ba8373f0e14852608845818e8fb1328f221428e2dda2c92",
+      "sequence_sha256": "9abd88979dbbdef02b63e021dea98ae14cb976caa27c39878da46f99f3182fe5",
+      "length": 413,
+      "dms_sha256": "905941be7060b3ebf735d868327b34e1b7b9cbd47e87ee251c15e2328643a956",
+      "variants": 7800,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "AICDA_HUMAN_Gajula_2014_3cycles",
+      "file": "AICDA_HUMAN_Gajula_2014_3cycles.pdb",
+      "sha256": "a2774374b7c1f2886611457c8e859ae739345445fbfc277b4cc376dafbbcc7ed",
+      "sequence_sha256": "042b90517121a874d1afcd05e9b675b692777341b89bd3babe0c3a3cf49cad86",
+      "length": 198,
+      "dms_sha256": "03e154dd4fe004b718cc3749b8c0c0c2e651c71f6a846c37c8b8565746ab31d1",
+      "variants": 209,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "AMFR_HUMAN_Tsuboyama_2023_4G3O",
+      "file": "AMFR_HUMAN_Tsuboyama_2023_4G3O.pdb",
+      "sha256": "22286c73a8241ca643f887d6c0b8303a98a7843eed7f9d2b369ae74e4839f794",
+      "sequence_sha256": "ba8bd075361c9c8ffd9036a5afc650f92bfe2bc4f373e67d6c3c0927e49159d6",
+      "length": 47,
+      "dms_sha256": "dd911d925eca79329a496eb6cb7b181ab448e15db244daf1c1f9c01e8a704c2a",
+      "variants": 2972,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "AMIE_PSEAE_Wrenbeck_2017",
+      "file": "AMIE_PSEAE_Wrenbeck_2017.pdb",
+      "sha256": "b09b3a618da4f8daa6fbc1085bd0a1ea534a6e2d64339fc2800e66101481db66",
+      "sequence_sha256": "a1d4b2277cb8338e73199e8cca2c82adcde44390a20f687d63ac9b83535d9a10",
+      "length": 346,
+      "dms_sha256": "4a0f78f58de43fef84271f7afde01c360286b67e7456e16f88f4aeda253f0419",
+      "variants": 6227,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ANCSZ_Hobbs_2022",
+      "file": "ANCSZ_Hobbs_2022.pdb",
+      "sha256": "107e2b6689ccdc2867832629573566130d53e40d232cefbef84bb6fd128ad9e1",
+      "sequence_sha256": "f5f3ced5cb23db1b5a2e54d7ee2bc87cb6e092f4df3472b987697b0c8fffdc3e",
+      "length": 627,
+      "dms_sha256": "148830c383a7ce4fb839b2a9e9a402fd168640799303189a438362ebf3c5f164",
+      "variants": 4670,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ARGR_ECOLI_Tsuboyama_2023_1AOY",
+      "file": "ARGR_ECOLI_Tsuboyama_2023_1AOY.pdb",
+      "sha256": "1cb93bc1ad6d6592913c9385117249609e32e9babde82d889923c030e7517d8e",
+      "sequence_sha256": "66e4a5113d2b1fd7f4787a993a0d585f8168b60eb03b8cc6adfb96c3246268ef",
+      "length": 69,
+      "dms_sha256": "894695a2c624ebb4d5d8378f7096f97043260c882ebf3051f1e2ea02c8bf4f88",
+      "variants": 1287,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "B2L11_HUMAN_Dutta_2010_binding-Mcl-1",
+      "file": "B2L11_HUMAN_Dutta_2010_binding-Mcl-1.pdb",
+      "sha256": "baeed1e3cfff0ec6a999235ad221f49f39bb9f36682e68da2e1a289c60efc2db",
+      "sequence_sha256": "394475cc5b09e2e0e97717eb7efd8e3a9a9abe5840a270058955914e57651e87",
+      "length": 198,
+      "dms_sha256": "0768cc07f06ccfa28e20cfd2b1b0ffc60fbbb7d21174b5d2b3b780930c4b80be",
+      "variants": 170,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "BBC1_YEAST_Tsuboyama_2023_1TG0",
+      "file": "BBC1_YEAST_Tsuboyama_2023_1TG0.pdb",
+      "sha256": "3c28987d0525b502dfc549cda2898f4daa3904f1b64858e1d8e3e8ee2f12a789",
+      "sequence_sha256": "2525c4c880a947f46b4d75c90e17d85e653fcf632fc7dc9d0c64a75625d36e61",
+      "length": 64,
+      "dms_sha256": "d258240a3ab7088f5ac331abf661611369d9a6a06cf7778ab4ae285b824cfdab",
+      "variants": 2069,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "BCHB_CHLTE_Tsuboyama_2023_2KRU",
+      "file": "BCHB_CHLTE_Tsuboyama_2023_2KRU.pdb",
+      "sha256": "f94d37ba1d5cea05599bd2f0a4389e84e06c96bb2d06c71bc8e99e877cc95d5d",
+      "sequence_sha256": "52217b8f546a530e571458023a304c953759d573a4fd0d88ea5fa2c5d02f2ef6",
+      "length": 52,
+      "dms_sha256": "cf2d37654afffa925fdc56e019bd04e362b7c1c2218fe0d169dd77ccf356af9d",
+      "variants": 1572,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "BLAT_ECOLX_Deng_2012",
+      "file": "BLAT_ECOLX_Deng_2012.pdb",
+      "sha256": "db8c0a16d71079b0b4ce1b1b9b03e8f070599dc3f284be6e061f5fe03c6e867b",
+      "sequence_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+      "length": 286,
+      "dms_sha256": "c7dc7eaf9194a3dcb1a55474502b7dd6ed715df35cf55b1232cc5bc1a08fec2a",
+      "variants": 4996,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "BLAT_ECOLX_Firnberg_2014",
+      "file": "BLAT_ECOLX_Firnberg_2014.pdb",
+      "sha256": "2534bea97b1a701ceca9456a881e407e44f6566ced8a3a0c318f868e0dc58b60",
+      "sequence_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+      "length": 286,
+      "dms_sha256": "cfb814a5a5f81ad3f86d3203ac7f04dee3fd996e7c2c624b75656712ab5e54df",
+      "variants": 4783,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "BLAT_ECOLX_Jacquier_2013",
+      "file": "BLAT_ECOLX_Jacquier_2013.pdb",
+      "sha256": "db8c0a16d71079b0b4ce1b1b9b03e8f070599dc3f284be6e061f5fe03c6e867b",
+      "sequence_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+      "length": 286,
+      "dms_sha256": "dd7ee8d007a60d076b5631d225b481070e7919134c45b0cb3641f38f097e1018",
+      "variants": 989,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "BLAT_ECOLX_Stiffler_2015",
+      "file": "BLAT_ECOLX_Stiffler_2015.pdb",
+      "sha256": "db8c0a16d71079b0b4ce1b1b9b03e8f070599dc3f284be6e061f5fe03c6e867b",
+      "sequence_sha256": "c9c4ef97b0e66cb20b51ba90e5889a0467f8155ef356c7a5a74914f06b91d468",
+      "length": 286,
+      "dms_sha256": "82835aeecc2001c742434457102e02b5aaf38673274aaba00ac85e07bcd94f35",
+      "variants": 4996,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "BRCA1_HUMAN_Findlay_2018",
+      "file": "BRCA1_HUMAN_Findlay_2018.pdb",
+      "sha256": "a4a9cd1cb4a6317b44a2494e05a6ef87dbc9c13b5cf61a5df32f173321c58fed",
+      "sequence_sha256": "80d7199c8d1550a5ba8387043481c1acf0f070df410b47c2bc1375584b59bdf1",
+      "length": 1863,
+      "dms_sha256": "abde5d47e84b1feeac6c32b60c1f3b5d2881accf3ceccfbadccceeea73e81c43",
+      "variants": 1837,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "BRCA2_HUMAN_Erwood_2022_HEK293T",
+      "file": "BRCA2_HUMAN_Erwood_2022_HEK293T.pdb",
+      "sha256": "80aae249c836b21be9bee811dd9eeb2edc1272d58e36e98947a64209dbd31702",
+      "sequence_sha256": "02fa9247ce635b2ffc79a7b91b6153d47dc1cc75811ca5003d3f3f68537e673d",
+      "length": 3418,
+      "dms_sha256": "4fc00cf38e89679c11266fa651644c61297a3ac5eb36320fba3a715d5b64f8f2",
+      "variants": 265,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "C6KNH7_9INFA_Lee_2018",
+      "file": "C6KNH7_9INFA_Lee_2018.pdb",
+      "sha256": "9e04f4b0722f08829dc0f25b49244f0dc2d14d0213a3a9c9adba61b2563c368b",
+      "sequence_sha256": "3b98d980444bef3941477dad6f361a3b513d7ba1f3e882d09ed58ae03e1a7289",
+      "length": 566,
+      "dms_sha256": "1ecbdb073f4fc3a03cabd4ea339e24774f105438cbe00b224d57caa1f944919c",
+      "variants": 10754,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CALM1_HUMAN_Weile_2017",
+      "file": "CALM1_HUMAN_Weile_2017.pdb",
+      "sha256": "8c76559d72ffef1e2d240c3da0c55a3f58803c25bfd36fad0e0d5f66559133c2",
+      "sequence_sha256": "4a9f2f38a0afe61f9cd35d05788764536c1b394551a521687d0e537ad2760ff5",
+      "length": 149,
+      "dms_sha256": "cadc19e35beab1051c08e2961f0d8b9e97f5c5c3cd627a73ebffd0ebeabbcf5d",
+      "variants": 1813,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CAPSD_AAV2S_Sinai_2021",
+      "file": "CAPSD_AAV2S_Sinai_2021.pdb",
+      "sha256": "eaa1d788dd292a7d8016de2debbb5c621ae76fb3feaf2d104199ca832a7a1e4a",
+      "sequence_sha256": "3544f4fb2e91766d29fe30811a367b3c8c62676eda35e8e111c3f586d75fa82d",
+      "length": 735,
+      "dms_sha256": "fb05b6e80081005d2850e312b8dac907ea880009d487698bfcccab8187e24c55",
+      "variants": 42328,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CAR11_HUMAN_Meitlis_2020_gof",
+      "file": "CAR11_HUMAN_Meitlis_2020_gof.pdb",
+      "sha256": "0dcdaa401ceb25d30c4b064fdab9de40c0be56b7b6441bd4a9c50fdbabfab11a",
+      "sequence_sha256": "23f728c9d0c885671d837a1b3d5cbe24609c3cf38f54a65dc6eccf6291f5964f",
+      "length": 1154,
+      "dms_sha256": "8a900036b2fcdc98fe542d6f9762d74073ed6e808f59a698fcb709cc4748d7a3",
+      "variants": 2374,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CAR11_HUMAN_Meitlis_2020_lof",
+      "file": "CAR11_HUMAN_Meitlis_2020_lof.pdb",
+      "sha256": "0e7760f34e338872954d38c358e202d0c9f03c833616b0193e4d72d8f2d8a098",
+      "sequence_sha256": "23f728c9d0c885671d837a1b3d5cbe24609c3cf38f54a65dc6eccf6291f5964f",
+      "length": 1154,
+      "dms_sha256": "e4dd9b444028c7327b7498c590bf3c38aec5a4a81ded50adb396ec43980c78a1",
+      "variants": 2395,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CAS9_STRP1_Spencer_2017_positive",
+      "file": "CAS9_STRP1_Spencer_2017_positive.pdb",
+      "sha256": "dcffc24a204b94bdc09d6219731a694877c3ceecf13c0c85bd357e50cc67aadc",
+      "sequence_sha256": "0b7df5a184af9a6086e68775743c9f88f90fc81cf58931719cfa4b8e48d3f6ef",
+      "length": 1368,
+      "dms_sha256": "e7ecd32e91a43fba00f4dc3524a85907161b27d8d0e22434ea13ec015dcd500a",
+      "variants": 8117,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CASP3_HUMAN_Roychowdhury_2020",
+      "file": "CASP3_HUMAN_Roychowdhury_2020.pdb",
+      "sha256": "7f1c1c932b11341e619596dda7dd1879a12278f7d11bdeac2ed901fe1b1ba7e3",
+      "sequence_sha256": "db97616a542053832f57e3a6f83b89c1b80a10c679889c6e23b20550d1cd50a1",
+      "length": 258,
+      "dms_sha256": "644c81e2645712b95d66b5bf427cd8807226139ad0e7a681b7fb93fe0d6093a7",
+      "variants": 1567,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CASP7_HUMAN_Roychowdhury_2020",
+      "file": "CASP7_HUMAN_Roychowdhury_2020.pdb",
+      "sha256": "c601cb9e855f472098b750e236fd857f80eb3ca32666c4a9c13c9e0c1f7a9699",
+      "sequence_sha256": "213d8a15168ffdd0daf05c2809f9abb65a26baf3ef866577883b57e4897baad0",
+      "length": 281,
+      "dms_sha256": "35af85a5d7b5c8fbf500d3adeec9c83c69105f05dfe50ac7312247c81799d412",
+      "variants": 1680,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CATR_CHLRE_Tsuboyama_2023_2AMI",
+      "file": "CATR_CHLRE_Tsuboyama_2023_2AMI.pdb",
+      "sha256": "f3aec90484aa2b0c637d69a8c29de1912e7bb0e921c56d88c20698e62dbe82e4",
+      "sequence_sha256": "4a857f87c1521ea1e2f09320d79dce72b4b3e73b0074a1d690cefae199ecaf09",
+      "length": 72,
+      "dms_sha256": "3bd81e47967bf6a08ca11ea1f43a3da92f0558c36dea42c0545648c6cfc1faac",
+      "variants": 1903,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CBPA2_HUMAN_Tsuboyama_2023_1O6X",
+      "file": "CBPA2_HUMAN_Tsuboyama_2023_1O6X.pdb",
+      "sha256": "f3427ef9eff3af26bf3f3985b4f8e82db9c315e59c57fdb605a061ebc6ad5dc9",
+      "sequence_sha256": "1e3ef36e6f48278b72d807af43813f85842196d3427c0c282298d4504d882d08",
+      "length": 72,
+      "dms_sha256": "2b985cb6a9d2a06471acd4858487a772a53c887fc46045e56b73a43ecda4038d",
+      "variants": 2068,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CBS_HUMAN_Sun_2020",
+      "file": "CBS_HUMAN_Sun_2020.pdb",
+      "sha256": "bc46d05f7af3b5e9415fe41c188fc9fc4e7b27a85c03cc13151f799911a12004",
+      "sequence_sha256": "1e7cf97e465052ebc9f35a7bc9c299a509c5a73495086332a256b67cca3e5f78",
+      "length": 551,
+      "dms_sha256": "557b2682b74aedef28f1179540892e17be52de650551c2c6058c00311073a0a1",
+      "variants": 7217,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CBX4_HUMAN_Tsuboyama_2023_2K28",
+      "file": "CBX4_HUMAN_Tsuboyama_2023_2K28.pdb",
+      "sha256": "f6725a4671a8103721d7291d4ddd71adbb69a225f5872e7ab0c27df8332e33cb",
+      "sequence_sha256": "98af4350fbb819c7ff347e0a3d2cef6e324feb76ec19f8a98231519888ff80f2",
+      "length": 50,
+      "dms_sha256": "3ffc9405e5f6e7467cedffb845e91f17baba09862dbb6d1750f54230c8ad3a0d",
+      "variants": 2282,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CCDB_ECOLI_Adkar_2012",
+      "file": "CCDB_ECOLI_Adkar_2012.pdb",
+      "sha256": "805f6148d7a54c4bd87f7429eec0cdd0cad5cc884a0b263e53026885307baa38",
+      "sequence_sha256": "6e91f0a6f45fbc1a48f83962b1b5d9ed4c905a8cd214d0856b2468a0abde6a8e",
+      "length": 101,
+      "dms_sha256": "1d923e6a3b74fa78513559bd9faf703828b976feea2773213a1a9df0c4cbb71e",
+      "variants": 1176,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CCDB_ECOLI_Tripathi_2016",
+      "file": "CCDB_ECOLI_Tripathi_2016.pdb",
+      "sha256": "805f6148d7a54c4bd87f7429eec0cdd0cad5cc884a0b263e53026885307baa38",
+      "sequence_sha256": "6e91f0a6f45fbc1a48f83962b1b5d9ed4c905a8cd214d0856b2468a0abde6a8e",
+      "length": 101,
+      "dms_sha256": "e1e53efae0e7a2389dc2fd1042f4c186c138fc8d3190fc3b2a1ee41f3d286d5e",
+      "variants": 1663,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CCR5_HUMAN_Gill_2023",
+      "file": "CCR5_HUMAN_Gill_2023.pdb",
+      "sha256": "ff93811a0c0b0f046117e354d8094413c8e153d8c36d21f51079869ca3c0cd7f",
+      "sequence_sha256": "7474668859b42bd1928b660b8e0f3588621456c10ad704453a6877db09d44e85",
+      "length": 352,
+      "dms_sha256": "33f10e7e6552a017318b715ddb6936222375851639cd67093e7269fb1b5f97b3",
+      "variants": 6137,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CD19_HUMAN_Klesmith_2019_FMC_singles",
+      "file": "CD19_HUMAN_Klesmith_2019_FMC_singles.pdb",
+      "sha256": "3e9655bce0b102ffad11ae740aefd82779a7fd64d7ea93e6cb71c51342c456a7",
+      "sequence_sha256": "955c8406920379b400b21284c1ef1af93f34653cb8cc11fdf61e3aa84ef2b15e",
+      "length": 556,
+      "dms_sha256": "c07f0c1001b4ba527affc7674274e116f8295d128a5e1896fb2f0fa15c25eaea",
+      "variants": 3761,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CP2C9_HUMAN_Amorosi_2021_abundance",
+      "file": "CP2C9_HUMAN_Amorosi_2021_abundance.pdb",
+      "sha256": "30a7e07e07779f62409e4aec779be5ce092b9f759066cd2a9fd6d1012a52e5d2",
+      "sequence_sha256": "3f891626b6684fc43355f4146b0d0aad6273d9d39670b42340a49cff79fa8d24",
+      "length": 490,
+      "dms_sha256": "1f4ba7b86e88709783b2e68b04c82fe1f305181c164edfff6391369833ad62ad",
+      "variants": 6370,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CP2C9_HUMAN_Amorosi_2021_activity",
+      "file": "CP2C9_HUMAN_Amorosi_2021_activity.pdb",
+      "sha256": "30a7e07e07779f62409e4aec779be5ce092b9f759066cd2a9fd6d1012a52e5d2",
+      "sequence_sha256": "3f891626b6684fc43355f4146b0d0aad6273d9d39670b42340a49cff79fa8d24",
+      "length": 490,
+      "dms_sha256": "2373e6a5aea9ae6431cbfd519733a3ccd5be2c109a60e5e2d59cc5ff39eb6b27",
+      "variants": 6142,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CSN4_MOUSE_Tsuboyama_2023_1UFM",
+      "file": "CSN4_MOUSE_Tsuboyama_2023_1UFM.pdb",
+      "sha256": "87a076c0528f6b428812a5e129d0c27abbc370ee0ea36776ac57d58aeceaa153",
+      "sequence_sha256": "a69eaa08212aac44b625129ba0a4c61c8ea2124d3b990c750e31f75b68ee2495",
+      "length": 72,
+      "dms_sha256": "c13a081a50a9a53d0340298fdbf6004ce0e54539f22a25f5cea1d6733fbafbe7",
+      "variants": 3295,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "CUE1_YEAST_Tsuboyama_2023_2MYX",
+      "file": "CUE1_YEAST_Tsuboyama_2023_2MYX.pdb",
+      "sha256": "8e9b675c7571f9f5c88c76d3302896b8bb243f102dd56dc00accde3f2dbb0519",
+      "sequence_sha256": "b2392b0d2a495db39e70d8421336138428327b7cd074191fa13eaac4e4209ce9",
+      "length": 52,
+      "dms_sha256": "82b0e01f03cdf1adaf0ec86df80f2663321213621e3f5829600459046989d4a2",
+      "variants": 1580,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "D7PM05_CLYGR_Somermeyer_2022",
+      "file": "D7PM05_CLYGR_Somermeyer_2022.pdb",
+      "sha256": "8d0b18f5ba178e4004f827f325bc8eadc79974695405048f2b951eb737560e4c",
+      "sequence_sha256": "4d9e0f52986dfa520a66afcf32d1d335eaac5009dd8fe6bcf3d2579a218e47d9",
+      "length": 235,
+      "dms_sha256": "8907f5694d0676c39f06b5ec95c1606c0fdb41632b95e3c33790a6884317b782",
+      "variants": 24515,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "DLG4_HUMAN_Faure_2021",
+      "file": "DLG4_HUMAN_Faure_2021.pdb",
+      "sha256": "0017df96e7891ad15ba39d85b147d4c63781fa3a792c381de1ef27ec4a9d3748",
+      "sequence_sha256": "eaa4e0dc7e76ccef71fba73be558dd7ae0cd85fd3912a261f0311d3d647b0d6e",
+      "length": 724,
+      "dms_sha256": "07d58d0222260ebc431f906a523cee11e5a0f90b020ecdbbc1c393e793053370",
+      "variants": 6976,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "DLG4_RAT_McLaughlin_2012",
+      "file": "DLG4_RAT_McLaughlin_2012.pdb",
+      "sha256": "3080016170bed8b1613141c18b8476cb7fda861b87b4ba3233d80de561b10c34",
+      "sequence_sha256": "58cc4abb44f5cbd0c63d04bec2fcfe7e309f069828cdb26eef533a05fa4b09b8",
+      "length": 724,
+      "dms_sha256": "e335c324197019ddfdb97d5d61039f8a0912175d02e583c1a5e2dde3a5d5968f",
+      "variants": 1576,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "DN7A_SACS2_Tsuboyama_2023_1JIC",
+      "file": "DN7A_SACS2_Tsuboyama_2023_1JIC.pdb",
+      "sha256": "3bf04b4726b711b51afdfb174b8a36e8ff665d5fc7ef3d43a9b43e216a1f71f5",
+      "sequence_sha256": "8edf0f5b4fd2e640716fcb35278a6a90f8b8cd4c910fd251223ad29c63ebc544",
+      "length": 55,
+      "dms_sha256": "ea9da969ee6995618af562576940a99a98e89bb6d33ccf7bc6d584323a5b9b92",
+      "variants": 1008,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "DNJA1_HUMAN_Tsuboyama_2023_2LO1",
+      "file": "DNJA1_HUMAN_Tsuboyama_2023_2LO1.pdb",
+      "sha256": "0a7f091c03df9280749684d1cde0f470e46c4365fae4ea2eaa3a74e4230eb4ac",
+      "sequence_sha256": "0d16c663f2eff74cc073caf31e803e63ea2ba35ca5b94b9a809434a252995a64",
+      "length": 65,
+      "dms_sha256": "15003de1e5af995bd284b0e4f02a4546f46211774727b4c9b988ee1f982bebe7",
+      "variants": 2264,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "DOCK1_MOUSE_Tsuboyama_2023_2M0Y",
+      "file": "DOCK1_MOUSE_Tsuboyama_2023_2M0Y.pdb",
+      "sha256": "394eaf8c80e4f774a6d060b26dd81753670fb1d259f0090834901ca504c430e7",
+      "sequence_sha256": "46962bab94c5ab950729fe64da9d7ad0d86cae4ee4ee4b45bd4fb86caa1433ce",
+      "length": 66,
+      "dms_sha256": "29f1db021554413d49b810bf0c97972cf7085b868335471cf3536ca342de0fdc",
+      "variants": 2915,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "DYR_ECOLI_Nguyen_2023",
+      "file": "DYR_ECOLI_Nguyen_2023.pdb",
+      "sha256": "fd1b8b955a26b9aebd37b944ea209dd8f330479fb2a12e251ba95674a34a50dc",
+      "sequence_sha256": "e193a4b689d70ba3b38c9f812a9b212e4ec24cec07f6c90f0600341c8b0c77f5",
+      "length": 159,
+      "dms_sha256": "c47b72c8880cd106fd68ef8d226e1c0811b4410d819e2553ecb4b9f43032a49b",
+      "variants": 2916,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "DYR_ECOLI_Thompson_2019",
+      "file": "DYR_ECOLI_Thompson_2019.pdb",
+      "sha256": "fd1b8b955a26b9aebd37b944ea209dd8f330479fb2a12e251ba95674a34a50dc",
+      "sequence_sha256": "e193a4b689d70ba3b38c9f812a9b212e4ec24cec07f6c90f0600341c8b0c77f5",
+      "length": 159,
+      "dms_sha256": "7e55a3fe2100370734dfc0340de705fbd3bcad0ff7310123765dbcf3de9f9fd2",
+      "variants": 2363,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ENV_HV1B9_DuenasDecamp_2016",
+      "file": "ENV_HV1B9_DuenasDecamp_2016.pdb",
+      "sha256": "987c8673e7d8c5b25b4acb65c55f7fa2322f00df6f9c95616170c139dcddc2a6",
+      "sequence_sha256": "cef7afcb180bc76be08b66397b59309ca40af72304f3b138ced0c6512ef49208",
+      "length": 853,
+      "dms_sha256": "2f9199dad5f3c3ba94de07d2b4c14979278678909ecfafd099d077b2e952953c",
+      "variants": 375,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ENV_HV1BR_Haddox_2016",
+      "file": "ENV_HV1BR_Haddox_2016.pdb",
+      "sha256": "48a6f5cbee93947bfffea4b1dbd23409d883d25b3bd7142f2851d9763dc35a89",
+      "sequence_sha256": "be4105b663987f7c9629afca0ffd4078ab641940c8bfc4c05ba3253077ef892d",
+      "length": 861,
+      "dms_sha256": "1c251659e1868a057dd84cdb810cce15404ecdf195f20d39fb3025fdf02a8ba8",
+      "variants": 12863,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ENVZ_ECOLI_Ghose_2023",
+      "file": "ENVZ_ECOLI_Ghose_2023.pdb",
+      "sha256": "7e3bed1bc961c93362211fd24180e44f66dbdbfd78ac07983298f33e7c51cbb3",
+      "sequence_sha256": "8b63e161229a988015d53cc39023e3b4664f32cf7710b6820d8ea83eddfc71fb",
+      "length": 60,
+      "dms_sha256": "99cea4f638ad1b5c069e7b0c4385e7feb362c65322faf840c3c29ccebe665acd",
+      "variants": 1121,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "EPHB2_HUMAN_Tsuboyama_2023_1F0M",
+      "file": "EPHB2_HUMAN_Tsuboyama_2023_1F0M.pdb",
+      "sha256": "22708f4b5cde37dfecdbce3b138bf1dbaaa79c76b3675a194ea1a1360be6466b",
+      "sequence_sha256": "27e98b8983705757c0c60405efdb8f475cdf4c799d33c4f7345c6e64118e3318",
+      "length": 66,
+      "dms_sha256": "d00c87c40458e956d53a1ecf879ef845c5167a861aacfaa1fb74115efc831dfd",
+      "variants": 1960,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ERBB2_HUMAN_Elazar_2016",
+      "file": "ERBB2_HUMAN_Elazar_2016.pdb",
+      "sha256": "d4f2add2c98deb23f8f6fa841a68b5b7231cdd6b15ba6eb5e1cc22cc4d930e2d",
+      "sequence_sha256": "a5f256fc653515d110f6dd48ad55b8ea21bf6d45af33b7f5c182c6c31455b636",
+      "length": 1255,
+      "dms_sha256": "e1190b949da4835344be4069c98b336825a6975e2f0f169221772070007bec0d",
+      "variants": 326,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ESTA_BACSU_Nutschel_2020",
+      "file": "ESTA_BACSU_Nutschel_2020.pdb",
+      "sha256": "c642a904a046e82a9474487f0e8e743e948a302a0b1195c79f842d2022da8f02",
+      "sequence_sha256": "8a9ea05c5d2953b5b143b591bea6014aec631be96a4842b274fb3e91ee4907d7",
+      "length": 212,
+      "dms_sha256": "5bc2144aa9c30d51f756411559916aeca781e3018519b76795c2e8975fda3382",
+      "variants": 2172,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "F7YBW8_MESOW_Ding_2023",
+      "file": "F7YBW8_MESOW_Ding_2023.pdb",
+      "sha256": "2b8e47c0521bc97a736227d4a7fc3d2f4ceb47932a7e3842cdae4a3d4c53f70c",
+      "sequence_sha256": "4956f0edf104dead9777f85ecc4b3c5ed53f7b0d25edb79c6c4cceca251b9238",
+      "length": 93,
+      "dms_sha256": "eecdd42033acd58587bd6fc65195b071da3ebbf44e88b81597471137f1dd973c",
+      "variants": 7922,
+      "legacy_archive_match": false
+    },
+    {
+      "DMS_id": "F7YBW8_MESOW_Aakre_2015",
+      "file": "F7YBW8_MESOW_Aakre_2015.pdb",
+      "sha256": "c3c351048c9a7a9bba96b51174a2f1844979c9e720357b778bfdcfe97829dfb0",
+      "sequence_sha256": "4956f0edf104dead9777f85ecc4b3c5ed53f7b0d25edb79c6c4cceca251b9238",
+      "length": 93,
+      "dms_sha256": "40df835c5cb31d4aa364e61e8fe547af07b8c8f285d2e747934e32178f43011d",
+      "variants": 9192,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "FECA_ECOLI_Tsuboyama_2023_2D1U",
+      "file": "FECA_ECOLI_Tsuboyama_2023_2D1U.pdb",
+      "sha256": "baa8e10fb75c5af2d9f487807da09581a8d34d70aec56ce6c37159f52e6c0a65",
+      "sequence_sha256": "9db12e3352b4369f97639f6efdec429bb874a2c3c8e98454ee3413c7b2b41d19",
+      "length": 72,
+      "dms_sha256": "3cb3702b157942e751b52791192ca3fc98122533783d788e8613eb7b991663d4",
+      "variants": 1886,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "FKBP3_HUMAN_Tsuboyama_2023_2KFV",
+      "file": "FKBP3_HUMAN_Tsuboyama_2023_2KFV.pdb",
+      "sha256": "ffa636ca3f4e3df8bbd600c3f9e2083e9e88959556581faf5da2f1d3b4e59f94",
+      "sequence_sha256": "22de585899af7e94250a30dd5566bc1d6e23307ea5a4131ea4d3746b07510a5f",
+      "length": 69,
+      "dms_sha256": "7a6f0deb67126a95bd5ba22d51c4a3b90e3e209d6e68966e5cb22fa8d5118e94",
+      "variants": 1237,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "GAL4_YEAST_Kitzman_2015",
+      "file": "GAL4_YEAST_Kitzman_2015.pdb",
+      "sha256": "bd91e4c410094b2c485fb60849c6e760daac0890e7eb592d611504f90ebd7537",
+      "sequence_sha256": "67adc73e545d5fa5e29591ac740f6f2748ed3cf5ea7e2b62a8c617285e893dba",
+      "length": 881,
+      "dms_sha256": "f75546d24a1443efd7c65948a20bc04c56d6e9769ffb0b0537da74228e9956cd",
+      "variants": 1195,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "GCN4_YEAST_Staller_2018",
+      "file": "GCN4_YEAST_Staller_2018.pdb",
+      "sha256": "307111c9f98a6bb4ee67bb35e31134df80141e306c780054c102c195785ca9eb",
+      "sequence_sha256": "6cd639f4ddcf6098642b464e1a607723a8b57278c415ee52cb25f481a8953305",
+      "length": 281,
+      "dms_sha256": "32e182d5e26898b80b8dbcf5b3931e6f81fe91e53cfc5974b058db8354d10f20",
+      "variants": 2638,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "GDIA_HUMAN_Silverstein_2021",
+      "file": "GDIA_HUMAN_Silverstein_2021.pdb",
+      "sha256": "5813089895a982fdeebc583e929558b34c44b4cc1db06566a18ff2af232cf7d4",
+      "sequence_sha256": "151cd778d4fb53f442fb1fcee3b51f9aea5a707a54a4ea4f4fafb2353492727f",
+      "length": 447,
+      "dms_sha256": "5763703fa35d8be84d434cd930fa3d3b4471aee8e65e4064db85434d9fb63edb",
+      "variants": 1154,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "GFP_AEQVI_Sarkisyan_2016",
+      "file": "GFP_AEQVI_Sarkisyan_2016.pdb",
+      "sha256": "3c99400ed4b14eed159b3c4a1cda79fb245ecee5b67e5f0a816b0df78039cdd0",
+      "sequence_sha256": "9be57dbaa8e6d8b324cd1a84684901808c38b3b84f940c08e00a0323f4215e9f",
+      "length": 238,
+      "dms_sha256": "05b97d36a23363331b271edc56f1496b9a539109fd006e65532f91e9903a0838",
+      "variants": 51714,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "GLPA_HUMAN_Elazar_2016",
+      "file": "GLPA_HUMAN_Elazar_2016.pdb",
+      "sha256": "bc6b51dd83f394768665245a2ef09c36b18cb79b1b4efdfd0cf224d5d9ca69f2",
+      "sequence_sha256": "89d0c58de71d9c8a8ffb3844dbd53e67670b23b1338ac8a2b6b20b47b0b1df44",
+      "length": 150,
+      "dms_sha256": "ed4c4cd92f86da4a3e4e0e15eabcdb227e3cfbbc6fe0dce4709f1db0ff933912",
+      "variants": 245,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "GRB2_HUMAN_Faure_2021",
+      "file": "GRB2_HUMAN_Faure_2021.pdb",
+      "sha256": "864332d4f63bd0385969c74882cc3440c66856288bf7ef75536d6387dc8204c1",
+      "sequence_sha256": "da732b5e8d2d70df356a38fcb7dcb1f2c8c200f00268f7978afe49f9a7b1783d",
+      "length": 217,
+      "dms_sha256": "0a60d0e1855ebe79ad2d03aec5e4c5ae933f3f96d338d34c184ae7366fffc5e6",
+      "variants": 63366,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HCP_LAMBD_Tsuboyama_2023_2L6Q",
+      "file": "HCP_LAMBD_Tsuboyama_2023_2L6Q.pdb",
+      "sha256": "1678795d806219f20620441b6481284fbfc04d156ac573a9aef0b521795bb8c2",
+      "sequence_sha256": "7e7e14808e7fb18df489c477979e76cf55eb47147a8b96e908a0079a514fb626",
+      "length": 55,
+      "dms_sha256": "16cf98248e7890992a004bc9af6f292dbd5c1567101a473108085a46b02cdca0",
+      "variants": 1040,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HECD1_HUMAN_Tsuboyama_2023_3DKM",
+      "file": "HECD1_HUMAN_Tsuboyama_2023_3DKM.pdb",
+      "sha256": "ff0c59ab0ac9852915e50eef9e9912f3457df302f7e62860aa7631796ad036de",
+      "sequence_sha256": "d11d776b9031b71dc023044e5b734a7407ac498d7147976c36ab7b627cae7e75",
+      "length": 72,
+      "dms_sha256": "e635dfa378333225310ad5733c17ba05d75c5d4e457f6044ab45e3f838336efd",
+      "variants": 5586,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HEM3_HUMAN_Loggerenberg_2023",
+      "file": "HEM3_HUMAN_Loggerenberg_2023.pdb",
+      "sha256": "c87ada4f918677ed5ca6501351a6b0e3a52db9c20b31c2d8ca5abd5a44b02d25",
+      "sequence_sha256": "0357a836b3f2fc54e934b9cab6530110c24fa0bccf95d2ad315b1f3c477685a3",
+      "length": 361,
+      "dms_sha256": "0595215d5507a81c640743231413964505daba227f610b80da96a6b6ad2e7dbe",
+      "variants": 5689,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HIS7_YEAST_Pokusaeva_2019",
+      "file": "HIS7_YEAST_Pokusaeva_2019.pdb",
+      "sha256": "d851e12abe606a98a11bd094f5b5fd065cdc33f021b0708716199d09ae39f925",
+      "sequence_sha256": "d8a86cdeaf8e8dc92742780d24c9526abc19a05518c02a1e730d0ac8d1c7043f",
+      "length": 220,
+      "dms_sha256": "14e86d824a64557dbd3d1f3ed79976cb538848d49db90f29b169ca56390f1f3e",
+      "variants": 496137,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HMDH_HUMAN_Jiang_2019",
+      "file": "HMDH_HUMAN_Jiang_2019.pdb",
+      "sha256": "5242b55af814269f3b1ecd900ede32d3e0dd6052ae59903ceccf2644a85e3d0a",
+      "sequence_sha256": "53ca26e9a4eeb6dc55931307bed794b7dde0c3f5bdbdfb91ea34506062a3e318",
+      "length": 888,
+      "dms_sha256": "4ad060808d1ba6f740428148afd230450662113f77292328f0a0d40d679b27c1",
+      "variants": 16853,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HSP82_YEAST_Cote-Hammarlof_2020_growth-H2O2",
+      "file": "HSP82_YEAST_Cote-Hammarlof_2020_growth-H2O2.pdb",
+      "sha256": "7d037ea97fd0a8a48cfe8d1c123f61947cf528b77d15d5cef0a697283bdf0eac",
+      "sequence_sha256": "a23da6027d1547e2d928653e928dbae270c9d383a5a4ebcb71b94c034da8d627",
+      "length": 709,
+      "dms_sha256": "61002bac940dace358d5abee5cb6227d054d88b6fe16b3155967a5f00d3edf70",
+      "variants": 2252,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HSP82_YEAST_Flynn_2019",
+      "file": "HSP82_YEAST_Flynn_2019.pdb",
+      "sha256": "7d037ea97fd0a8a48cfe8d1c123f61947cf528b77d15d5cef0a697283bdf0eac",
+      "sequence_sha256": "a23da6027d1547e2d928653e928dbae270c9d383a5a4ebcb71b94c034da8d627",
+      "length": 709,
+      "dms_sha256": "1e22ec6dd5eb2f43d7875e14619b3db661b048bbf00f69a65dc6d9a2c5447bc5",
+      "variants": 13294,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HSP82_YEAST_Mishra_2016",
+      "file": "HSP82_YEAST_Mishra_2016.pdb",
+      "sha256": "0cd39beedad90e83162abe639f1e8ca8cf87a190eb48dcfd6ffbedc348ed47f9",
+      "sequence_sha256": "a23da6027d1547e2d928653e928dbae270c9d383a5a4ebcb71b94c034da8d627",
+      "length": 709,
+      "dms_sha256": "4e69c9dada436a16e7f931106c3f9b124ac6d375ce6143e21a026c5e9bce73e8",
+      "variants": 4323,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HXK4_HUMAN_Gersing_2022_activity",
+      "file": "HXK4_HUMAN_Gersing_2022_activity.pdb",
+      "sha256": "7ebf6e4a21ba23627d1351cd238366df69e0a95e07487055c1b6e0066d406aba",
+      "sequence_sha256": "48ae6d5533dd7faf386b768e3da89f009ee6678a330e57c47be85385d5aca664",
+      "length": 465,
+      "dms_sha256": "3cb5c29a2bdbc052601e6fc03f7f55ef33c6b0fedee808deff2e8aef79d17b69",
+      "variants": 8570,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "HXK4_HUMAN_Gersing_2023_abundance",
+      "file": "HXK4_HUMAN_Gersing_2023_abundance.pdb",
+      "sha256": "a517cb864a224640981bad2731f8ab5540652a8831a0ede2d03a2dcc654b2f54",
+      "sequence_sha256": "48ae6d5533dd7faf386b768e3da89f009ee6678a330e57c47be85385d5aca664",
+      "length": 465,
+      "dms_sha256": "90d7129bbbb67ad58765b3f7df06158344f33aff1f2ce1284ebb00a15fea2438",
+      "variants": 8396,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "I6TAH8_I68A0_Doud_2015",
+      "file": "I6TAH8_I68A0_Doud_2015.pdb",
+      "sha256": "b80d3194727c97d2275de030901f24e312fdb075e2d212d042c010ea6bb7f6ae",
+      "sequence_sha256": "047e14194ab8a5f678415efb1c98c92684e67e02626bf959de09f569c022f335",
+      "length": 498,
+      "dms_sha256": "9ebfd6958f5171cbe85814276835052d177c820feec72e81c2156ae2428bfda4",
+      "variants": 9462,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "IF1_ECOLI_Kelsic_2016",
+      "file": "IF1_ECOLI_Kelsic_2016.pdb",
+      "sha256": "e0af264353d0786ccee2e74b4ef5082175038899b6f74938bd60bb4c803369da",
+      "sequence_sha256": "7693d167bfae34fc5345154a75e21dc6db164f9d80a2c79eb79999814eb0b62f",
+      "length": 72,
+      "dms_sha256": "5faadfd056c0ba9b17e971848ed47ac392ac4a0374c3550cdd0292d808076e06",
+      "variants": 1367,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ILF3_HUMAN_Tsuboyama_2023_2L33",
+      "file": "ILF3_HUMAN_Tsuboyama_2023_2L33.pdb",
+      "sha256": "da020c8c2b2f57acc76c1d93f5cf02e357f8a9fbec7356dee68735416d78e0ac",
+      "sequence_sha256": "3aa0de5eb3e584da4d5e8c760c2adcf342e07fdcf39a8735009630cb2c3a9c76",
+      "length": 71,
+      "dms_sha256": "1170310e8c3534917d983e70d5efcebabfb79f719c68fbeb419c13ff8aecf9cd",
+      "variants": 1329,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ISDH_STAAW_Tsuboyama_2023_2LHR",
+      "file": "ISDH_STAAW_Tsuboyama_2023_2LHR.pdb",
+      "sha256": "9d9d82f3dcd932adc791a0208916e3c4f31f07aa56eb44fb774df024a978b426",
+      "sequence_sha256": "334df5d4e103746412eb4fe15c67c4d050bf175c603ce0498d913e0d2858cbaf",
+      "length": 55,
+      "dms_sha256": "563ccd33af1a55beef1b32892d811a84fec5f71b057eafaf52c3699a001623df",
+      "variants": 1944,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "KCNE1_HUMAN_Muhammad_2023_expression",
+      "file": "KCNE1_HUMAN_Muhammad_2023_expression.pdb",
+      "sha256": "f65f449175ddaf25524a56c3e85e2597cbe838125e8586442b0c8c42585ba24f",
+      "sequence_sha256": "1f7b8c1a071fab39209fea0ac8ac89c9c520f149dd8f889f497fcf4f694fd479",
+      "length": 129,
+      "dms_sha256": "145d094f06d1c35f3775983cec566f407dc5d3730a0fcce408d22d07d598005e",
+      "variants": 2339,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "KCNE1_HUMAN_Muhammad_2023_function",
+      "file": "KCNE1_HUMAN_Muhammad_2023_function.pdb",
+      "sha256": "67eb0d5b460212e8d8ba58a702d80657aed247a9d998c7803172ae6d345ecc40",
+      "sequence_sha256": "1f7b8c1a071fab39209fea0ac8ac89c9c520f149dd8f889f497fcf4f694fd479",
+      "length": 129,
+      "dms_sha256": "0032d9ff5d8d19459b131f6432969ffb716c15b641dd565147aefec267d00b89",
+      "variants": 2315,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "KCNH2_HUMAN_Kozek_2020",
+      "file": "KCNH2_HUMAN_Kozek_2020.pdb",
+      "sha256": "9e06653110fb8a989a9a9e4a6c2109e2604c74e199abef3a165d54333c96420c",
+      "sequence_sha256": "287332153da38b59cc1be9554cc3a29f14d3b9e2a33150b4d54137773b22d1f7",
+      "length": 1159,
+      "dms_sha256": "240011099f76ac97f9997e34bc6f27fb5c3ea030d56a9c77eb8057051ccf5b4c",
+      "variants": 200,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "KCNJ2_MOUSE_Coyote-Maestas_2022_function",
+      "file": "KCNJ2_MOUSE_Coyote-Maestas_2022_function.pdb",
+      "sha256": "4bcf5e3c57aa2a4fb91dfcb8d820d7b3b4e1eaa9c9690ed34139f2e103ad8466",
+      "sequence_sha256": "88bfbcddd595e33da25f5ab224ce2b41cfaeacf488c7a7a51178d24d24e3b575",
+      "length": 428,
+      "dms_sha256": "75f07fa60b83f41d92ac42738cc6a3dfc7605cde6605add499efd400f4882b92",
+      "variants": 6963,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "KCNJ2_MOUSE_Coyote-Maestas_2022_surface",
+      "file": "KCNJ2_MOUSE_Coyote-Maestas_2022_surface.pdb",
+      "sha256": "e0477468f47f58f8227320bce497e24a917348bbf98d02f73ddaf9b435fefecd",
+      "sequence_sha256": "88bfbcddd595e33da25f5ab224ce2b41cfaeacf488c7a7a51178d24d24e3b575",
+      "length": 428,
+      "dms_sha256": "9d36f57185d11ad98aa3f69ca014c15682dbdb33c4c3c0d1ec0b3ea28ed8c92d",
+      "variants": 6917,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "KKA2_KLEPN_Melnikov_2014",
+      "file": "KKA2_KLEPN_Melnikov_2014.pdb",
+      "sha256": "3345b71c82d6ce84242c260e7603bf4f4b54253358afd41e78b60cfd5af35a87",
+      "sequence_sha256": "acbf1fe51a97a2e90c2bcd13adabec985a63c501fae0f2a2cfcb46258abda56e",
+      "length": 264,
+      "dms_sha256": "ca0c87984c1aba9f8f2e3976c0956eabf6c57ef0a6e4d73ded35171eeb914437",
+      "variants": 4960,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "LGK_LIPST_Klesmith_2015",
+      "file": "LGK_LIPST_Klesmith_2015.pdb",
+      "sha256": "64422ac8cab1efcbb873a90ced9de01007db86d0c8d93809ca430b5c6c0230a0",
+      "sequence_sha256": "58192f44a046f4d4aebdc02932369fe98654f17cf5656e564d553efda08ff5e4",
+      "length": 439,
+      "dms_sha256": "8214039bf1ad2738d45b6d0e1148a5bf82545985e4becd616d139f158dc86fcc",
+      "variants": 7890,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "LYAM1_HUMAN_Elazar_2016",
+      "file": "LYAM1_HUMAN_Elazar_2016.pdb",
+      "sha256": "c061490c8dedeeb39bf7448c1e715d2584e39a1588c190689a35b8e5d1559c1f",
+      "sequence_sha256": "28ea52e4a2c9c8a43fc8f2ae203a75cf1c7e0bc0aec5158bcfa6c333d613342d",
+      "length": 372,
+      "dms_sha256": "147e6cd09ad0e23d228ab280a2cf16ca24dd2d3e0ade8efe4004ae8c2bcd2f1b",
+      "variants": 359,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MAFG_MOUSE_Tsuboyama_2023_1K1V",
+      "file": "MAFG_MOUSE_Tsuboyama_2023_1K1V.pdb",
+      "sha256": "a2b16d6261184e0ea5ffb4dd471a5c3959823d698b924f55314cb6626321e719",
+      "sequence_sha256": "da41ceaba9f1c4fd6d9da3e8e6f439c9c2eabbd1b6a5fd2d6e847863419cc28c",
+      "length": 41,
+      "dms_sha256": "1555989e268daf987d0183c4d2eeb54d30301c5d8fda4a372437429ea61777a2",
+      "variants": 1429,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MBD11_ARATH_Tsuboyama_2023_6ACV",
+      "file": "MBD11_ARATH_Tsuboyama_2023_6ACV.pdb",
+      "sha256": "ba9908d922e8b36172bd0ccfca1c625753225f5ba6b2a7fc80cbbead93d39776",
+      "sequence_sha256": "e6d25f46034518bd87fba45a1b2a5b07fd5ed9d8c731cc42ca22457cccf5ac58",
+      "length": 66,
+      "dms_sha256": "c57a3c2fdd8e6548c51b1240b98ba7274a5738cb6c4328c90ac135ea62521d0b",
+      "variants": 2116,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MET_HUMAN_Estevam_2023",
+      "file": "MET_HUMAN_Estevam_2023.pdb",
+      "sha256": "069fbc901181e52e1a4f0d310cffa94bc4258a2f792f30cc719fc84dcec39dc7",
+      "sequence_sha256": "81df7bdf1ca228f0a9664346b33823ab74dd126175c1825f28d1ed936fa77f69",
+      "length": 287,
+      "dms_sha256": "75d3a221eddf9fbb8cbb2236fe8f18fbfd05dc7e15e15fc1d2ebf67f29572578",
+      "variants": 5393,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MK01_HUMAN_Brenan_2016",
+      "file": "MK01_HUMAN_Brenan_2016.pdb",
+      "sha256": "99aa36e2231e155e3de34ee238054975c12276bc281d09c3268599f0c0d36b3e",
+      "sequence_sha256": "1670aefbe2d9baf3412d23252180a37554c5647a0ad5cb1fbd06bb18417aee49",
+      "length": 360,
+      "dms_sha256": "a668d66a330a9c3f8a3d15481907732b4d3b56d0107e3da31242e97211da84fd",
+      "variants": 6809,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MLAC_ECOLI_MacRae_2023",
+      "file": "MLAC_ECOLI_MacRae_2023.pdb",
+      "sha256": "fc809eff5f1fdc7a128613b7d403289b0f2af73efb43421052a1b48ad06d1be0",
+      "sequence_sha256": "ae25940acad7662fe6055d8ad9219b7b2bc19a4e98fa934a31161c688f47fdfd",
+      "length": 211,
+      "dms_sha256": "e1e873acdbbf6d75da2981d61d4faf2e9286d244e5c5b80ccf10bfe5bfd3af2d",
+      "variants": 4007,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MSH2_HUMAN_Jia_2020",
+      "file": "MSH2_HUMAN_Jia_2020.pdb",
+      "sha256": "4618aa5acd5cc46d607c73a613c4885d9896629039c47334403f1b3959a34633",
+      "sequence_sha256": "e27b898beec9c370e421fdcb5b7e37dd8801c81224cd397a021ec76dbe4096ea",
+      "length": 934,
+      "dms_sha256": "00ac2d2b66ab786150025988ec8e9bb9570caa42ad5fcd0833a4eb5c0d1d58bc",
+      "variants": 16749,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MTH3_HAEAE_RockahShmuel_2015",
+      "file": "MTH3_HAEAE_RockahShmuel_2015.pdb",
+      "sha256": "88adda06cc01dc9f4c33456de02ee059849eda817dce969830e456ab9e925e04",
+      "sequence_sha256": "d78bb1f564dcca3a1c20ef3c0d620ebaf981a39fc27ccc3e5237aca93afb7eb3",
+      "length": 330,
+      "dms_sha256": "0a0d5d83556ee3e27d990e445d36a4d8dfee922584977b3823e9a9e8bd016829",
+      "variants": 1777,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MTHR_HUMAN_Weile_2021",
+      "file": "MTHR_HUMAN_Weile_2021.pdb",
+      "sha256": "5adedda9ff6ecf18fc338120f44f22ca0f2b6952d4e14358d204d18b29b19bd1",
+      "sequence_sha256": "afd5e62b903eb642953b991f683bae2f9fc5b6220f2ea855627910d55974d7b4",
+      "length": 656,
+      "dms_sha256": "68653df3c7a35b3cb8a011b8a85e1dfcf52b55b619b65106342253972b869a71",
+      "variants": 12464,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "MYO3_YEAST_Tsuboyama_2023_2BTT",
+      "file": "MYO3_YEAST_Tsuboyama_2023_2BTT.pdb",
+      "sha256": "b90ae39490414df9280c034d4486b000e4ad96940a3683531a4561ac516b1c60",
+      "sequence_sha256": "e4a68c4b8acb4d369e571d9d37d3e3f2c5675c6881b011349ca8110b10daf0cc",
+      "length": 61,
+      "dms_sha256": "e8b89ca04955ea068a082e6ac1524e404d48a8dc3070b0d7833f02c56f9854f9",
+      "variants": 3297,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "NCAP_I34A1_Doud_2015",
+      "file": "NCAP_I34A1_Doud_2015.pdb",
+      "sha256": "152c26622d0e5d85464c6ac810e723814f2bc082e5e5ba152ffcb7c465bd2f86",
+      "sequence_sha256": "603391c59133e6e1484cd91f89d665933abd7ededbf3bc77bbd4bc6aa10094c9",
+      "length": 498,
+      "dms_sha256": "4ae4c3b8b6faeb1a1efdb3a5b9c7558395701a7915666f0c9c6125d70b5dcd69",
+      "variants": 9462,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "NKX31_HUMAN_Tsuboyama_2023_2L9R",
+      "file": "NKX31_HUMAN_Tsuboyama_2023_2L9R.pdb",
+      "sha256": "44d4cc7d4ba39ee850ff59a76ae6ba2a55d5b3ea56624fd16476c3eb7e389e9c",
+      "sequence_sha256": "c9f6965638d2fd03c56238100627b8434704ee694d5fad714adb2ac8ca2d450a",
+      "length": 61,
+      "dms_sha256": "24015ebc1f902a88c17fbe083866d26213039ab977dcd1b559cd38d6fe2810c5",
+      "variants": 2482,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "NPC1_HUMAN_Erwood_2022_HEK293T",
+      "file": "NPC1_HUMAN_Erwood_2022_HEK293T.pdb",
+      "sha256": "bebf5c255622e2e4008f25fed3faf027514f3e88b2cffb4a5f0a6c5c5f69f827",
+      "sequence_sha256": "4e24d009a2ddd244a0a0eb2cdff86a7c7afe8006103d97c723616088876f494e",
+      "length": 1278,
+      "dms_sha256": "ecc2f47ab85326973e0797081d40fe88938a01f7d6128ab04c02ce6f495b7c3c",
+      "variants": 637,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "NPC1_HUMAN_Erwood_2022_RPE1",
+      "file": "NPC1_HUMAN_Erwood_2022_RPE1.pdb",
+      "sha256": "cc64e258a1fd9f61ac5a922b2cd8b88340013c37322125a5bdf222076ff404e9",
+      "sequence_sha256": "4e24d009a2ddd244a0a0eb2cdff86a7c7afe8006103d97c723616088876f494e",
+      "length": 1278,
+      "dms_sha256": "75c21ccf623cff8b8a8f6b5b2c903f025efca5512c2c78889ccd9337df9975ca",
+      "variants": 63,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "NRAM_I33A0_Jiang_2016",
+      "file": "NRAM_I33A0_Jiang_2016.pdb",
+      "sha256": "8c2321b72211f12cc024447665e17fead1f16572ddd5d41d1a09abf38bbe44d3",
+      "sequence_sha256": "33039a431e216eb33c5faa614a23b10abb13c096ae220944294a4d1045da9dad",
+      "length": 453,
+      "dms_sha256": "302fffb3844af0b72dc707a205953ff29dcd81907432445aeca8d6479ed1ce81",
+      "variants": 298,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "NUD15_HUMAN_Suiter_2020",
+      "file": "NUD15_HUMAN_Suiter_2020.pdb",
+      "sha256": "504a553ea4edaf0215a817e14303a68fd119180587cb68fa47fd165f04b39622",
+      "sequence_sha256": "14995400edc57f8b57e4c51846467559530c436ed34a22c00d6085db53c79549",
+      "length": 164,
+      "dms_sha256": "e7540f10fe0568c066edb0b996a8f908127dc37d2a6aebf232ef33f05ea25900",
+      "variants": 2844,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "NUSA_ECOLI_Tsuboyama_2023_1WCL",
+      "file": "NUSA_ECOLI_Tsuboyama_2023_1WCL.pdb",
+      "sha256": "336e7bf32870d88db87829f1628e80c4e96c5ca3f1dd72f3a28a79bf4ea2749a",
+      "sequence_sha256": "7d61e64ba38de72f22d854c934eeacefabdf6b69da6e65de3a4d4762719699f3",
+      "length": 69,
+      "dms_sha256": "0ac65b19becf0e78bbbefd831e373c3a864e0dc9d6780911ef81fdff1aefc213",
+      "variants": 2028,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "NUSG_MYCTU_Tsuboyama_2023_2MI6",
+      "file": "NUSG_MYCTU_Tsuboyama_2023_2MI6.pdb",
+      "sha256": "7dd61942a7087e91de950d785af9b1768c8b7a2fdc26f1d7d93679392ff1f1bd",
+      "sequence_sha256": "cfc7222703b572e6e9a896ad622aa1baa5aac0ba55a7423c4d3a158fa8fac4aa",
+      "length": 55,
+      "dms_sha256": "96e63e47e001950c300b72be2cd278671094adf7b2cdc8e757403bce6c9e214f",
+      "variants": 1380,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "OBSCN_HUMAN_Tsuboyama_2023_1V1C",
+      "file": "OBSCN_HUMAN_Tsuboyama_2023_1V1C.pdb",
+      "sha256": "5d4c8334034667fc11574f48d237145e66481ee5aa2615d4f69731669255d810",
+      "sequence_sha256": "9548d3ecc642b7ffaef7e386181a77157bab14756d5babcaf64647cc1db955f1",
+      "length": 65,
+      "dms_sha256": "7f09d4f2c7d00854bd32dc5c502a640c01eadf3a66571680204237b8f9cb59e0",
+      "variants": 3197,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "ODP2_GEOSE_Tsuboyama_2023_1W4G",
+      "file": "ODP2_GEOSE_Tsuboyama_2023_1W4G.pdb",
+      "sha256": "c1d33e1d0e90873f45f2457eb846566015aebdbb48b0f060e30876fad572dc0b",
+      "sequence_sha256": "186bf44bc89c64ff3960721d388a880973acbfe51ac75f71be7a057682185b09",
+      "length": 44,
+      "dms_sha256": "d25004c2bf8ac97119a92833bb6c686a176757b4feda6a0f07c9882de4a2c3bd",
+      "variants": 1134,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "OPSD_HUMAN_Wan_2019",
+      "file": "OPSD_HUMAN_Wan_2019.pdb",
+      "sha256": "489295b3bd9326452d5831c562d6ac0e4c84583da014db8c659fd734dc25716c",
+      "sequence_sha256": "b59611b13c3509dcbb28613b8c35f400f97e67788dcf416dce0511a576c347c1",
+      "length": 348,
+      "dms_sha256": "926c0afdd6d0c07bf7170710535423c447215b07cccb46eec5dd5b22368d1a8d",
+      "variants": 165,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "OTC_HUMAN_Lo_2023",
+      "file": "OTC_HUMAN_Lo_2023.pdb",
+      "sha256": "4253beffa24aac4b3d5a31f0e5a2d0a7a0892cac14f0da99b81c1846c1a57310",
+      "sequence_sha256": "35d9672d82f6d9568b8af25ab5534caa47a1bdda9b27e554ad90f564f969cba4",
+      "length": 354,
+      "dms_sha256": "0b149c8eeae4a695d5bbce6e0af456359656f476b7c1c3586d16f0ff78dba2f7",
+      "variants": 1570,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "OTU7A_HUMAN_Tsuboyama_2023_2L2D",
+      "file": "OTU7A_HUMAN_Tsuboyama_2023_2L2D.pdb",
+      "sha256": "ccf3d6cfe11db7fd6503815ca0145c304190d24613fa4375d6686a8cc9437963",
+      "sequence_sha256": "873d9a9b99d438d0bd818814585ef4280d3ed3ff85ca668ab235e5a7478f2530",
+      "length": 42,
+      "dms_sha256": "e46a6f57fa05d76f20e353536bebe956ef9392e880d890068eee103fa8c39cc4",
+      "variants": 635,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "OXDA_RHOTO_Vanella_2023_activity",
+      "file": "OXDA_RHOTO_Vanella_2023_activity.pdb",
+      "sha256": "3edd78ad94c5587ab43dc521ea8227df5ff807d67afcf55a24ed1a80ccdd1a63",
+      "sequence_sha256": "a0cf235fd832b8038bb819a871c9d7c97d6754b3d18a5563583860d2f23e5d71",
+      "length": 364,
+      "dms_sha256": "c9be2bcf788a0d8cdd70c7d33ce7cbb4d6f3b1a749ff8a29267726e7088b7550",
+      "variants": 6396,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "OXDA_RHOTO_Vanella_2023_expression",
+      "file": "OXDA_RHOTO_Vanella_2023_expression.pdb",
+      "sha256": "3edd78ad94c5587ab43dc521ea8227df5ff807d67afcf55a24ed1a80ccdd1a63",
+      "sequence_sha256": "a0cf235fd832b8038bb819a871c9d7c97d6754b3d18a5563583860d2f23e5d71",
+      "length": 364,
+      "dms_sha256": "1e4f7bf021723f60c898cc0813eeac9235fcf74bef25e865fafa6cfc4c26c4d8",
+      "variants": 6769,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "P53_HUMAN_Giacomelli_2018_Null_Etoposide",
+      "file": "P53_HUMAN_Giacomelli_2018_Null_Etoposide.pdb",
+      "sha256": "de59cc19983a4d173c6eb05e039a0bfe56f19b14f66b78ca73278dda2c74a3e6",
+      "sequence_sha256": "a5cec053cd1989b7676255fc9467b6ffbc3e531b62f1e40558510b55e0ef27d6",
+      "length": 393,
+      "dms_sha256": "4c7a24d5f9bf80f8e10afa9b0edb23f1301c497d1d2d096307f813a8ca7d3e0d",
+      "variants": 7467,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "P53_HUMAN_Giacomelli_2018_Null_Nutlin",
+      "file": "P53_HUMAN_Giacomelli_2018_Null_Nutlin.pdb",
+      "sha256": "f6a9433cd79ab18feb14d5ec29a60eb20b2bfbf29688bdf7c7278d1a346d0f8c",
+      "sequence_sha256": "a5cec053cd1989b7676255fc9467b6ffbc3e531b62f1e40558510b55e0ef27d6",
+      "length": 393,
+      "dms_sha256": "cb68559e515c44aa3ba42a56085c011c739d41b83e1fd815c0a8b4d2cd0a0f29",
+      "variants": 7467,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "P53_HUMAN_Giacomelli_2018_WT_Nutlin",
+      "file": "P53_HUMAN_Giacomelli_2018_WT_Nutlin.pdb",
+      "sha256": "f6a9433cd79ab18feb14d5ec29a60eb20b2bfbf29688bdf7c7278d1a346d0f8c",
+      "sequence_sha256": "a5cec053cd1989b7676255fc9467b6ffbc3e531b62f1e40558510b55e0ef27d6",
+      "length": 393,
+      "dms_sha256": "5a91fd89e27be9b564168568b52f3daac06fabdbad9c8f86dc7a0d21c9c5ae67",
+      "variants": 7467,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "P53_HUMAN_Kotler_2018",
+      "file": "P53_HUMAN_Kotler_2018.pdb",
+      "sha256": "8c09c4689bfb6388a3b8c02db00f9711f9df3bb1c9b1f8062ff632ff09c3fa50",
+      "sequence_sha256": "e3ca60f18e3b6e98986ad6749215ee3b7a3abc09c191675213d1f243c035c9a3",
+      "length": 393,
+      "dms_sha256": "0e6fd5232d1a6893fb310fea7d433b11dc6d1be708bc430b00075e27e9ecf886",
+      "variants": 1048,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "P84126_THETH_Chan_2017",
+      "file": "P84126_THETH_Chan_2017.pdb",
+      "sha256": "1f6e0e3b7a3e2c1a91446f3f7e567270f5af7c8e4f48435dfbc022948a4662fe",
+      "sequence_sha256": "b7cf0832061e7437b4309c358ae2b5cca04d45e932da7e44257d640095432d81",
+      "length": 254,
+      "dms_sha256": "a9e7a85809a1a55d001ae4f1f684766b35e507d49bfc95c336c7b9926b2f965a",
+      "variants": 1519,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PA_I34A1_Wu_2015",
+      "file": "PA_I34A1_Wu_2015.pdb",
+      "sha256": "58d95a3853c8056da8f5e8d60b1e08b71042c926d3b70e509ca2f5dd46850946",
+      "sequence_sha256": "4b2e387fe633b9aca5c147f76b837250c8b357b23e2879ba51ab129f57dae8f9",
+      "length": 716,
+      "dms_sha256": "ab0eace2b5836f356bf555fad05160568f07ea0dca283df774ac23dc8cfbe5b2",
+      "variants": 1820,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PABP_YEAST_Melamed_2013",
+      "file": "PABP_YEAST_Melamed_2013.pdb",
+      "sha256": "fd72ae37f377e5f86a7f42b5321fcd457d2e4974ecca000c948cf60f1da9c99f",
+      "sequence_sha256": "2a5b4c57f9bda382849bd13eb1b7bcd4431d5c6c112150ca982df5735975fbc6",
+      "length": 577,
+      "dms_sha256": "ca083e6d93d6192223166836406be185ccaf54108c6f86b90e7b21dc5c5dd3ec",
+      "variants": 37708,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PAI1_HUMAN_Huttinger_2021",
+      "file": "PAI1_HUMAN_Huttinger_2021.pdb",
+      "sha256": "87439b38c0f0721c889d1047e4f6d845a3706f4be8e692c2fea3ec7dad4a421d",
+      "sequence_sha256": "85dcfe09ecc84ccb794ab1798f9ec2cc76cf5baf8cd55ead4a44e26bb3cebc08",
+      "length": 402,
+      "dms_sha256": "5e29eb12bf8977c232633897016fea00fa0f4ff61b73d058d1df01b84e1753ac",
+      "variants": 5345,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PHOT_CHLRE_Chen_2023",
+      "file": "PHOT_CHLRE_Chen_2023.pdb",
+      "sha256": "97788820b48d726ff6ba59f2f8520b32914f294c0aeb4778b3fd0c73fe15efe5",
+      "sequence_sha256": "f32baf609eab4f10975523f58475bcbaaee7ec4f879c86a855ca2f41e6f1b3e7",
+      "length": 118,
+      "dms_sha256": "f73e370f79addebf48786ecfee146ac592a9024b0772c844d5d98c7e3c140530",
+      "variants": 167529,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PIN1_HUMAN_Tsuboyama_2023_1I6C",
+      "file": "PIN1_HUMAN_Tsuboyama_2023_1I6C.pdb",
+      "sha256": "45ba3ac42836e419ac64659f6a62c8407f332131a9bd5fe6ed4bdb7099d05413",
+      "sequence_sha256": "32f6115513f39a2d0d751aff5d991c95f598beb690622721a13d943300a60ea4",
+      "length": 39,
+      "dms_sha256": "4b805e0a24543d68bb677230053c0c8548e93fae2ab4870a6c16fd13e170cc87",
+      "variants": 802,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PITX2_HUMAN_Tsuboyama_2023_2L7M",
+      "file": "PITX2_HUMAN_Tsuboyama_2023_2L7M.pdb",
+      "sha256": "88795a57aeacfcfe7d42e7c612acbad7ce7739dd9da17016331e1f3f788e7ed8",
+      "sequence_sha256": "f33cf1a6bd36d6f6b6c6dcb7476a95f16918e17b3eaff633f4bd6c8a2d0e7ee6",
+      "length": 52,
+      "dms_sha256": "f04f3c49bc25997b627e0bdb781e85737eba7052e686e5670591f7917275b598",
+      "variants": 1824,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PKN1_HUMAN_Tsuboyama_2023_1URF",
+      "file": "PKN1_HUMAN_Tsuboyama_2023_1URF.pdb",
+      "sha256": "31c8b6f1ee908c83a0ee0c29b4618c108e509d24f567e9ab914454a16f91f756",
+      "sequence_sha256": "eacd7c467afd89358065c703999ebbab7b199fb8563b438bc1b3b39e6ec315c1",
+      "length": 71,
+      "dms_sha256": "093895c673b86f9daf6c5b8f27e38bd0223c90d9f9df1e38b45bf1560c9070d1",
+      "variants": 1301,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "POLG_CXB3N_Mattenberger_2021",
+      "file": "POLG_CXB3N_Mattenberger_2021.pdb",
+      "sha256": "a47f77b4ffebf1db3bf0242094bd959b11273ed6b8e1610e61dfb38aa7a7c604",
+      "sequence_sha256": "28b510b26b26750b13200b8513fd40cfcb729a7ed3880097b4914ef6ccd50e93",
+      "length": 2185,
+      "dms_sha256": "05393919f45280d340c5295ee1cdea8c6dcd84df01cb9be2d16ccf0e01ebf4b3",
+      "variants": 15711,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "POLG_DEN26_Suphatrakul_2023",
+      "file": "POLG_DEN26_Suphatrakul_2023.pdb",
+      "sha256": "18d4f05b6206c48823c17d528918c42db660acf480637b6bae24a8eea6bd2eb6",
+      "sequence_sha256": "bc166171f8e4a4ec090ba0bc0db5353a12a176ccbcbbb6e7da504372cfe6b5d1",
+      "length": 900,
+      "dms_sha256": "a7c7dc31a690ce7abcb9f4188a31ca3dc02dd81e81f940783d9f3a38daaeeaa8",
+      "variants": 16897,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "POLG_HCVJF_Qi_2014",
+      "file": "POLG_HCVJF_Qi_2014.pdb",
+      "sha256": "f76426db7d6098d83c07b6943cc7c7dc0cd592a8abf0027cc57e7407dfe50c8b",
+      "sequence_sha256": "daba117a7023a84ea607ed0117293d81b783c2f0bccf47483817abae6989c7ae",
+      "length": 3033,
+      "dms_sha256": "5fcb66fb0961bc82b5bb29240e919996070ef3630a6ecf144b778f294cfd8abb",
+      "variants": 1630,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "POLG_PESV_Tsuboyama_2023_2MXD",
+      "file": "POLG_PESV_Tsuboyama_2023_2MXD.pdb",
+      "sha256": "2db3cd1df47d94c08665c85509a0fa37fce81d333090692c433f40525e097c47",
+      "sequence_sha256": "08130dfce6b16caeb85ec346bf9065574fd416c0080bb6a8e9e82d915f601545",
+      "length": 53,
+      "dms_sha256": "3b628b538b942391d71b546d89a46fa0986344558e739f8b45ad3769116f5f02",
+      "variants": 5130,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PPARG_HUMAN_Majithia_2016",
+      "file": "PPARG_HUMAN_Majithia_2016.pdb",
+      "sha256": "a4652cbac43e687e2f7ade5836ef39fbcd243d6371933f6750f01bf88d90771c",
+      "sequence_sha256": "1a9d5667abcfbe96d50f29121e815eef32ae5fbfb3de52728d9a2de30d764b20",
+      "length": 505,
+      "dms_sha256": "807eb7547b62d44d39fb6d22310a6eac54a62ca6768edb46e47de03c93ae642a",
+      "variants": 9576,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PPM1D_HUMAN_Miller_2022",
+      "file": "PPM1D_HUMAN_Miller_2022.pdb",
+      "sha256": "1db1ec42214b79cb4b89f8aa9169dcad2c5b5633fd3c11e4af39efca0b13a215",
+      "sequence_sha256": "eb3fd6e991149629c673cea22531ccc0b99d845872752b1d2dd72e6ee36abe10",
+      "length": 605,
+      "dms_sha256": "4aaf327103807e81cf86aec13dc52a01c1eec91fa48e1f94f893f002656a1d60",
+      "variants": 7889,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PR40A_HUMAN_Tsuboyama_2023_1UZC",
+      "file": "PR40A_HUMAN_Tsuboyama_2023_1UZC.pdb",
+      "sha256": "20e4b1b194d6431c4d761a799765e0e59196631f8b8e2334db344e71359eaa73",
+      "sequence_sha256": "4c0794fea10947b44cecc21465d457e781a47c6aaf37929a73a4ea141095a8a3",
+      "length": 63,
+      "dms_sha256": "db4e8f1a8bedef74a6add1846f44c1578f3c7abf17399487e29fa2d478fd40a2",
+      "variants": 2033,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PRKN_HUMAN_Clausen_2023",
+      "file": "PRKN_HUMAN_Clausen_2023.pdb",
+      "sha256": "f42c3bf5bdf5dd243c6eeaf75bf9be9ecd15e0ab03a86b0451bf00b74c78412b",
+      "sequence_sha256": "f1c95f90cb66ef3fe563de977581980576e42b59b10fe827126dfc9ead1003d3",
+      "length": 465,
+      "dms_sha256": "4adf616e5b72d7f4a25db0a91febb67ea91fb3301d0bd26f26dc67b1cabd27d2",
+      "variants": 8756,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PSAE_PICP2_Tsuboyama_2023_1PSE",
+      "file": "PSAE_PICP2_Tsuboyama_2023_1PSE.pdb",
+      "sha256": "a07a1f0482dea7816320c5ab876fac1b5cec33c8ea152b3ef076c88268d46ac4",
+      "sequence_sha256": "ef44bfd420d2ad7747bc06b4a9b645ddd7e53e3a9c2fbccc85fe47606c0f057c",
+      "length": 68,
+      "dms_sha256": "27db1b317f64fb50b60a3746403c3350d39cea4fda02fe2c777e6e75f9cbdb7a",
+      "variants": 1579,
+      "legacy_archive_match": false
+    },
+    {
+      "DMS_id": "PTEN_HUMAN_Matreyek_2021",
+      "file": "PTEN_HUMAN_Matreyek_2021.pdb",
+      "sha256": "02c7503c41336534cd6e08fb17e37f526b0416d9f4ea0d66c7f5765b842cb7cf",
+      "sequence_sha256": "2675a6cc946076d70342977845afe793269c5987a998382100bede64d1e61b42",
+      "length": 403,
+      "dms_sha256": "1c52aba95950c6d3b1ac8320df4cb99a79ae97353bd43e24c87ef78dbb02e636",
+      "variants": 5083,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "PTEN_HUMAN_Mighell_2018",
+      "file": "PTEN_HUMAN_Mighell_2018.pdb",
+      "sha256": "a5d15042f87b2bed3d6a0e23c0e2ec3f6aa2409b4a010024ed9bc78361ebcfef",
+      "sequence_sha256": "2675a6cc946076d70342977845afe793269c5987a998382100bede64d1e61b42",
+      "length": 403,
+      "dms_sha256": "d532bed24c80449936dd61cf303225d78e6e9963a58165c1c36dff92c89557e1",
+      "variants": 7260,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "Q2N0S5_9HIV1_Haddox_2018",
+      "file": "Q2N0S5_9HIV1_Haddox_2018.pdb",
+      "sha256": "f95a34c6a0e63e2e6fe61624d5a5a40db2b8f5b8f29c9bcdecb7d24b96367d15",
+      "sequence_sha256": "37e665d9f4d8b4c8f3454d90b01f8ec02b5cbf8d6e21fe24bd11ac381f59c098",
+      "length": 860,
+      "dms_sha256": "93c042674e3d682c81adeb8186abcb6c00eff7f138c27b1a82e2dc3b92aa27ab",
+      "variants": 12729,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "Q53Z42_HUMAN_McShan_2019_binding-TAPBPR",
+      "file": "Q53Z42_HUMAN_McShan_2019_binding-TAPBPR.pdb",
+      "sha256": "019a7d5d83251a71b589e83f1f745ce7129def8f5a98f8fdfdb3d09030d38eaf",
+      "sequence_sha256": "a77c8fd26c1e0b5d0034384309cd3600fb1e3f8775e1979363d5db3a185be675",
+      "length": 365,
+      "dms_sha256": "555967c5c0f61303ee0c1c5ad26ef856a4ee7ac633ed838ea709276f1bd97717",
+      "variants": 3344,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "Q53Z42_HUMAN_McShan_2019_expression",
+      "file": "Q53Z42_HUMAN_McShan_2019_expression.pdb",
+      "sha256": "019a7d5d83251a71b589e83f1f745ce7129def8f5a98f8fdfdb3d09030d38eaf",
+      "sequence_sha256": "a77c8fd26c1e0b5d0034384309cd3600fb1e3f8775e1979363d5db3a185be675",
+      "length": 365,
+      "dms_sha256": "b7bf4ddd7ca9104b0ac9265eb5969119a5f2a93c6394999f611b49376c78b01f",
+      "variants": 3344,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "Q59976_STRSQ_Romero_2015",
+      "file": "Q59976_STRSQ_Romero_2015.pdb",
+      "sha256": "185dfd78ce84ed7b407f8a97ba7f9ea497a3670564b3d55eb6977b3694ff71eb",
+      "sequence_sha256": "8367eca4f69ab5487788b08f0f496b51f5621c0d8c72e2ea17515de976be5445",
+      "length": 501,
+      "dms_sha256": "ef5b7b8764e079819c0cbf40abe7c83d460d3632831bd688e6b4d68ff5ac4e7e",
+      "variants": 2999,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "Q6WV12_9MAXI_Somermeyer_2022",
+      "file": "Q6WV12_9MAXI_Somermeyer_2022.pdb",
+      "sha256": "51b1a21b69d8bf3e71f1a1cef7a9aadfa9161bf64b6f232555ef95640b0714b8",
+      "sequence_sha256": "b27043fc9c0d03dc8b6cc4ad68dcaf03d8a5bf3ddd073ac364dbe74b90995c09",
+      "length": 222,
+      "dms_sha256": "a08d29160a07f0bb2bf8ce158925d22771f4c634e6c64e3de8d827307599c473",
+      "variants": 31401,
+      "legacy_archive_match": false
+    },
+    {
+      "DMS_id": "Q837P4_ENTFA_Meier_2023",
+      "file": "Q837P4_ENTFA_Meier_2023.pdb",
+      "sha256": "b5fdd5b0f2f9ff0963477c19e9caadc3850b191ea8abd48efc48e9b59bcfd15e",
+      "sequence_sha256": "c23775c3d95b996ce4de9b39ee66717443611f2a27e8817a7df36b76a43ae0bd",
+      "length": 589,
+      "dms_sha256": "c741f0ecf8c7e8dba89db6da0e2ab492337e8436d5a459e9faabda6dd50e78ab",
+      "variants": 697,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "Q837P5_ENTFA_Meier_2023",
+      "file": "Q837P5_ENTFA_Meier_2023.pdb",
+      "sha256": "f53dd17aa2f143167534cf7ada08a18374d3622428a2876711ec80bbdd441b7a",
+      "sequence_sha256": "eca431067b47bc8f85e855f2bc691d6baad6c1d573ff1a853aaca012b3980749",
+      "length": 571,
+      "dms_sha256": "fa9ac5318aedbed9e0efd18f0101f3a19dbba05589b0c5f69674bd0d82f2ec4f",
+      "variants": 747,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "Q8WTC7_9CNID_Somermeyer_2022",
+      "file": "Q8WTC7_9CNID_Somermeyer_2022.pdb",
+      "sha256": "82b20276bae50b37e77c223d1080e39f888e07333322098b71d884f6245cb913",
+      "sequence_sha256": "207f45450004d2fdfc4505ce92027881936b4019df85320b9816a3ba46cc49c8",
+      "length": 238,
+      "dms_sha256": "38372982c158c974e1b13736abb012d1a1d1a7cf8622bc073810c59b3458c298",
+      "variants": 33510,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "R1AB_SARS2_Flynn_2022",
+      "file": "R1AB_SARS2_Flynn_2022.pdb",
+      "sha256": "d546907045ea75fd98468dd74bab92d696b84ec420ccc453c09a4d151dc96c1d",
+      "sequence_sha256": "50ec190141bd451b4b7efdf7378d3a516e559004b5335ab9bb341a596691c92e",
+      "length": 306,
+      "dms_sha256": "90712f085f6b379bab16adc9fb4a7b35f8b44d98993c9c096bd08248e26a53f7",
+      "variants": 5725,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RAD_ANTMA_Tsuboyama_2023_2CJJ",
+      "file": "RAD_ANTMA_Tsuboyama_2023_2CJJ.pdb",
+      "sha256": "2122a8addfa0ba58f8918946f50012398b11993931804c2be04fc0c565ab96e0",
+      "sequence_sha256": "c9918fe88f285d300c5af6f2501cac3dbedf8d4571194ea8827674b1a852f5f9",
+      "length": 54,
+      "dms_sha256": "cce52dabc41ccff930e444d28124292e990c14b841231e6e77d48e2c2bfee845",
+      "variants": 912,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RAF1_HUMAN_Zinkus-Boltz_2019",
+      "file": "RAF1_HUMAN_Zinkus-Boltz_2019.pdb",
+      "sha256": "59e91c1b909ae22d33c684d3f0a035cb916876ea0267d2203c821523d354097e",
+      "sequence_sha256": "cccfc1d98eae3098eabc4172a1261029642e3f31e5bbc317cc8a820a75086f1d",
+      "length": 648,
+      "dms_sha256": "87a15083d06f33a9fd76884ee45f98e5f72db9b32f7718770586e9c9395c7238",
+      "variants": 297,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RASH_HUMAN_Bandaru_2017",
+      "file": "RASH_HUMAN_Bandaru_2017.pdb",
+      "sha256": "d6f5b9105873b3e9b8641781fb407f99a2043a8abfc43b801efa03dbd6254809",
+      "sequence_sha256": "d9360238882c010c8474ef1eba1d2532cd96e706c7d7f689ea2014f37f8f886c",
+      "length": 189,
+      "dms_sha256": "0704164d427ab68cfb8ac72fcbe438a819ad91b31f9fa4fcb1056690173a0736",
+      "variants": 3134,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RASK_HUMAN_Weng_2022_abundance",
+      "file": "RASK_HUMAN_Weng_2022_abundance.pdb",
+      "sha256": "92655f4bd3c1c9690674ab36ab6c2949178615b113f56b8bedab1cd016a6ef8d",
+      "sequence_sha256": "9a0ed04ef46e15865a90f9dd0808d7d12c94746c66b0f41228aa2e62516ccbca",
+      "length": 188,
+      "dms_sha256": "e0281932c577821ef127d5df1d4e3824e383e5af4ca5219cadfd7c757f6de722",
+      "variants": 26012,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RASK_HUMAN_Weng_2022_binding-DARPin_K55",
+      "file": "RASK_HUMAN_Weng_2022_binding-DARPin_K55.pdb",
+      "sha256": "92655f4bd3c1c9690674ab36ab6c2949178615b113f56b8bedab1cd016a6ef8d",
+      "sequence_sha256": "9a0ed04ef46e15865a90f9dd0808d7d12c94746c66b0f41228aa2e62516ccbca",
+      "length": 188,
+      "dms_sha256": "081ea292571d20822447b65cee79839c04abc27915a0d2218aef9f217d2504ab",
+      "variants": 24873,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RBP1_HUMAN_Tsuboyama_2023_2KWH",
+      "file": "RBP1_HUMAN_Tsuboyama_2023_2KWH.pdb",
+      "sha256": "ee11c0f528637122728f9c551f3eacbdf5f2636610a6b9e10e55f344fabecaa2",
+      "sequence_sha256": "bed87fed8b26fe918f582c046a7c399f2e83624845a5ae1476758b73d98ee77f",
+      "length": 52,
+      "dms_sha256": "0220f45e971c228ac086f9f74b087541c77d6e122f020739129a4948f32eca2b",
+      "variants": 1332,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RCD1_ARATH_Tsuboyama_2023_5OAO",
+      "file": "RCD1_ARATH_Tsuboyama_2023_5OAO.pdb",
+      "sha256": "1a16b9d5ea1640d1944f86194f9ce3914f818462ca18c8bcebd6438b3f3871fb",
+      "sequence_sha256": "1940ae5884d2fb3502042b31e05528006d3b0764f9b01b374902d6668e21bb41",
+      "length": 57,
+      "dms_sha256": "d06d09413321d0c45661dcbd7a22fb7e8e28226fdeffb8fd60e2ecf82adf5286",
+      "variants": 1261,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RCRO_LAMBD_Tsuboyama_2023_1ORC",
+      "file": "RCRO_LAMBD_Tsuboyama_2023_1ORC.pdb",
+      "sha256": "1a720d6a2c40fcb62813739aec14adccaea9b74353d6334838fd9cb4f5ac79c3",
+      "sequence_sha256": "24b2e5875f4a52e610ee511050f4c345d6feceaeb3666c4199049d2ef846db62",
+      "length": 63,
+      "dms_sha256": "d46171656b15c40b79412b029cd5061346fe4041f7e4f2af9a96b71bc40446cb",
+      "variants": 2278,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RD23A_HUMAN_Tsuboyama_2023_1IFY",
+      "file": "RD23A_HUMAN_Tsuboyama_2023_1IFY.pdb",
+      "sha256": "284dd4cb0fc72730a6c9393475968321b2fa08d9928b03e5f8c6d8be6d47209a",
+      "sequence_sha256": "563296d6558ac2ef2c01fa9956b485a1c16ed10d686668d95d556fe332243691",
+      "length": 44,
+      "dms_sha256": "41f6a378236f23bd42a2a0773545031996e15cdf8eb9347042178632eac8fbdc",
+      "variants": 1019,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RDRP_I33A0_Li_2023",
+      "file": "RDRP_I33A0_Li_2023.pdb",
+      "sha256": "080466909d32abc5492542ed71986752c637eefe30208cc35f6a27fca17bc41c",
+      "sequence_sha256": "2fe9f77e6349d3fe15e9e58baa3c45f3521f004eee905e1da1312eddf60aed81",
+      "length": 757,
+      "dms_sha256": "9d12c171ca81d6b28299f384663cee27fbeb26195a6e949c786a6f00adaf19de",
+      "variants": 12003,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "REV_HV1H2_Fernandes_2016",
+      "file": "REV_HV1H2_Fernandes_2016.pdb",
+      "sha256": "5f9ee92885527d79cf985edffef3580e447774579c932e219ba0db1500a14c87",
+      "sequence_sha256": "19dc6b99f4ee9fdb7b2b0ce2b74acad96ed300e4e6aad826ced3ce4f9cb6baad",
+      "length": 116,
+      "dms_sha256": "30b996c807938512139313a2969281b416347ce7ec3e48b8e9cd8dc04a0215d3",
+      "variants": 2147,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RFAH_ECOLI_Tsuboyama_2023_2LCL",
+      "file": "RFAH_ECOLI_Tsuboyama_2023_2LCL.pdb",
+      "sha256": "18631c0a181354dfbc962c9d22e41957b74f7c936a72d780b3003bc591e4b38d",
+      "sequence_sha256": "74b06461a9d1b2d2026bcbc9f3d4238585f14ef6bd4cd9f4ffbd418363d7d5ff",
+      "length": 55,
+      "dms_sha256": "33dbe3e86886ebd3af76b51cc5f807ee3f179dfb9cea0f3179ce467b9d57ad59",
+      "variants": 1326,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RL20_AQUAE_Tsuboyama_2023_1GYZ",
+      "file": "RL20_AQUAE_Tsuboyama_2023_1GYZ.pdb",
+      "sha256": "f78b4a4ae809b07e662f0010b634d19ceef18c16b0f927b8700b6218f59f1060",
+      "sequence_sha256": "d99d3bf28cca30b8ca67b8688484028256d8811c51988482526eff8c5f09d0ab",
+      "length": 59,
+      "dms_sha256": "cc90ced5a0537c6a5f4566421fa82632ced54f3e6a73490403777e8c2c4f5e86",
+      "variants": 1461,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RL40A_YEAST_Mavor_2016",
+      "file": "RL40A_YEAST_Mavor_2016.pdb",
+      "sha256": "dd1009f80ff80258c82239a7262eb0133213936f94ae85e577a165a8e0e8f227",
+      "sequence_sha256": "e0994d34ed825eedcb77af161b75cacde1582939e7dd37d285a401fb9871cfa9",
+      "length": 128,
+      "dms_sha256": "1a80d896cfb54909b5a47fe00a143cbe4a65579b63ff8a36972fda51b10d2b42",
+      "variants": 1253,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RL40A_YEAST_Roscoe_2013",
+      "file": "RL40A_YEAST_Roscoe_2013.pdb",
+      "sha256": "c827b6de2a95def21fa7fb7d087255210ba73fd4a2277188cb895cb2d2d4689d",
+      "sequence_sha256": "e0994d34ed825eedcb77af161b75cacde1582939e7dd37d285a401fb9871cfa9",
+      "length": 128,
+      "dms_sha256": "640b9ba64202d345314d59b210dab4155e27101c4271068d0b56737212b67c4a",
+      "variants": 1195,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RL40A_YEAST_Roscoe_2014",
+      "file": "RL40A_YEAST_Roscoe_2014.pdb",
+      "sha256": "e319b5e3256ca3e888ca593ce225e10d08e9a54fbdb2fd465c0b3339fc1ac60b",
+      "sequence_sha256": "e0994d34ed825eedcb77af161b75cacde1582939e7dd37d285a401fb9871cfa9",
+      "length": 128,
+      "dms_sha256": "c5dc91f0c4b8e5c7285d9dd53dbad43f5e97ddfff12016cd37ec5039b7a1fcdf",
+      "variants": 1380,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RNC_ECOLI_Weeks_2023",
+      "file": "RNC_ECOLI_Weeks_2023.pdb",
+      "sha256": "c13b9aca12870cf654e93d1157c449913e3a4b0962523d4d04bceecb67a54b9e",
+      "sequence_sha256": "55249da877dc897d5de314c2b4a023ec52b5a5d892054bb094a2fc13aeede3a5",
+      "length": 226,
+      "dms_sha256": "49d489104861142d841d152256708c025bc2e72478aa7810d68f6cd5c703985a",
+      "variants": 4277,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RPC1_BP434_Tsuboyama_2023_1R69",
+      "file": "RPC1_BP434_Tsuboyama_2023_1R69.pdb",
+      "sha256": "6c37ea0f1bb656858022c27e1edb446bac0e438102daef5cfa9b5c538da93a72",
+      "sequence_sha256": "e5ac12deb24d9b937b86b44db8d6c64a47c5107772b1762d648501d25147ce06",
+      "length": 61,
+      "dms_sha256": "dda0f5b51e7c8449a4c93233cb821bb7c50598a5998eb4b8fbe5ed9eabb24f53",
+      "variants": 1459,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RPC1_LAMBD_Li_2019_high-expression",
+      "file": "RPC1_LAMBD_Li_2019_high-expression.pdb",
+      "sha256": "2a57ce70d91b1fb8ce86561bade8e0ff27398dbc7735fc2d5115ccb716b9b185",
+      "sequence_sha256": "ec5d954fd10be8c19c920e78badc5d9e9cc281f6801e2c5fde3803c9f133f580",
+      "length": 237,
+      "dms_sha256": "70b4f6fc6afa07c422bd11c6c9bd48f8f72ae6e8abee9be39c90529931ec2fe6",
+      "variants": 351,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RPC1_LAMBD_Li_2019_low-expression",
+      "file": "RPC1_LAMBD_Li_2019_low-expression.pdb",
+      "sha256": "b3fbb52720226d4a7ec358e19fc854ad8ef60bc1b8c9deb4a999d04de74a33a2",
+      "sequence_sha256": "ec5d954fd10be8c19c920e78badc5d9e9cc281f6801e2c5fde3803c9f133f580",
+      "length": 237,
+      "dms_sha256": "a43e2189a25155907bdb2b08eb418dc6960a225b60acd3b86c7a2e01c22bb488",
+      "variants": 351,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "RS15_GEOSE_Tsuboyama_2023_1A32",
+      "file": "RS15_GEOSE_Tsuboyama_2023_1A32.pdb",
+      "sha256": "da81db4962f2db25234b32cfd4b4356b00ac8bb2410cfd153a77fbad8ab19000",
+      "sequence_sha256": "23260d892b2f1c7be955c13686082906af03865240d0a6da8e5a7bea65e592ce",
+      "length": 63,
+      "dms_sha256": "391460e9c795e39c8a92de01f1057f54e6cecbe81e528a36cf538f3cbaa1fc4b",
+      "variants": 1195,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "S22A1_HUMAN_Yee_2023_abundance",
+      "file": "S22A1_HUMAN_Yee_2023_abundance.pdb",
+      "sha256": "6fec6866b314366aa9ad9199b9d8ae6a983646aed721142f2f8d2e8df8cc0e0c",
+      "sequence_sha256": "d601ee0a15fee3f217a4d46ed3a7c1e668acc1c1ca7fadb13b341fbc2ea6e4a4",
+      "length": 553,
+      "dms_sha256": "b8bfa31eae84d0e0bdfe40f0f2c5e58390c163d17e17b922f42f2992df1e196a",
+      "variants": 9803,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "S22A1_HUMAN_Yee_2023_activity",
+      "file": "S22A1_HUMAN_Yee_2023_activity.pdb",
+      "sha256": "59c71149fe16bd956634c52b0c00126cbae2c1d77f7ae5dc99c2bc90f262231f",
+      "sequence_sha256": "d601ee0a15fee3f217a4d46ed3a7c1e668acc1c1ca7fadb13b341fbc2ea6e4a4",
+      "length": 553,
+      "dms_sha256": "5b470a590da0b56e05b090b6a7aa4639956096117e562bf45eede43c94149152",
+      "variants": 10094,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SAV1_MOUSE_Tsuboyama_2023_2YSB",
+      "file": "SAV1_MOUSE_Tsuboyama_2023_2YSB.pdb",
+      "sha256": "1933528eb6c5be6ad102d3876d5cbada7dfbda1b651bfb4593b4cd8eafa70b63",
+      "sequence_sha256": "a33e27b03fd4cd2408b350a29777dd57e8caeb94c9ff4259ca7e29d67e1af0b5",
+      "length": 43,
+      "dms_sha256": "3b5dc1b5690fd3ed677ba76f7146d5eb38d6d6895cd7aacbf7fbd1b800187497",
+      "variants": 965,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SBI_STAAM_Tsuboyama_2023_2JVG",
+      "file": "SBI_STAAM_Tsuboyama_2023_2JVG.pdb",
+      "sha256": "9e35896a06e4b1ec6bd17ded91311f3d767554c8fc976e18bdbce8511c6ef6be",
+      "sequence_sha256": "071c87e2610af6a89e89c6a0499a9fb71b0506d220c123c4589e0956152a3686",
+      "length": 56,
+      "dms_sha256": "75e0dbd9aa1a1ef124708412922472a664b3d120ecf59d276175f5ec5c5c0707",
+      "variants": 1025,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SC6A4_HUMAN_Young_2021",
+      "file": "SC6A4_HUMAN_Young_2021.pdb",
+      "sha256": "c9b64e0bfaa57bf01d5f6d2cd6e649b61b3d9825dc71dbfd3e6136516920a232",
+      "sequence_sha256": "08ab69187b319cff68eba5e95e6d06f77a7a8e75e4b1a83c000f7ed2c160d37f",
+      "length": 630,
+      "dms_sha256": "0ad59ccefda5ac0d808ee39ad873db63e4260b1dc6a463cfc52f16d5d3caf62e",
+      "variants": 11576,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SCIN_STAAR_Tsuboyama_2023_2QFF",
+      "file": "SCIN_STAAR_Tsuboyama_2023_2QFF.pdb",
+      "sha256": "3ac8f3ac4048331c76a910b07c943d82b750013660a1bb2bf322fcb4de014737",
+      "sequence_sha256": "b3484249ba19f9455763ce7c70b60e32175da414446350e1dc457356fdfa05a5",
+      "length": 70,
+      "dms_sha256": "285e3812fa4274a636e1f1c36b1395820624ed9b5aae163adfaf0f495f9016e9",
+      "variants": 1212,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SCN5A_HUMAN_Glazer_2019",
+      "file": "SCN5A_HUMAN_Glazer_2019.pdb",
+      "sha256": "db13d17db6c614fd82f765b8546aeb5b27d6f51a8aeb270ba077593ecb04e8c8",
+      "sequence_sha256": "3b1719ba4947964cb94b865175fff405120a047e44643495f0965aa8178f7f49",
+      "length": 2016,
+      "dms_sha256": "1b26c30f9f7eea00a751b78d534408b50e490d37988c482c413b66755a390450",
+      "variants": 224,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SDA_BACSU_Tsuboyama_2023_1PV0",
+      "file": "SDA_BACSU_Tsuboyama_2023_1PV0.pdb",
+      "sha256": "301bd84343fe438d67ba5b302cb32eedecd3946b54a2ebdd25488a53942f6c65",
+      "sequence_sha256": "9b8a19a58ca0ba318b0c339a4c794cb3a19356dbf1bca9d8f81b3a1df7cadbef",
+      "length": 44,
+      "dms_sha256": "03ea7a2f18fcfc7f275009564f2043e9338b1b770f1518dae4cb04c8948932a2",
+      "variants": 2770,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SERC_HUMAN_Xie_2023",
+      "file": "SERC_HUMAN_Xie_2023.pdb",
+      "sha256": "9f8717eec9e02534c4a7eb36d48d1c51e037c44d4816bc05e0d289b57a6dac12",
+      "sequence_sha256": "47ac6e9f63a78f48d4b7c4695d9271ae3d7b713159ee6909746fca1f43d8778f",
+      "length": 370,
+      "dms_sha256": "6b8cc8fec82a7f6d4b00b65a0ced7a6b57a8d6f2639bd58e22ccc4d6774db873",
+      "variants": 1914,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SHOC2_HUMAN_Kwon_2022",
+      "file": "SHOC2_HUMAN_Kwon_2022.pdb",
+      "sha256": "57557d12c97c8c6d74afb7aca6d8d4c1a8062d85bd6ec5c629529d6d8c77f1c2",
+      "sequence_sha256": "f7c01224ad8e3f540f7346297cba253f13fd910ff86409e25862e5f392e87e31",
+      "length": 582,
+      "dms_sha256": "36e169325becc6589e6b1f715989f2fd56d51170031a8331479c68ddbbb49d56",
+      "variants": 10972,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SOX30_HUMAN_Tsuboyama_2023_7JJK",
+      "file": "SOX30_HUMAN_Tsuboyama_2023_7JJK.pdb",
+      "sha256": "d2784fc4d5b19eb2487cb79f593a1ddaeced826277ee31cd6199147a7d23fe06",
+      "sequence_sha256": "1e7d90f7e45b1d812faaf128eb396b0904fa71ff19238f2308996b3df224f942",
+      "length": 57,
+      "dms_sha256": "072f71cb9b083664a9b990b87f7387b3d676ef4da818fb33be04388d5e706958",
+      "variants": 1010,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SPA_STAAU_Tsuboyama_2023_1LP1",
+      "file": "SPA_STAAU_Tsuboyama_2023_1LP1.pdb",
+      "sha256": "8cc0de1b9d9947b36227de992ca1f33e1f7029f0e22079b71799b414169656f3",
+      "sequence_sha256": "5fd7bb16a69b9446c49b8cbe0e283cb065424c7b8b542181420d682c704ed3fd",
+      "length": 55,
+      "dms_sha256": "0f3f55863f3fe920ac3a8ceb8907e7898482e6d788a23223ec1436dde0df1d8f",
+      "variants": 2105,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SPG1_STRSG_Olson_2014",
+      "file": "SPG1_STRSG_Olson_2014.pdb",
+      "sha256": "b89ed37b71f3afb0bfc953e3786de04e6ae4618773b31ac4f75dac4f50a21e34",
+      "sequence_sha256": "296c9ffb8add18b7266735007286ea2d58f4fa839c762d10a45b3ea72405d9f2",
+      "length": 448,
+      "dms_sha256": "1050a28d1df6130c85b974d782a5aad4d96873f1e36328d9ccf2f57a966684cd",
+      "variants": 536962,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SPG1_STRSG_Wu_2016",
+      "file": "SPG1_STRSG_Wu_2016.pdb",
+      "sha256": "b89ed37b71f3afb0bfc953e3786de04e6ae4618773b31ac4f75dac4f50a21e34",
+      "sequence_sha256": "296c9ffb8add18b7266735007286ea2d58f4fa839c762d10a45b3ea72405d9f2",
+      "length": 448,
+      "dms_sha256": "d8faee338a3a53ba89b9ddc4be8dbdc244d3d2c84ddbc1ccc00ff4418ae71fcc",
+      "variants": 149360,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SPG2_STRSG_Tsuboyama_2023_5UBS",
+      "file": "SPG2_STRSG_Tsuboyama_2023_5UBS.pdb",
+      "sha256": "18a161ce7cce3113b5e0f1d55d1f223b14cd682b9912deed331cd2a3d250b40e",
+      "sequence_sha256": "d15b14deff888939d5f6c974ab66c92773aae3d07810cc067425f5ce1f60680e",
+      "length": 56,
+      "dms_sha256": "61aca6ea620615f07ac47a77794a14ca2cbb86652f90d395f7e30ca6dcdde51f",
+      "variants": 1451,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SPIKE_SARS2_Starr_2020_binding",
+      "file": "SPIKE_SARS2_Starr_2020_binding.pdb",
+      "sha256": "a9e1ed7c3edc1538b6b3ab5c98ebaad0a1116fd23584daa84f716e0eaa76ea14",
+      "sequence_sha256": "794d56c4e53ad15197d12fcee6c8231e888d2fc60728f4ef875561b80af2639d",
+      "length": 1273,
+      "dms_sha256": "a9280512c1bb01b722d4a8d99639de289aaed520343c0b796f9182ba266e0895",
+      "variants": 3802,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SPIKE_SARS2_Starr_2020_expression",
+      "file": "SPIKE_SARS2_Starr_2020_expression.pdb",
+      "sha256": "8c30f5a47a9ed0011dd251b11e590c3aa30fb6455765556a6f5b68b8486ffdbd",
+      "sequence_sha256": "794d56c4e53ad15197d12fcee6c8231e888d2fc60728f4ef875561b80af2639d",
+      "length": 1273,
+      "dms_sha256": "6cc98b0227227fc653f2c5bc765b1fa5ed27085cb509e37e527c15b423c2806e",
+      "variants": 3798,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SPTN1_CHICK_Tsuboyama_2023_1TUD",
+      "file": "SPTN1_CHICK_Tsuboyama_2023_1TUD.pdb",
+      "sha256": "94e68ad09a8bc16ce7ae0c5c61ac63eab25d772161cddabe87c5d47865041607",
+      "sequence_sha256": "5fe7d9ad6e17486d30f09a64b0e4317afde6f028bb243c91b9636b2becd865b2",
+      "length": 60,
+      "dms_sha256": "25d106f0e894e9ad8f6cb0069066207fa68902d8af00006c70ffb30284d0d8b6",
+      "variants": 3201,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SQSTM_MOUSE_Tsuboyama_2023_2RRU",
+      "file": "SQSTM_MOUSE_Tsuboyama_2023_2RRU.pdb",
+      "sha256": "31f4778b338d0733a7ddc9ff65fde4bc80425277cadde73ef09cfc3e9ab2e477",
+      "sequence_sha256": "3ebd72dcf86882d7f69f633cd9431f6c598826aedce6bdf8eee3a13d436a3165",
+      "length": 40,
+      "dms_sha256": "076d7ddee6adfa1c1f6e8d66b2662e6a29f43fa366a23053adab235b45ee312b",
+      "variants": 707,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SR43C_ARATH_Tsuboyama_2023_2N88",
+      "file": "SR43C_ARATH_Tsuboyama_2023_2N88.pdb",
+      "sha256": "981088ad954274da7c3ce8f81b890bfedfe6a45b10ad229504389a41215a5bca",
+      "sequence_sha256": "81346251006cd7699ec780db8c419274f1044e32371600068db7abd2a89b0e53",
+      "length": 48,
+      "dms_sha256": "97ed4fd124169047e4ffeadb62f8b5895b50a171a5383933ac3c3cf67c1e03b1",
+      "variants": 1583,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SRBS1_HUMAN_Tsuboyama_2023_2O2W",
+      "file": "SRBS1_HUMAN_Tsuboyama_2023_2O2W.pdb",
+      "sha256": "be9bfa57b14cbbc79a2c593045c787856c8fdba3418d0df9d031e2aa26171982",
+      "sequence_sha256": "9a91e2de3c9815ba9e48ff0866794adaea4df6e49cfc3e43ec262cb2f2aaa74a",
+      "length": 67,
+      "dms_sha256": "df599906229e45867956b0623cf17e5fb05dbf3baad61591ea0da0f14a7987f9",
+      "variants": 1556,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SRC_HUMAN_Ahler_2019",
+      "file": "SRC_HUMAN_Ahler_2019.pdb",
+      "sha256": "ffafef7519a7531335b3775e00eaf9796cd0c3a6704c3318a216fd952182b6e6",
+      "sequence_sha256": "bfb0c691493b552212f52a3e68ec9d6c2e67dc37339f19b6e71c22fd202292f8",
+      "length": 536,
+      "dms_sha256": "fe9b3eb54aa97892ece60cf167764277d248b3141e9fab6754efc7734a7b7cd7",
+      "variants": 3372,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SRC_HUMAN_Chakraborty_2023_binding-DAS_25uM",
+      "file": "SRC_HUMAN_Chakraborty_2023_binding-DAS_25uM.pdb",
+      "sha256": "83e9f132c1321a1a34139e98ce5e94fed1e5bfd1283c4c48fed67b7b21c2bf1f",
+      "sequence_sha256": "bfb0c691493b552212f52a3e68ec9d6c2e67dc37339f19b6e71c22fd202292f8",
+      "length": 536,
+      "dms_sha256": "b6fbe12a4aea4cfec065e1ae21c096508d8c68b0d5a86c43fe85c25e86af6c52",
+      "variants": 3637,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SRC_HUMAN_Nguyen_2022",
+      "file": "SRC_HUMAN_Nguyen_2022.pdb",
+      "sha256": "a4d296dbf2257b8a3ff6072042ef928d207ff90d92326a0ad45883e292cec88f",
+      "sequence_sha256": "bfb0c691493b552212f52a3e68ec9d6c2e67dc37339f19b6e71c22fd202292f8",
+      "length": 536,
+      "dms_sha256": "f97271be317982c7f67e076e3f967bbc422156757a60c0f1981b597a284d438f",
+      "variants": 3366,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SUMO1_HUMAN_Weile_2017",
+      "file": "SUMO1_HUMAN_Weile_2017.pdb",
+      "sha256": "5f556952359e574d1cda8208925683c6ad30fcfcc03c05c17e17332415e8540f",
+      "sequence_sha256": "2f67b0398c769dc5deb575f46362e1cad7c5a647adac36d48ce8538043ff075d",
+      "length": 101,
+      "dms_sha256": "71fd17bba2e8a6cbca9ea051c29eebb055d27022b4b432aeb08271b9d4b63a0c",
+      "variants": 1700,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "SYUA_HUMAN_Newberry_2020",
+      "file": "SYUA_HUMAN_Newberry_2020.pdb",
+      "sha256": "7f1313fa913e2dfca67e28d651493164db273f71f16b278be51d8130f0d4ddce",
+      "sequence_sha256": "a421d4b21d1150fb3bf2a8bf74b34b76d01ae9f6574d84066be505ca5e049533",
+      "length": 140,
+      "dms_sha256": "858cabd7f4eeb7d70c3d9b87305cb79f06f0d234f99d2b4a6dc28cb565e9cbcf",
+      "variants": 2497,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TADBP_HUMAN_Bolognesi_2019",
+      "file": "TADBP_HUMAN_Bolognesi_2019.pdb",
+      "sha256": "14390b0e855ca4a39aa058cf7b61a77c5b9412531e8e3db1037b29ea8760ec47",
+      "sequence_sha256": "db904fb6bea3d836fa9c2d870a738e324e79a98b89b69b5f2492e9772b7efbb7",
+      "length": 414,
+      "dms_sha256": "22894a3fac10cc215bfc06f5d7798b83900608a7c6b7b557f342659e6f2bdced",
+      "variants": 1196,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TAT_HV1BR_Fernandes_2016",
+      "file": "TAT_HV1BR_Fernandes_2016.pdb",
+      "sha256": "c1596dc5e099500e599a74dec699fc316643ef383ae454c134b17fcfd42c0151",
+      "sequence_sha256": "ca28e9ad15eb17c0ba23b08a2ced50e2a8d5226ea97dae1b510352e319627873",
+      "length": 86,
+      "dms_sha256": "25f83648e197676f0f945b287819584358a9ab0dfb73f06cefe405f01e387dab",
+      "variants": 1577,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TCRG1_MOUSE_Tsuboyama_2023_1E0L",
+      "file": "TCRG1_MOUSE_Tsuboyama_2023_1E0L.pdb",
+      "sha256": "d0d5e9a4b05be18e74f656a732d42478f05364be6b51c9d80a34f97b7250a5d8",
+      "sequence_sha256": "e3ec13d0d7ff066ef89bd037ff6ad5e5b5afb226d4a954d78710461bc66d822d",
+      "length": 37,
+      "dms_sha256": "2f98ed1f2e1e896cd8f4022e5c27aef4df2617ab4639ef52248d6774f5cc0739",
+      "variants": 1058,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "THO1_YEAST_Tsuboyama_2023_2WQG",
+      "file": "THO1_YEAST_Tsuboyama_2023_2WQG.pdb",
+      "sha256": "9435c510c5c42ea8252bad2c4132dcaf2ce3265d215457ba73ee6eb360579177",
+      "sequence_sha256": "6b772d193945b6f46cb6fed83b7e9d68765a645d1f8e25672ad43417d4eed0df",
+      "length": 41,
+      "dms_sha256": "7671c2cfa3e2a38c32d8d723ff093e4513527ec01f4d1bd501b00aa87df911f6",
+      "variants": 1279,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TNKS2_HUMAN_Tsuboyama_2023_5JRT",
+      "file": "TNKS2_HUMAN_Tsuboyama_2023_5JRT.pdb",
+      "sha256": "6afac7c053a92868e9bb1ae58b2c22bcddba8668b560aa0dcf8d94f757368ff5",
+      "sequence_sha256": "fcbf51690593f159b448e4d47147a543231a8a73fae790171cb93b1b5c7d3b3c",
+      "length": 59,
+      "dms_sha256": "397e3f80829ee97066a333395c0046e7caa75cafb71a2eaca76fde61c5cbb41d",
+      "variants": 1479,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TPK1_HUMAN_Weile_2017",
+      "file": "TPK1_HUMAN_Weile_2017.pdb",
+      "sha256": "e94f327af5b253a759da15a0be8ec7cff2b99419a4fa393d3bb15340b1cbf9d3",
+      "sequence_sha256": "f0559a57916fe3476edde5fcf068226659ef805c10686332ab7582655fa2ffc7",
+      "length": 243,
+      "dms_sha256": "b5b641b4186d42dd2ea4cc67205a50d7ceb2f747c0d3f985556f908309f9ce7e",
+      "variants": 3181,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TPMT_HUMAN_Matreyek_2018",
+      "file": "TPMT_HUMAN_Matreyek_2018.pdb",
+      "sha256": "f6b2899f81e75bcb1d96a586c453e944a8852e711c53f1b47c05f57132c54762",
+      "sequence_sha256": "059d7c2c8feb87a96ccef6fc7f4866895687212f5bb9393c910970133e134081",
+      "length": 245,
+      "dms_sha256": "bafd9deb8ccc5e0454b7222f0dcb03e4facc1ad949177a65292bded268084d39",
+      "variants": 3648,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TPOR_HUMAN_Bridgford_2020",
+      "file": "TPOR_HUMAN_Bridgford_2020.pdb",
+      "sha256": "163f7c5a29d58b11a8bc7247d598e07dd685d1eba781aabfb37f6fb57764c791",
+      "sequence_sha256": "a74ceb2bf389952cef98a99c475bb870eb0ecf75c88e1802fee05bb8ddba44ca",
+      "length": 635,
+      "dms_sha256": "c466ce10b6b58195019740f88e0f4303d8b80293bfadce1b60bb2eebc3d8361c",
+      "variants": 562,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TRPC_SACS2_Chan_2017",
+      "file": "TRPC_SACS2_Chan_2017.pdb",
+      "sha256": "ee2593d042dca3e45c9a5694480c838281d3d61dadcedba61e49a1794b89b5ea",
+      "sequence_sha256": "a5678301cecc2d1e42270d7e64a76f678362100308cd5657af6effe43adc8e9c",
+      "length": 248,
+      "dms_sha256": "9b7705ec577da93df6e6e54fc78837f74ad35a410f7b6bf2f8ff2ac6fdf2d7f7",
+      "variants": 1519,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "TRPC_THEMA_Chan_2017",
+      "file": "TRPC_THEMA_Chan_2017.pdb",
+      "sha256": "6a33159bb861bd0a8980a6a2c4cd96aaf872b48bbef0f0a7f4f7e7972efa786e",
+      "sequence_sha256": "6ca2a19c3bc5eeef7bceee36098d50d20b49a9f2ae57b320afc2b026b593b08e",
+      "length": 252,
+      "dms_sha256": "bccdebff61dbeee97771391ec0458fdb2b1b76ceb33320bf6397077b201a64e9",
+      "variants": 1519,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "UBC9_HUMAN_Weile_2017",
+      "file": "UBC9_HUMAN_Weile_2017.pdb",
+      "sha256": "0d848598d2154c1c8614d99244acd34764d37e031a973337166b44d8d7060b14",
+      "sequence_sha256": "3210d6959f171a29a0e8449c6288087f0aa00967347e5e487e9f02738add9e8c",
+      "length": 159,
+      "dms_sha256": "3906055fdcba1b05ea9c89708eacf5e666af6803ee46a6abc895396d4b072b06",
+      "variants": 2563,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "UBE4B_HUMAN_Tsuboyama_2023_3L1X",
+      "file": "UBE4B_HUMAN_Tsuboyama_2023_3L1X.pdb",
+      "sha256": "92dce05c846156f3d9ceadf329f071555b865dba1b130e5b4c4ce0e8751fc1a5",
+      "sequence_sha256": "538bf66468f70ae9a6eb3207c783edfc131745450d0b5c16ef0056ee2b952706",
+      "length": 69,
+      "dms_sha256": "840b65cb8566c8b6bea9ad87cdbf25d5ce9782daf690ed5f19fdb1ad9e0059d3",
+      "variants": 3622,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "UBE4B_MOUSE_Starita_2013",
+      "file": "UBE4B_MOUSE_Starita_2013.pdb",
+      "sha256": "68c40e8ab8b4d99b13901cbafa60ea36baebfe4533c8f22dc8b7af6a8f0028df",
+      "sequence_sha256": "e41f60f5bb7eefdd457c22b691222a67cc22093ad2cac6ab76d6943375d37c53",
+      "length": 1173,
+      "dms_sha256": "30f568d92b6a0c7ce3f8717fa224e02812946d7e43aacea90927164876949e65",
+      "variants": 899,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "UBR5_HUMAN_Tsuboyama_2023_1I2T",
+      "file": "UBR5_HUMAN_Tsuboyama_2023_1I2T.pdb",
+      "sha256": "862ac8897bbcd6c7362db62094731555efc35ff39f246de45eac1b018ad98956",
+      "sequence_sha256": "864587b8306f76b5780c58ceaa873f4b72be8e7b10cfba989dbabf2a58d5242b",
+      "length": 58,
+      "dms_sha256": "9989fd8fc7fb10ab4ff7db4f34ceee082927e83751acf4158e098411d3933201",
+      "variants": 1453,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "VG08_BPP22_Tsuboyama_2023_2GP8",
+      "file": "VG08_BPP22_Tsuboyama_2023_2GP8.pdb",
+      "sha256": "f1546c095922f2cc53e836c5c06f801b08d442fdfc32361fc072d9e45f3f644b",
+      "sequence_sha256": "b6f87533a8ff1ef31f51b628bd0fb5b33c8c62010febbcbf125b6dff215ac47e",
+      "length": 40,
+      "dms_sha256": "d5727d3c87331e49dd659a9ef9b007365e1fab8e31de2f33364d0c9b133db003",
+      "variants": 723,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "VILI_CHICK_Tsuboyama_2023_1YU5",
+      "file": "VILI_CHICK_Tsuboyama_2023_1YU5.pdb",
+      "sha256": "e901426f6102ca062d8f5d02b1361ccd75235b7c31a965721f1ec0a677801799",
+      "sequence_sha256": "dd13a6b338efcb4369528c7aaa0f5d44b20ba9b04606ec23a3cfbcb375a3bee0",
+      "length": 65,
+      "dms_sha256": "19039a6866ce90c3ea72a873f1239dd5ef5eba044eb2727e5f54ac09a35d72ae",
+      "variants": 2568,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "VKOR1_HUMAN_Chiasson_2020_abundance",
+      "file": "VKOR1_HUMAN_Chiasson_2020_abundance.pdb",
+      "sha256": "9b5fa1e431d82d2aece2791b49ebc1ceb3711c5b3e34d6a116e48fe2c8ba0f7b",
+      "sequence_sha256": "f8e6c25683dd1eb29c9ddee6be595cb5ac278018a028b0d07316b906a864763d",
+      "length": 163,
+      "dms_sha256": "04fc7a81a09c372ed14b9ad283c5da7ceed7d51c4d949a13e2c143b6c138a7d5",
+      "variants": 2695,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "VKOR1_HUMAN_Chiasson_2020_activity",
+      "file": "VKOR1_HUMAN_Chiasson_2020_activity.pdb",
+      "sha256": "b41f846f8436503a2d5f4d1daf7e39b9bcbbef41911b0b785c230ed2c7c34b07",
+      "sequence_sha256": "f8e6c25683dd1eb29c9ddee6be595cb5ac278018a028b0d07316b906a864763d",
+      "length": 163,
+      "dms_sha256": "1aebf00f05b72ade9aa8c6330a89318e3874ea855ae9bef080fe3437cd76729d",
+      "variants": 697,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "VRPI_BPT7_Tsuboyama_2023_2WNM",
+      "file": "VRPI_BPT7_Tsuboyama_2023_2WNM.pdb",
+      "sha256": "49209c6bb0749da59e2df91f6d24fa12f517cc88d03d2c501511697587572547",
+      "sequence_sha256": "68324989bc95b7ba72f999975255bcbac96f5be75146e497b84ffedb9ad16300",
+      "length": 56,
+      "dms_sha256": "ad757ccd3be731c1a03a21882a87836003a9ad9508cd008694dd92fc8964a5f8",
+      "variants": 1047,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "YAIA_ECOLI_Tsuboyama_2023_2KVT",
+      "file": "YAIA_ECOLI_Tsuboyama_2023_2KVT.pdb",
+      "sha256": "d75590adc9f84191aea85b4764d09ef98aa62a24223b1116c64d42252028b08e",
+      "sequence_sha256": "506d3ce81c0c4ce4b8f8ec79f98e48ccfd58c2b880cbe05c6e27f9ad36e71cd6",
+      "length": 52,
+      "dms_sha256": "d008360ae5981d01b344b584a23eef9483ca09ebfa941fe536236f9f47944378",
+      "variants": 1890,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "YAP1_HUMAN_Araya_2012",
+      "file": "YAP1_HUMAN_Araya_2012.pdb",
+      "sha256": "ae5361a5efd612bbd7ef8a9d117844fd92d0375af75800bb24eb1c8d585cba7f",
+      "sequence_sha256": "1f9731060cb9348220b6f678ebb8f028cd0e938c846a3d0eee6bc3ee788d8bc4",
+      "length": 504,
+      "dms_sha256": "8e41f730c339fc341629eb37f4a3d481e35cf171308380b6bd4ac2656bb71258",
+      "variants": 10075,
+      "legacy_archive_match": true
+    },
+    {
+      "DMS_id": "YNZC_BACSU_Tsuboyama_2023_2JVD",
+      "file": "YNZC_BACSU_Tsuboyama_2023_2JVD.pdb",
+      "sha256": "deb99c8c867007e11adc9daad3820dcddf9475722f6c11c4972ae0fb943c682d",
+      "sequence_sha256": "6d17003a58eaf6bf74df7eb050a0a13a1a755cf9ee007267fbd31cacf7794afc",
+      "length": 39,
+      "dms_sha256": "b9b120e51516b74e132d8c595fea2c1013b916babfa6892c1480a2792bf4ae7d",
+      "variants": 2300,
+      "legacy_archive_match": true
+    }
+  ],
+  "archive_sha256": "0044f2e531cbb896befd1ba07fdabb0378daf44ed82e1f094dabf9cf2f2d1a20"
+}

@@ -15,3 +15,4 @@ data/proteingym_local/folds/** -text
 *.py text eol=lf
 *.pt -text
 data/metric_0546/** -text
+data/structures_0546/** -text

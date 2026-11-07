@@ -17,6 +17,8 @@ wandb/
 # Include reviewer examples, frozen metadata and the archived benchmark caches.
 # Download full ProteinGym data separately.
 data/*
+!data/structures_0546/
+!data/structures_0546/**
 !data/metric_0546/
 !data/metric_0546/**
 !data/example_0546/

@@ -282,6 +282,10 @@ def check_evidence() -> None:
 
 def main() -> None:
     try:
+        from script.setup.verify_benchmark_inputs import check_bundle
+        if len(check_bundle(ROOT / "data/structures_0546")) != 217:
+            fail("expected 217 historical structures")
+        print("[ok] historical structure archive and per-assay SHA-256")
         check_checkpoints()
         check_folds()
         check_hash_manifest()

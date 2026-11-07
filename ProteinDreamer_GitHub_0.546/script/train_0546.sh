@@ -27,6 +27,9 @@ if [[ "${DRY_RUN}" != "1" ]]; then
   test -d "${FOLDS_DIR}"
   test -d "${MSA_CACHE_DIR}"
   command -v "${FOLDSEEK_BIN}" >/dev/null
+  "${PY}" -B script/setup/verify_benchmark_inputs.py \
+    --dataset "${DATASET_ROOT}" \
+    --msa-cache "${MSA_CACHE_DIR}" --teacher-cache "${TEACHER_CACHE_DIR}"
   mkdir -p "${OUT_ROOT}"
 fi
 

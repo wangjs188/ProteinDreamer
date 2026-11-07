@@ -14,7 +14,7 @@ bash script/setup/download_proteingym_dataset.sh data/proteingym_downloads
 bash script/setup/prepare_proteingym_saprot_dataset.sh
 ```
 
-ProteinDreamer checkpoints, fixed folds and MSA/SiteRM caches are included.
+ProteinDreamer checkpoints, fixed folds, historical structures and MSA/SiteRM caches are included. Setup uses the structures from the reported run.
 
 ## 2. Train
 

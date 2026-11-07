@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import csv
+import hashlib
 import json
 import os
 import shlex
@@ -8,6 +9,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from zipfile import ZIP_DEFLATED, ZipFile
 
 import pandas as pd
 import yaml
@@ -248,20 +250,65 @@ class ReviewerWorkflowTests(unittest.TestCase):
             d = Path(tmp)
             raw = d / "raw"
             raw.mkdir()
-            (raw / "assay.csv").write_text("mutant,mutated_sequence,DMS_score\nA1V,V,0.5\n")
+            example = ROOT / "data/example_0546"
+            assay = "A0A1I9GEU1_NEIME_Kennouche_2019"
+            source = example / "dataset/DATASET" / assay
+            csv_bytes = (source / f"{assay}.csv").read_bytes()
+            pdb_bytes = (source / f"{assay}.pdb").read_bytes()
+            (raw / "assay.csv").write_bytes(csv_bytes)
+            # A different raw structure must not replace the pinned historical input.
             (raw / "protein.pdb").write_text("HEADER    SYNTHETIC TEST FILE\nEND\n")
-            (d / "ref.csv").write_text("DMS_id,DMS_filename,pdb_file\nassay,assay.csv,protein.pdb\n")
+            reference = pd.read_csv(example / "reference.csv")
+            sequence = reference.iloc[0].target_seq
+            reference["DMS_id"] = "assay"
+            reference["DMS_filename"] = "assay.csv"
+            reference["pdb_file"] = "protein.pdb"
+            reference.to_csv(d / "ref.csv", index=False)
+            structures = d / "structures"
+            structures.mkdir()
+            with ZipFile(structures / "structures.zip", "w", ZIP_DEFLATED) as bundle:
+                bundle.writestr("assay.pdb", pdb_bytes)
+            record = {
+                "DMS_id": "assay", "file": "assay.pdb", "length": len(sequence),
+                "sha256": hashlib.sha256(pdb_bytes).hexdigest(),
+                "sequence_sha256": hashlib.sha256(sequence.encode()).hexdigest(),
+                "dms_sha256": hashlib.sha256(csv_bytes).hexdigest(),
+            }
+            manifest = {
+                "archive_sha256": hashlib.sha256((structures / "structures.zip").read_bytes()).hexdigest(),
+                "assays": [record],
+            }
+            (structures / "PROVENANCE.json").write_text(json.dumps(manifest))
             args = ("--raw-dir", raw, "--reference", d / "ref.csv",
-                    "--dataset", d / "dataset", "--flat-dms", d / "flat")
+                    "--dataset", d / "dataset", "--flat-dms", d / "flat",
+                    "--structures", structures)
             run = self.run_script("script/setup/prepare_proteingym_raw.py", *args)
             self.assertEqual(run.returncode, 0, run.stderr)
             self.assertEqual((raw / "assay.csv").read_bytes(),
                              (d / "dataset/DATASET/assay/assay.csv").read_bytes())
-            self.assertEqual((raw / "protein.pdb").read_bytes(),
+            self.assertEqual(pdb_bytes,
                              (d / "dataset/DATASET/assay/assay.pdb").read_bytes())
             rerun = self.run_script("script/setup/prepare_proteingym_raw.py", *args)
             self.assertNotEqual(rerun.returncode, 0)
             self.assertIn("Output already exists", rerun.stderr)
+
+            from script.setup.verify_benchmark_inputs import check_dataset
+            rows = reference.to_dict("records")
+            self.assertEqual(check_dataset(rows, d / "dataset", d / "flat", structures), [])
+            (d / "dataset/DATASET/assay/assay.pdb").write_bytes((raw / "protein.pdb").read_bytes())
+            problems = check_dataset(rows, d / "dataset", d / "flat", structures)
+            self.assertTrue(any("structure checksum mismatch" in p for p in problems))
+
+            # A corrupted archive must fail before either output is created.
+            (structures / "structures.zip").write_bytes(b"corrupt archive")
+            run = self.run_script("script/setup/prepare_proteingym_raw.py",
+                                  "--raw-dir", raw, "--reference", d / "ref.csv",
+                                  "--dataset", d / "bad_dataset", "--flat-dms", d / "bad_flat",
+                                  "--structures", structures)
+            self.assertNotEqual(run.returncode, 0)
+            self.assertIn("archive checksum mismatch", run.stderr)
+            self.assertFalse((d / "bad_dataset").exists())
+            self.assertFalse((d / "bad_flat").exists())
 
     def test_score_coverage_rejects_missing_and_nonfinite(self):
         with tempfile.TemporaryDirectory(prefix="pd-coverage-") as tmp:

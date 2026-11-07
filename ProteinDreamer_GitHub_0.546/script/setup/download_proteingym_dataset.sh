@@ -3,7 +3,8 @@ set -euo pipefail
 OUT_DIR="${1:-data/proteingym_downloads}"
 BASE_URL="${BASE_URL:-https://marks.hms.harvard.edu/proteingym/ProteinGym_v1.3}"
 mkdir -p "${OUT_DIR}/raw"
-archives=(DMS_ProteinGym_substitutions.zip ProteinGym_AF2_structures.zip)
+# Historical structures are included under data/structures_0546.
+archives=(DMS_ProteinGym_substitutions.zip)
 if [[ "${DOWNLOAD_MSA:-0}" == "1" ]]; then
   archives+=(DMS_msa_files.zip DMS_msa_weights.zip)
 fi
