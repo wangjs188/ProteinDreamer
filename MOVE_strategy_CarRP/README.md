@@ -28,7 +28,3 @@ Requires Python 3; no additional packages are needed.
 | After FoldX | 34 | 646 |
 | After risk filtering | 33 | 408 |
 | Selected sites | 5 | 61 |
-
-Selected sites: Y27, T31, R98, Q266 and G312.
-
-The 61 substitutions are computational candidates across these five sites.

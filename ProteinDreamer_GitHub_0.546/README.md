@@ -38,10 +38,6 @@ result/proteingym_eval_best_0546/Spearman/Summary_performance_DMS_substitutions_
 
 Fresh training runs may give different numerical results. See [run notes](docs/REPRODUCE_0546.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
-## Citation
-
-Jinsheng Wang, Haoran Hong, Meng Zha, Jinying Guo, Qingyan Li, Zhe Sun, and Xueli Zhang (2026). *Action-conditioned protein world modeling and multidimensional mutation-site prioritization for rational enzyme engineering*. Manuscript.
-
 ## Contact
 
 Tianjin Institute of Industrial Biotechnology, Chinese Academy of Sciences.
